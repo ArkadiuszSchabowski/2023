@@ -39,8 +39,25 @@ body{
     background-color: wheat;
     border-radius: 5%;
 }
+.blueWindow{
+    text-align: left;
+    color: black;
+    padding: 1px;
+    background-color: blue;
+    border-radius: 5%;
+}
 #text{
     margin-left: 10px;
+}
+#textDiscord{
+    text-align: center;
+    color: white;
+    font-size: 20;
+}
+#textDiscordUsers{
+    text-align: left;
+    color: white;
+    font-size: 18;
 }
 #text:hover{
     color: orangered;
@@ -52,6 +69,20 @@ body{
 }
 #textGreen:hover{
     margin-left: 15px;
+}
+#textPink{
+    color: palevioletred;
+    margin-left: 10px;
+}
+#textPink:hover{
+    margin-left: 15px;
+}
+#textOrangeRed{
+    color: orangered;
+    margin-left: 15px;
+}
+#textOrangeRed:hover{
+    margin-left: 20px;
 }
 #textTopPlayers{
     font-size: 20px;
@@ -113,4 +144,12 @@ padding: 2px;
 #mainContent{
     padding-left: 10px;
     height: 500px;
+}
+#gallery{
+    width: 100%;
+    height: 150px;
+}
+#gallery img{
+    width: 90%;
+    height: 140px;
 }
