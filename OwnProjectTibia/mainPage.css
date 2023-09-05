@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(41, 40, 39);
+}
+.side{
+    margin: 5px;
+}
+#content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.brownWindow{
+    font-size: 20px;
+    margin: 10px 0px;
+    padding-top: 10px;
+    border: solid black 5px;
+    background: rgba(134, 82, 82, 0.706);
+    color: white;
+    text-align: center;
+    border-radius: 5%;
+}
+.darkWindow{
+    font-size: 16px;
+    padding-top: 10px;
+    margin: 0px;
+    width: 100%;
+    background: rgba(66, 38, 38, 0.706);
+    text-align: left;
+    padding-bottom: 10px;
+    border-radius: 5%;
+}
+.wheatWindow{
+    text-align: left;
+    color: black;
+    padding: 1px;
+    background-color: wheat;
+    border-radius: 5%;
+}
+#text{
+    margin-left: 10px;
+}
+#text:hover{
+    color: orangered;
+    margin-left: 15px;
+}
+#textGreen{
+    color: greenyellow;
+    margin-left: 10px;
+}
+#textGreen:hover{
+    margin-left: 15px;
+}
+#textTopPlayers{
+    font-size: 20px;
+    margin-left: 10px;
+}
+#textTopPlayers:hover{
+    font-size: 20px;
+    color: orangered;
+    margin-left: 15px;
+}
+.inputStyle{
+    background-color: wheat;
+    margin-left: 10px;
+    font-size: 1.3rem;
+}
+.btn{
+    width: 115px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 50px;
+    background-color: rgb(108, 108, 108);
+    color: white;
+}
+.widerBtn{
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 250px;
+    height: 50px;
+    background-color: rgb(108, 108, 108);
+    color: white;
+}
+img{
+    width: 50px;
+}
+.allFrame{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 90%;
+    border: solid black 1px;
+}
+.frameLight{
+background-color: rgb(149, 136, 111);
+padding: 2px;
+}
+.frameDark{
+    background-color: rgb(93, 85, 69);
+    padding: 2px;
+}
+.download{
+    color:blue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 24px;
+}
+.download:hover{
+    color: orangered;
+}
+#mainContent{
+    padding-left: 10px;
+    height: 500px;
+}
