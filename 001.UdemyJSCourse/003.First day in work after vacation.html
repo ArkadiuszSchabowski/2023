@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let user = {
+            name: "Ania",
+            email: "ania@o2.pl"
+        };
+
+        function CreateUser(user = CreateGuestUser()){
+            console.log(user);
+        }
+
+        CreateUser();
+
+        function CreateGuestUser(){
+            return {
+                name: "Guest",
+                email: null
+            }
+        }
+    </script>
+</body>
+</html>

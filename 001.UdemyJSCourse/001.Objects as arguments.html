@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function bar(params) {
+        var currentName = (params.hasOwnProperty("name")) ? "Name: " + params.name + ",": "Name: empty,";
+        var currentAge = (params.hasOwnProperty("age")) ? "Age: " + params.age + ",": "Age: empty,";
+        var currentHeight = (params.hasOwnProperty("height")) ? "Height: " + params.height : "Height: empty";
+        console.log(currentName, currentAge,currentHeight);
+
+      }
+      bar({name: "Dominika", age:21, height: 169});
+      bar( {age:"21", height: "170"});
+      bar( {name: "Angelika"});
+    </script>
+  </body>
+</html>
