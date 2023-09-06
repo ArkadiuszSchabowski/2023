@@ -1,0 +1,93 @@
+#content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#text {
+  margin-left: 10px;
+}
+#textDiscord {
+  text-align: center;
+  color: white;
+  font-size: 20;
+}
+#textDiscordUsers {
+  text-align: left;
+  color: white;
+  font-size: 18;
+}
+#text:hover {
+  color: orangered;
+  margin-left: 15px;
+}
+#textGreen {
+  color: greenyellow;
+  margin-left: 10px;
+}
+#textGreen:hover {
+  margin-left: 15px;
+}
+#textPink {
+  color: palevioletred;
+  margin-left: 10px;
+}
+#textPink:hover {
+  margin-left: 15px;
+}
+#textOrangeRed {
+  color: orangered;
+  margin-left: 15px;
+}
+#textOrangeRed:hover {
+  margin-left: 20px;
+}
+#textTopPlayers {
+  font-size: 20px;
+  margin-left: 10px;
+}
+#textTopPlayers:hover {
+  font-size: 20px;
+  color: orangered;
+  margin-left: 15px;
+}
+#mainContent {
+  padding-left: 10px;
+  height: 500px;
+}
+#gallery {
+  width: 100%;
+  height: 150px;
+}
+#gallery img {
+  width: 90%;
+  height: 140px;
+}
+#acc {
+  margin-top: 10px;
+  width: 40%;
+}
+#login{
+  margin-left: 5px;
+}
+#email {
+  width: 40%;
+}
+#password {
+  width: 40%;
+}
+#acc, #email, #password{
+    margin-left: 5px;
+}
+
+#accInput {
+  margin-top: 10px;
+}
+
+#accInput,
+#passwordInput,
+#emailInput {
+  margin-left: 30px;
+}
+#btnNewAcc {
+  margin-left: 80px;
+  margin-right: 10px;
+}

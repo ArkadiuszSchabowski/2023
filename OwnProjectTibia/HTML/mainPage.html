@@ -4,12 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="mainPage.css" />
+    <link rel="stylesheet" href="../CSS/dom.css"/>
+    <link rel="stylesheet" href="../CSS/div.css"/>
+    <link rel="stylesheet" href="../CSS/class.css"/>
   </head>
   <body>
     <header></header>
     <section></section>
     <div id="content">
+
+      <!--LEFT-->
+
       <div id="left" class="side">
         <div id="news" class="brownWindow">
           NEWS
@@ -29,16 +34,11 @@
               <input type="text" id="login" class="inputStyle" value="Login" />
             </p>
             <p>
-              <input
-                type="text"
-                id="password"
-                class="inputStyle"
-                value="Password"
-              />
+              <input type="text" id="password"class="inputStyle"value="Password"/>
             </p>
             <p>
               <button id="signIn" class="btn">Sign in</button
-              ><button id="Register" class="btn">Register</button>
+              ><button id="btnRegister" class="btn">Register</button>
             </p>
             <p>
               <button id="lostAccount" class="widerBtn">Lost Account?</button>
@@ -95,23 +95,26 @@
           TOP PLAYERS
           <div class="darkWindow">
             <div id="textTopPlayers">
-              <p><img src="player.jpg" />Vargod Opponent - 68 Elder druid</p>
+              <p><img src="../IMAGES/player.jpg" />Vargod Opponent - 68 Elder druid</p>
             </div>
             <div id="textTopPlayers">
-              <p><img src="player.jpg" />Croquet - 63 Master Sorcerer</p>
+              <p><img src="../IMAGES/player.jpg" />Croquet - 63 Master Sorcerer</p>
             </div>
             <div id="textTopPlayers">
-              <p><img src="player.jpg" />Aqua - 59 Master Sorcerer</p>
+              <p><img src="../IMAGES/player.jpg" />Aqua - 59 Master Sorcerer</p>
             </div>
             <div id="textTopPlayers">
-              <p><img src="player.jpg" />Punio - 56 Master Sorcerer</p>
+              <p><img src="../IMAGES/player.jpg" />Punio - 56 Master Sorcerer</p>
             </div>
             <div id="textTopPlayers">
-              <p><img src="player.jpg" />Shadow - 54 Elite Knight</p>
+              <p><img src="../IMAGES/player.jpg" />Shadow - 54 Elite Knight</p>
             </div>
           </div>
         </div>
       </div>
+
+      <!--CENTER-->
+
       <div id="center" class="side">
         <div id="startCountDown" class="brownWindow">
           <p>START COUNT DOWN</p>
@@ -130,8 +133,10 @@
           <div id="mainWindow" class="brownWindow">MAIN WINDOW
             <div class="wheatWindow" id="mainContent">Tekst</div>
           </div>
-
       </div>
+
+      <!--RIGHT-->
+
       <div id="right" class="side">
         <div id="servers" class="brownWindow">SERVERS
           <div class="darkWindow">
@@ -219,6 +224,7 @@
           </div>
         </div>
     <footer></footer>
-    <script type="module" src="mainPage.mjs"></script>
+    <script type="module" src="../JS/mainPage.mjs"></script>
+    <script src="../JS/register.js"></script>
   </body>
 </html>
