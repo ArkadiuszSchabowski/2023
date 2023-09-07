@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+//Funkcja ktora pobiera dane z internetu
+let apiUrl = "https://api.chucknoris.io/jokes/random";
+async function GetData(apiUrl, onComplete, OnError){
+    try
+    {
+    let response = await fetch(apiUrl);
+    let data = await response.json();
+    Ok(data);
+    }
+     catch(err){
+        failed(err);
+    }
+}
+function Ok(data){
+    console.log("Informacja OK:", data);
+}
+function failed(e){
+console.dir(e);
+}
+
+GetData(apiUrl, Ok, failed);
+    </script>
+  </body>
+</html>
