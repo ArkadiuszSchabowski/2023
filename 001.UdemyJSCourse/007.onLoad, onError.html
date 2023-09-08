@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style></style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="id"></div>
+      <div id="name"></div>
+      <div id="url"></div>
+    </div>
+    <script>
+                  let obj = {
+        urlApi: "https://api.imgflip.com/get_memes",
+        Init: async function () {
+          let response = await fetch(this.urlApi);
+          let myReponse = await response.json();
+          this.GetMemeOnPage(myReponse.data.memes)
+        },
+        GetMemeOnPage : data =>
+        {
+            console.log(data);
+        }
+      };
+
+      obj.Init();
+    </script>
+  </body>
+</html>
