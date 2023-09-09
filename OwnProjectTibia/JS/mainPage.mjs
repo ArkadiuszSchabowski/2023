@@ -1,21 +1,22 @@
+const btnRegister = document.getElementById("btnRegister");
+let galleryDiv = document.getElementById("gallery");
 let login = document.getElementById("login");
 let password = document.getElementById("password");
+let currentImage = null;
 
-login.addEventListener("click", ClearLogin);
-password.addEventListener("click", ClearPassword);
+login.addEventListener("click", () => ClearLogin());
+password.addEventListener("click", () => ClearPassword());
 
-function ClearLogin() {
+const ClearLogin = () => {
   login.value = "";
-}
-function ClearPassword() {
+};
+
+const ClearPassword = () => {
   password.value = "";
-}
+};
 
 
-let galleryDiv = document.getElementById("gallery");
-let currentImage = null; // Zmienna przechowująca referencję do obecnie wyświetlanego obrazka
-
-async function CreateDataOnJson() {
+const CreateDataOnJson = async () => {
   let urlApi = "https://random.dog/woof.json";
   let response = await fetch(urlApi);
   let data = await response.json();
@@ -27,9 +28,9 @@ async function CreateDataOnJson() {
   }
 
   GetUrlOnWebsite(data.url);
-}
+};
 
-function GetUrlOnWebsite(data) {
+let GetUrlOnWebsite = (data) => {
   // Usuń poprzedni obrazek, jeśli istnieje
   if (currentImage) {
     galleryDiv.removeChild(currentImage);
@@ -42,9 +43,16 @@ function GetUrlOnWebsite(data) {
   galleryDiv.appendChild(simpleImg);
 
   currentImage = simpleImg; // Ustaw obecny obrazek na nowo dodany
-}
+};
 
 CreateDataOnJson();
 
 galleryDiv.addEventListener("click", CreateDataOnJson);
 
+
+btnRegister.addEventListener("click", async function(){
+  let path = "register.html";
+  let response = await fetch(path);
+  let data = await response.text();
+  mainContent.innerHTML = data;
+  });
