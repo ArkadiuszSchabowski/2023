@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-      body{
+      body {
         background-color: white;
         display: flex;
         justify-content: center;
@@ -13,16 +13,16 @@
         height: 100vh;
         margin: 0;
       }
-      .container{
+      .container {
         text-align: center;
       }
-      .tittle{
+      .tittle {
         text-align: left;
         font-size: 24px;
         font-weight: bold;
       }
-      .img{
-        display:inline-block;
+      .img {
+        display: inline-block;
         justify-content: center;
         width: 500px;
         max-width: 100%;
@@ -36,43 +36,42 @@
       <div id="urlDiv"></div>
     </div>
     <script>
-                  let obj = {
-        urlApi: "https://api.imgflip.com/get_memes",
+
+      let currentImg = null;
+
+      let obj = {
+        urlApi: "https://random.dog/woof.json",
         Init: async function () {
+
+          if (urlDiv.querySelector("img")){
+            urlDiv.innerHTML = "";
+          }
+
           let response = await fetch(this.urlApi);
           let myReponse = await response.json();
-          this.GetMemeOnPage(myReponse.data.memes[0])
+          this.GetMemeOnPage(myReponse.url);
         },
-        GetMemeOnPage : data => 
-        {
-          let idDiv = document.getElementById("idDiv");
-          let nameDiv = document.getElementById("nameDiv");
+        GetMemeOnPage: (data) => {
           let urlDiv = document.getElementById("urlDiv");
 
           console.log(data);
-          
-              let id = data.id;
-              let name = data.name;
-              let url = data.url;
-    
-              nameDiv.innerHTML = name;
 
-              nameDiv.classList.add("tittle");
+          nameDiv.classList.add("tittle");
 
-              let newImgOnPage = document.createElement("img");
-              newImgOnPage.src = url;
-              newImgOnPage.classList.add("img");
-              urlDiv.append(newImgOnPage);
+          let newImgOnPage = document.createElement("img");
+          newImgOnPage.src = data;
+          newImgOnPage.classList.add("img");
+          urlDiv.append(newImgOnPage);
         },
       };
 
       obj.Init();
 
       document.addEventListener("keyup", (event) => {
-        if(event.code == "Space"){
-          obj.GetMemeOnPage();
+        if (event.code == "Space") {
+          obj.Init();
         }
-      })
+      });
     </script>
   </body>
 </html>
