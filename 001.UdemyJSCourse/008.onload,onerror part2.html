@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: orangered;
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        width: 100vw;
+      }
+      #content {
+        background-color: aqua;
+        margin-top: 20vh;
+        width: 300px;
+        height: 300px;
+      }
+      #text {
+        font-size: 36px;
+        color: white;
+        margin-top: 10px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="content">
+        <img src="" id="img-preload" />
+        <img src="" id="img" />
+      </div>
+      <div id="text">Simple text</div>
+    </div>
+    <script>
+      document.addEventListener("keyup", (event) => {
+        if (event.code == "Space") {
+          obj.GetContent();
+        }
+      });
+
+      let obj = {
+        content: document.getElementById("content"),
+        imgPreload: document.getElementById("img-preload"),
+        img: document.getElementById("img"),
+        urlApi: "https://random.dog/woof.json",
+        Init: function () {
+          console.log("App started");
+          this.GetContent();
+        },
+        GetContent: async function () {
+          let response = await fetch(this.urlApi);
+          let data = await response.json();
+
+          let imgSrc = data.url;
+
+          this.PreloadMeme(data);
+        },
+        PreloadMeme: function(data){
+          this.imgPreload.src = data.url;
+          this.imgPreload.width = 300;
+          this.imgPreload.height = 300;
+          this.imgPreload.onerror = () =>{
+            console.log("failed");
+            obj.GetContent();
+          }
+          this.imgPreload.onload = () =>{
+            console.log("success!");
+          }
+        }
+      };
+      obj.Init();
+    </script>
+  </body>
+</html>
