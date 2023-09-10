@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let obj = {
+            variable : "Something",
+            PrintAllVariables : function(){
+                console.log(this.variable);
+            }
+        }
+        obj.PrintAllVariables();
+        IfElse();
+
+        function IfElse(){
+            if(2 > 0){
+                var varVariable = 5;
+                let letVariable = 10;
+            }
+            console.log(varVariable);
+            // console.log(letVariable); - zmienna niedostepna
+        }
+
+        (function Ifee(){
+            var varInIfee = 69;
+        }());
+        // console.log(varInIfee); - zmienna niedostepna
+
+    </script>
+</body>
+</html>

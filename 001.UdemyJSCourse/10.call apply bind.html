@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let obj = {
+        name: "Ola",
+        print: function (surname) {
+          console.log(this.name, surname);
+        },
+      };
+      obj.print("Krolik");
+      
+      let user = { name: "Rafal" };
+      obj.print.call(user, "Kot");
+      //call i apply to takie same funkcje jedyna roznica jest w przekazaniu argumentow.
+    </script>
+  </body>
+</html>
