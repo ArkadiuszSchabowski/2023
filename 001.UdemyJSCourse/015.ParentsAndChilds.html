@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 100vh;
+            width: 100vw;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div><p>HEJ</p></div>
+        <div><span>Tekst</span></div>
+        <div><p>HEJ2</p></div>
+        <div><p>Jakis tekst</p></div>
+    </div>
+    <div id="secondContainer">
+        <p>A</p>
+        <p>B</p>
+        <p>C</p>
+        <p>D</p>
+    </div>
+    <script>
+        function ChageStyle(){
+            let containerDiv = document.getElementById("container");
+            containerDiv.style.color = "red";
+            let bodyDivInLvlChild = document.getElementsByTagName("div")[0].parentElement;
+            bodyDivInLvlChild.style.background = "yellow";
+            let firstPElement = document.getElementsByTagName("p")[0];
+            firstPElement.style.background = "black";
+            let secondPElementAsChild = document.getElementById("container").getElementsByTagName("div")[2].children[0];
+            secondPElementAsChild.style.background = "pink";
+        }
+        ChageStyle();
+
+        function ChangeStyleInSecondContainer(){
+            let secondContainerDiv = document.getElementById("secondContainer");
+            let secondContainerChildren = secondContainerDiv.getElementsByTagName("p");
+            console.dir(secondContainerChildren);
+            for(i=0; i<secondContainerChildren.length; i++){
+                secondContainerChildren[i].style.background = "orangered";
+            }
+        }
+        ChangeStyleInSecondContainer();
+    </script>
+</body>
+</html>
