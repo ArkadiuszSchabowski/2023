@@ -1,3 +1,4 @@
+"use strict";
 const btnRegister = document.getElementById("btnRegister");
 let galleryDiv = document.getElementById("gallery");
 let login = document.getElementById("login");
@@ -38,7 +39,6 @@ let GetUrlOnWebsite = (data) => {
 
   let simpleImg = document.createElement("img");
   simpleImg.src = data;
-  console.log(data);
   simpleImg.classList.add("imgGallery");
   galleryDiv.appendChild(simpleImg);
 

@@ -1,3 +1,4 @@
+"use strict";
 let mainContent = document.getElementById("mainContent");
 let btnNewAcc = document.getElementById("btnNewAcc");
 const accInput = document.getElementById("accInput");

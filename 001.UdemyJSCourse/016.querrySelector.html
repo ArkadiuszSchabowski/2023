@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ćwiczenia z selektorami CSS</title>
+    <style>
+      /* Style do demonstracji */
+      .container {
+        border: 1px solid #ccc;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <ul>
+        <li>Pierwszy element listy</li>
+        <li>Drugi element listy</li>
+      </ul>
+    </div>
+    <div class="container">
+      <div id="pojemnik">
+        <p>Paragraf w pojemniku</p>
+        <span>Span w pojemniku</span>
+      </div>
+    </div>
+    <div class="sekcja">
+      <p>Pierwszy paragraf</p>
+      <div>
+        <p>Drugi paragraf w zagnieżdżonym divie</p>
+      </div>
+    </div>
+    <ul id="moja-lista">
+      <li>Element listy 1</li>
+      <li>Element listy 2</li>
+      <li>Element listy 3</li>
+    </ul>
+    <script>
+let spanEl = document.querySelector("#pojemnik > p > span");
+if (spanEl !== null) {
+    // Element został znaleziony, możesz teraz bezpiecznie używać jego właściwości
+    console.log(spanEl.textContent);
+} else {
+    // Element nie został znaleziony
+    console.log("Nie znaleziono elementu.");
+}
+    </script>
+  </body>
+</html>
