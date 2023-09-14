@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      button {
+        width: 50px;
+        height: 50px;
+        color: white;
+        background: black;
+        font-size: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="buttons">
+      <div>
+        <button id="btn1">1</button>
+        <button id="btn2">2</button>
+        <button id="btn3">3</button>
+        <button id="btn4">4</button>
+        <button id="btn5">5</button>
+        <button id="btn6">6</button>
+        <button id="btn7">7</button>
+        <button id="btn8">8</button>
+        <button id="btn9">9</button>
+        <button id="btn0">0</button>
+      </div>
+      <div>
+        <button id="btnQ">q</button>
+        <button id="btnW">w</button>
+        <button id="btnE">e</button>
+        <button id="btnR">r</button>
+        <button id="btnT">t</button>
+        <button id="btnY">y</button>
+        <button id="btnU">u</button>
+        <button id="btnI">i</button>
+        <button id="btnO">o</button>
+        <button id="btnP">p</button>
+      </div>
+      <div>
+        <button id="btnA">a</button>
+        <button id="btnS">s</button>
+        <button id="btnD">d</button>
+        <button id="btnF">f</button>
+        <button id="btnG">g</button>
+        <button id="btnH">h</button>
+        <button id="btnJ">j</button>
+        <button id="btnK">k</button>
+        <button id="btnL">l</button>
+      </div>
+      <div>
+        <button id="btnZ">z</button>
+        <button id="btnX">x</button>
+        <button id="btnC">c</button>
+        <button id="btnV">v</button>
+        <button id="btnB">b</button>
+        <button id="btnN">n</button>
+        <button id="btnM">m</button>
+      </div>
+    </div>
+
+    <script>
+      ButtonsHolders();
+
+      BtnQ();
+      BtnW();
+      BtnE();
+      BtnR();
+      BtnT();
+      BtnY();
+      BtnU();
+      BtnI();
+      BtnO();
+      BtnP();
+
+      BtnA();
+      BtnS();
+      BtnD();
+      BtnF();
+      BtnG();
+      BtnH();
+      BtnJ();
+      BtnK();
+      BtnL();
+
+      BtnZ();
+      BtnX();
+      BtnC();
+      BtnV();
+      BtnB();
+      BtnN();
+      BtnM();
+
+      Btn1();
+      Btn2();
+      Btn3();
+      Btn4();
+      Btn5();
+      Btn6();
+      Btn7();
+      Btn8();
+      Btn9();
+      Btn0();
+
+      SaveAllText();
+
+      function ButtonsHolders() {
+        let btn1 = document.getElementById("btn1");
+        let btn2 = document.getElementById("btn2");
+        let btn3 = document.getElementById("btn3");
+        let btn4 = document.getElementById("btn4");
+        let btn5 = document.getElementById("btn5");
+        let btn6 = document.getElementById("btn6");
+        let btn7 = document.getElementById("btn7");
+        let btn8 = document.getElementById("btn8");
+        let btn9 = document.getElementById("btn9");
+        let btn0 = document.getElementById("btn0");
+
+        let btnQ = document.getElementById("btnQ");
+        let btnW = document.getElementById("btnW");
+        let btnE = document.getElementById("btnE");
+        let btnR = document.getElementById("btnR");
+        let btnT = document.getElementById("btnT");
+        let btnY = document.getElementById("btnY");
+        let btnU = document.getElementById("btnU");
+        let btnI = document.getElementById("btnI");
+        let btnO = document.getElementById("btnO");
+        let btnP = document.getElementById("btnP");
+
+        let btnA = document.getElementById("btnA");
+        let btnS = document.getElementById("btnS");
+        let btnD = document.getElementById("btnD");
+        let btnF = document.getElementById("btnF");
+        let btnG = document.getElementById("btnG");
+        let btnH = document.getElementById("btnH");
+        let btnJ = document.getElementById("btnJ");
+        let btnK = document.getElementById("btnK");
+        let btnL = document.getElementById("btnL");
+
+        let btnZ = document.getElementById("btnZ");
+        let btnX = document.getElementById("btnX");
+        let btnC = document.getElementById("btnC");
+        let btnV = document.getElementById("btnV");
+        let btnB = document.getElementById("btnB");
+        let btnN = document.getElementById("btnN");
+        let btnM = document.getElementById("btnM");
+      }
+
+      function SaveAllText() {
+        let currentText = "";
+        document.addEventListener("keydown", function (event) {
+          if (event.key !== "Enter") {
+            currentText += event.key;
+          }
+          if (event.key === "Enter") {
+            console.log(currentText);
+            currentText = "";
+          }
+        });
+      }
+
+      function Btn1() {
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "1") {
+            btn1.style.background = "red";
+          }
+        });
+
+        document.addEventListener("keyup", (event) => {
+          if (event.key === "1") {
+            btn1.style.background = "black";
+          }
+        });
+      }
+
+      function Btn2() {
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "2") {
+            btn2.style.background = "red";
+          }
+        });
+
+        document.addEventListener("keyup", (event) => {
+          if (event.key === "2") {
+            btn2.style.background = "black";
+          }
+        });
+      }
+
+      function Btn3() {
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "3") {
+            btn3.style.background = "red";
+          }
+        });
+
+        document.addEventListener("keyup", (event) => {
+          if (event.key === "3") {
+            btn3.style.background = "black";
+          }
+        });
+      }
+
+      function Btn4() {
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "4") {
+            btn4.style.background = "red";
+          }
+        });
+
+        document.addEventListener("keyup", (event) => {
+          if (event.key === "4") {
+            btn4.style.background = "black";
+          }
+        });
+      }
+
+      function Btn5() {
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "5") {
+            btn5.style.background = "red";
+          }
+        });
+
+        document.addEventListener("keyup", (event) => {
+          if (event.key === "5") {
+            btn5.style.background = "black";
+          }
+        });
+      }
+
+      function Btn6() {
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "6") {
+            btn6.style.background = "red";
+          }
+        });
+
+        document.addEventListener("keyup", (event) => {
+          if (event.key === "6") {
+            btn6.style.background = "black";
+          }
+        });
+      }
+
+      function Btn7() {
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "7") {
+            btn7.style.background = "red";
+          }
+        });
+
+        document.addEventListener("keyup", (event) => {
+          if (event.key === "7") {
+            btn7.style.background = "black";
+          }
+        });
+      }
+
+      function Btn8() {
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "8") {
+            btn8.style.background = "red";
+          }
+        });
+
+        document.addEventListener("keyup", (event) => {
+          if (event.key === "8") {
+            btn8.style.background = "black";
+          }
+        });
+      }
+
+      function Btn9() {
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "9") {
+            btn9.style.background = "red";
+          }
+        });
+
+        document.addEventListener("keyup", (event) => {
+          if (event.key === "9") {
+            btn9.style.background = "black";
+          }
+        });
+      }
+
+      function Btn0() {
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "0") {
+            btn0.style.background = "red";
+          }
+        });
+
+        document.addEventListener("keyup", (event) => {
+          if (event.key === "0") {
+            btn0.style.background = "black";
+          }
+        });
+      }
+
+      function BtnQ() {
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "q") {
+            btnQ.style.background = "red";
+          }
+        });
+
+        document.addEventListener("keyup", (event) => {
+          if (event.key === "q") {
+            btnQ.style.background = "black";
+          }
+        });
+      }
+
+      function BtnW() {
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "w") {
+            btnW.style.background = "red";
+          }
+        });
+
+        document.addEventListener("keyup", (event) => {
+          if (event.key === "w") {
+            btnW.style.background = "black";
+          }
+        });
+      }
+
+      function BtnE() {
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "e") {
+            btnE.style.background = "red";
+          }
+        });
+
+        document.addEventListener("keyup", (event) => {
+          if (event.key === "e") {
+            btnE.style.background = "black";
+          }
+        });
+      }
+
+      function BtnR() {
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "r") {
+            btnR.style.background = "red";
+          }
+        });
+
+        document.addEventListener("keyup", (event) => {
+          if (event.key === "r") {
+            btnR.style.background = "black";
+          }
+        });
+      }
+
+      function BtnT() {
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "t") {
+            btnT.style.background = "red";
+          }
+        });
+
+        document.addEventListener("keyup", (event) => {
+          if (event.key === "t") {
+            btnT.style.background = "black";
+          }
+        });
+      }
+
+      function BtnY() {
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "y") {
+            btnY.style.background = "red";
+          }
+        });
+
+        document.addEventListener("keyup", (event) => {
+          if (event.key === "y") {
+            btnY.style.background = "black";
+          }
+        });
+      }
+
+      function BtnU() {
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "u") {
+            btnU.style.background = "red";
+          }
+        });
+
+        document.addEventListener("keyup", (event) => {
+          if (event.key === "u") {
+            btnU.style.background = "black";
+          }
+        });
+      }
+
+      function BtnI() {
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "i") {
+            btnI.style.background = "red";
+          }
+        });
+
+        document.addEventListener("keyup", (event) => {
+          if (event.key === "i") {
+            btnI.style.background = "black";
+          }
+        });
+      }
+
+      function BtnO() {
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "o") {
+            btnO.style.background = "red";
+          }
+        });
+
+        document.addEventListener("keyup", (event) => {
+          if (event.key === "o") {
+            btnO.style.background = "black";
+          }
+        });
+      }
+
+      function BtnP() {
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "p") {
+            btnP.style.background = "red";
+          }
+        });
+
+        document.addEventListener("keyup", (event) => {
+          if (event.key === "p") {
+            btnP.style.background = "black";
+          }
+        });
+      }
+
+      function BtnA() {
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "a") {
+            btnA.style.background = "red";
+          }
+        });
+
+        document.addEventListener("keyup", (event) => {
+          if (event.key === "a") {
+            btnA.style.background = "black";
+          }
+        });
+      }
+
+      function BtnS() {
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "s") {
+            btnS.style.background = "red";
+          }
+        });
+
+        document.addEventListener("keyup", (event) => {
+          if (event.key === "s") {
+            btnS.style.background = "black";
+          }
+        });
+      }
+
+      function BtnD() {
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "d") {
+            btnD.style.background = "red";
+          }
+        });
+
+        document.addEventListener("keyup", (event) => {
+          if (event.key === "d") {
+            btnD.style.background = "black";
+          }
+        });
+      }
+
+      function BtnF() {
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "f") {
+            btnF.style.background = "red";
+          }
+        });
+
+        document.addEventListener("keyup", (event) => {
+          if (event.key === "f") {
+            btnF.style.background = "black";
+          }
+        });
+      }
+
+      function BtnG() {
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "g") {
+            btnG.style.background = "red";
+          }
+        });
+
+        document.addEventListener("keyup", (event) => {
+          if (event.key === "g") {
+            btnG.style.background = "black";
+          }
+        });
+      }
+
+      function BtnH() {
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "h") {
+            btnH.style.background = "red";
+          }
+        });
+
+        document.addEventListener("keyup", (event) => {
+          if (event.key === "h") {
+            btnH.style.background = "black";
+          }
+        });
+      }
+
+      function BtnJ() {
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "j") {
+            btnJ.style.background = "red";
+          }
+        });
+
+        document.addEventListener("keyup", (event) => {
+          if (event.key === "j") {
+            btnJ.style.background = "black";
+          }
+        });
+      }
+
+      function BtnK() {
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "k") {
+            btnK.style.background = "red";
+          }
+        });
+
+        document.addEventListener("keyup", (event) => {
+          if (event.key === "k") {
+            btnK.style.background = "black";
+          }
+        });
+      }
+
+      function BtnL() {
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "l") {
+            btnL.style.background = "red";
+          }
+        });
+
+        document.addEventListener("keyup", (event) => {
+          if (event.key === "l") {
+            btnL.style.background = "black";
+          }
+        });
+      }
+
+      function BtnZ() {
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "z") {
+            btnZ.style.background = "red";
+          }
+        });
+
+        document.addEventListener("keyup", (event) => {
+          if (event.key === "z") {
+            btnZ.style.background = "black";
+          }
+        });
+      }
+
+      function BtnX() {
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "x") {
+            btnX.style.background = "red";
+          }
+        });
+
+        document.addEventListener("keyup", (event) => {
+          if (event.key === "x") {
+            btnX.style.background = "black";
+          }
+        });
+      }
+      function BtnC() {
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "c") {
+            btnC.style.background = "red";
+          }
+        });
+
+        document.addEventListener("keyup", (event) => {
+          if (event.key === "c") {
+            btnC.style.background = "black";
+          }
+        });
+      }
+
+      function BtnV() {
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "v") {
+            btnV.style.background = "red";
+          }
+        });
+
+        document.addEventListener("keyup", (event) => {
+          if (event.key === "v") {
+            btnV.style.background = "black";
+          }
+        });
+      }
+
+      function BtnB() {
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "b") {
+            btnB.style.background = "red";
+          }
+        });
+
+        document.addEventListener("keyup", (event) => {
+          if (event.key === "b") {
+            btnB.style.background = "black";
+          }
+        });
+      }
+
+      function BtnN() {
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "n") {
+            btnN.style.background = "red";
+          }
+        });
+
+        document.addEventListener("keyup", (event) => {
+          if (event.key === "n") {
+            btnN.style.background = "black";
+          }
+        });
+      }
+
+      function BtnM() {
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "m") {
+            btnM.style.background = "red";
+          }
+        });
+
+        document.addEventListener("keyup", (event) => {
+          if (event.key === "m") {
+            btnM.style.background = "black";
+          }
+        });
+      }
+    </script>
+  </body>
+</html>

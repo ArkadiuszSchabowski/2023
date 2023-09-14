@@ -20,6 +20,9 @@ p {
     width: 100%;
 }
 
+a{
+    text-decoration: none;
+}
 span {
     width: 50%;
     box-sizing: border-box;
