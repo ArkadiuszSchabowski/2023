@@ -2,50 +2,50 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
-#text {
+.text {
   margin-left: 10px;
   color: white;
 }
-#textDiscord {
+.textDiscord {
   text-align: center;
   color: white;
   font-size: 20;
 }
-#textDiscordUsers {
+.textDiscordUsers {
   text-align: left;
   color: white;
   font-size: 18;
 }
-#text:hover {
+.text:hover {
   color: orangered;
   margin-left: 15px;
 }
-#textGreen {
+.textGreen {
   color: greenyellow;
   margin-left: 10px;
 }
-#textGreen:hover {
+.textGreen:hover {
   margin-left: 15px;
 }
-#textPink {
+.textPink {
   color: palevioletred;
   margin-left: 10px;
 }
-#textPink:hover {
+.textPink:hover {
   margin-left: 15px;
 }
-#textOrangeRed {
+.textOrangeRed {
   color: orangered;
   margin-left: 15px;
 }
-#textOrangeRed:hover {
+.textOrangeRed:hover {
   margin-left: 20px;
 }
-#textTopPlayers {
+.textTopPlayers {
   font-size: 20px;
   margin-left: 10px;
 }
-#textTopPlayers:hover {
+.textTopPlayers:hover {
   font-size: 20px;
   color: orangered;
   margin-left: 15px;

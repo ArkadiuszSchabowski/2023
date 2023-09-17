@@ -1,19 +1,17 @@
 "use strict";
 const btnRegister = document.getElementById("btnRegister");
-let galleryDiv = document.getElementById("gallery");
-let login = document.getElementById("login");
-let password = document.getElementById("password");
-let currentImage = null;
 
 let mainContent = document.getElementById("mainContent")
 let highscores = document.querySelector(".highscores");
 
 highscores.addEventListener("click", async function(){
+  console.log("btn clicked");
   let path = "highscores.html";
   let response = await fetch(path);
   let data = await response.text();
   mainContent.innerHTML = data;
 });
+
 
 btnRegister.addEventListener("click", async function(){
   let path = "register.html";

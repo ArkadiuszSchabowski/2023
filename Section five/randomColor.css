@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: seagreen;
+    transition: background-color 500ms linear;
+}
+#container{
+    display: flex;
+    flex-direction: column; /* Ustawienie elementów w kolumnie */
+    align-items: center; /* Wyśrodkowanie w pionie */
+    justify-content: center; /* Wyśrodkowanie w poziomie */
+    width: 40vw;
+    height: 40vh;
+    border: 2px solid black;
+    margin-top: 20vh;
+    background-color: orange
+}
+
+#inputText{
+    margin-top: 20px;
+    font-size: 1.3rem;
+    color: white;
+    background-color: slategrey;
+    text-align: center;
+}
+#btnColor{
+    background-color: grey;
+    color: white;
+    font-size: 1.3rem;
+    width: 150px;
+    height: 100px;
+}

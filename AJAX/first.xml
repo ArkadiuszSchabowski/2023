@@ -1,0 +1,12 @@
+<animals>
+    <animal>
+        <name>dog</name>
+        <color>white</color>
+        <size>small</size>
+    </animal>
+    <animal>
+        <name>elephant</name>
+        <color>grey</color>
+        <size>big</size>
+    </animal>
+</animals>

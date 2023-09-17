@@ -11,9 +11,11 @@ body{
 }
 
 .highscoresTable{
+    background-color: red;
+    justify-content: center;
     margin-top: 10px;
     background-color: grey;
-    width: 400px;
+    width: 100px;
     height: 400px;
 }
 

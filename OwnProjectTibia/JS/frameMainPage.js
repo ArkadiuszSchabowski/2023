@@ -11,7 +11,5 @@ function ChangeColorsRowsInFrameMainPage(){
             frameMainPageChild[i].classList.add("frameDark");
         }
     }
-    console.dir(frameMainPageChild);
-
 }
 ChangeColorsRowsInFrameMainPage();
