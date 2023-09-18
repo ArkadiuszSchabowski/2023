@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="father">
+        <div id="child0">Ania</div>
+        <div id="child1">Dominika</div>
+        <div id="child2">Justyna</div>
+        <div id="child3">Patrycja</div>
+    </div>
+    <script>
+        // let array = [9,11,4,7,6,"Pies","Ola"];
+        // for (const item of array) {
+        //     console.log(item);
+        // }
+        let FatherChildren = document.querySelectorAll("#father > div");
+        console.log(FatherChildren);
+        for (const item of FatherChildren) {
+            console.log(item.innerHTML);
+        }
+    </script>
+</body>
+</html>

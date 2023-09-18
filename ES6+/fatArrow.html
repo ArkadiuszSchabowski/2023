@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let print = a => console.log(a);
+        print("Hello World!");
+
+        //Obiekt zwracamy w nawiasach okraglych:
+        let obj1 = () => ({name: "Arek", age: 33});
+        console.log(obj1());
+        let obj2 = (a) => {
+            return {
+                test:a
+        };
+    }
+        console.log(obj2(10))
+    </script>
+</body>
+</html>

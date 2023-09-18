@@ -1,0 +1,7 @@
+C:\Users\arkad\Desktop\2023B\PolishSpoj\bin\Debug\PolishSpoj.exe.config
+C:\Users\arkad\Desktop\2023B\PolishSpoj\bin\Debug\PolishSpoj.exe
+C:\Users\arkad\Desktop\2023B\PolishSpoj\bin\Debug\PolishSpoj.pdb
+C:\Users\arkad\Desktop\2023B\PolishSpoj\obj\Debug\PolishSpoj.csproj.AssemblyReference.cache
+C:\Users\arkad\Desktop\2023B\PolishSpoj\obj\Debug\PolishSpoj.csproj.CoreCompileInputs.cache
+C:\Users\arkad\Desktop\2023B\PolishSpoj\obj\Debug\PolishSpoj.exe
+C:\Users\arkad\Desktop\2023B\PolishSpoj\obj\Debug\PolishSpoj.pdb

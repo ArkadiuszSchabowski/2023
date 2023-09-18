@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkgray; /* Domyślne tło - tryb ciemny */
+    justify-content: center;
+}
+
+#side {
+    margin: 2vh 2vw;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+#left {
+    background-color: black; /* Domyślny kolor tła dla #left - tryb ciemny */
+    height: 96vh;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+#center {
+    margin: 0 7%;
+    height: 96vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0); /* Domyślny kolor tła dla #center - tryb ciemny */
+    border: 2px solid black;
+}
+
+#lblTheme {
+    font-size: 2rem;
+    color: white; /* Domyślny kolor tekstu - tryb ciemny */
+}
+
+#mainFrame {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: dimgray; /* Domyślne tło dla #mainFrame - tryb ciemny */
+    border: 2px solid black; /* Domyślny kolor obramowania - tryb ciemny */
+    width: 50%;
+    height: 40vh;
+}
+
+#btnChangeTheme {
+    margin-left: 10vw;
+    width: 100px;
+    height: 50px;
+    margin-top: 5%;
+}
+
+#left > * {
+    width: 100%;
+    height: 50px;
+    margin-top: 2px;
+    /* Domyślny kolor tła dla dzieci #left - tryb ciemny */
+    background-color: dimgray; /* Domyślny kolor tła dla dzieci #left - tryb ciemny */
+    color: white; /* Domyślny kolor tekstu dla dzieci #left - tryb ciemny */
+}
