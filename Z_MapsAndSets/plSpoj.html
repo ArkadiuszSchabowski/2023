@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+    let text =  "Dzisiaj jest czwartek, A jutro bedzie piatek."
+
+
+        function someText(...params){
+            let newText = params;
+            console.log(newText);
+            let textString = newText.toString().replace(" ","");
+
+            console.log(textString);
+            }
+
+        someText(text);
+    </script>
+  </body>
+</html>

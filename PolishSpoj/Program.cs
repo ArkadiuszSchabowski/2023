@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics.Eventing.Reader;
 using System.Linq;
 
 namespace PolishSpoj
@@ -7,19 +8,25 @@ namespace PolishSpoj
     {
         static void Main(string[] args)
         {
-            Arrays();
-        }
-        static void Arrays()
-        {
-            int[] newArray = new int[]
+            string text = "Dzisiaj jest czwartek, A jutro bedzie piatek.";
+
+            string[] textArr = text.Split(' ');
+
+            char firstSign;
+            string restOfWord;
+            string newWord = "";
+            string newText = "";
+
+            for (int i = 0; i < textArr.Length; i++)
             {
-                1,2,3,4,5,6,7,8,9
-            };
-            int[] reverseArray = newArray.Reverse().ToArray();
-            foreach (int el in reverseArray) {
-                Console.WriteLine(el);
+                newWord = textArr[i];
+
+                firstSign = char.ToUpper(newWord[0]);
+                restOfWord = newWord.Substring(1);
+                newWord = firstSign + restOfWord;
+                newText += newWord;
             }
-            Console.ReadLine();
+            Console.Write(newText);
         }
     }
 }
