@@ -4,10 +4,26 @@ using System.Linq;
 
 namespace PolishSpoj
 {
+    public class Person
+    {
+        string name;
+        string surname;
+        int age;
+        public Person(string name, string surname, int age)
+        {
+            this.name = name;
+            this.surname = surname;
+            this.age = age;
+        }
+    }
     internal class Program
     {
+
         static void Main(string[] args)
         {
+            Person person = new Person("Arek", "Swinka", 21);
+
+
             string text = "Dzisiaj jest czwartek, A jutro bedzie piatek.";
 
             string[] textArr = text.Split(' ');

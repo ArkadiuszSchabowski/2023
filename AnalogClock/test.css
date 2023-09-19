@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  #clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 50%;
+  }
+  #hour {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    /* border: 2px solid red; */
+  }
+  #hour::before {
+    content: "";
+    display: flex;
+    width: 6px;
+    height: 50%;
+    background-color: red;
+    /* transform-origin: 50% 100%; /* Ustaw punkt obrotu na środek dolnej krawędzi */
+    /* transform: rotate(30deg); Obróć o 30 stopni wokół tego punktu obrotu */
+  }
+  #minute {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    /* border: 2px solid orangered; */
+  }
+  #minute::before {
+    content: "";
+    display: flex;
+    width: 4px;
+    height: 50%;
+    background-color: orangered;
+  }
+  #second {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 380px;
+    height: 380px;
+    /* border: 2px solid orange; */
+  }
+  #second::before {
+    content: "";
+    display: flex;
+    width: 2px;
+    height: 50%;
+    background-color: orange;
+  }
