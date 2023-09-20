@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+}
+
+#lightSwitch {
+    margin: 20px 20px auto auto;
+    position: relative;
+    width: 150px;
+    height: 75px;
+    background-color: silver;
+    border-radius: 50px;
+    transition: linear 500ms;
+}
+
+#dark {
+    color: white;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin-left: 75px;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    z-index: 0;
+}
+
+#light {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: yellow;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+#ball {
+    content: " ";
+    position: absolute;
+    background-color: silver;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    transform: rotateX('angle');
+    z-index: 1;
+    transition: linear 300ms;
+}

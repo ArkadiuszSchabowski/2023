@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: grey;
+        }
+
+        #switch {
+            margin: 20px 20px auto auto;
+            width: 150px;
+            height: 75px;
+            background-color: silver;
+            border-radius: 50%;
+            position: relative;
+            transition: transform 500ms;
+        }
+
+        #dark {
+            color: white;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+            margin-left: 75px;
+            width: 75px;
+            height: 75px;
+            border-radius: 50%;
+        }
+
+        #light {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            background-color: yellow;
+            width: 75px;
+            height: 75px;
+            border-radius: 50%;
+        }
+
+        #light::before {
+            content: " ";
+            position: absolute;
+            background-color: red;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div id="switch"></div>
+    <script>
+        const switchElement = document.getElementById('switch');
+        let isSwitched = false;
+
+        switchElement.addEventListener('click', () => {
+            if (isSwitched) {
+                switchElement.style.transform = 'translateX(0)';
+            } else {
+                switchElement.style.transform = 'translateX(75px)';
+            }
+            isSwitched = !isSwitched;
+        });
+    </script>
+</body>
+</html>
