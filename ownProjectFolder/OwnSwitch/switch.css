@@ -5,11 +5,14 @@
 }
 
 body {
-    background-color: grey;
+    background-color: rgb(179, 168, 168);
 }
 
 #lightSwitch {
-    margin: 20px 20px auto auto;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 20px;
     position: relative;
     width: 150px;
     height: 75px;
@@ -26,8 +29,8 @@ body {
     align-items: center;
     background-color: black;
     margin-left: 75px;
-    width: 75px;
-    height: 75px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     z-index: 0;
 }
@@ -38,8 +41,8 @@ body {
     align-items: center;
     position: absolute;
     background-color: yellow;
-    width: 75px;
-    height: 75px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
 }
 
@@ -47,8 +50,8 @@ body {
     content: " ";
     position: absolute;
     background-color: silver;
-    width: 100%;
-    height: 100%;
+    width: 75px;
+    height: 75px;
     border-radius: 50%;
     transform: rotateX('angle');
     z-index: 1;
