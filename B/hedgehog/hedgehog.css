@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+}
+#container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+#game{
+    background-color: white;
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 80%;
+    height: 90vh;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+#labels{
+    width: 100%;
+    display: flex;
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    height: 28px;
+}
+#lblScore{
+    margin-left: 5px;
+    display: flex;
+    width: 25%;
+    align-items: center;
+}
+#lblMiss{
+    display: flex;
+    width: 70%;
+    align-items: center;
+}
+#apple0, #apple1, #apple2{
+    position: relative;
+    top: 50px;
+    width: 70px;
+    height: 70px;
+}
+#apple0{
+    margin-left: 150px;
+}
+#apple1, #apple2{
+    margin-left: 100px;
+}
+#hedgehog{
+    position: relative;
+    width: 150px;
+    height: 100px;
+    margin-top: 320px;
+    margin-left: 270px;
+}
+.hedgehogFlip{
+    transform: scaleX(-1); /* Obracanie obrazka w poziomie */
+}
+.hedgehogStand{
+    transform: rotate(-90deg);
+}
+.hedgehogJump
+{
+    top: -50px;
+}
+
+#options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    margin-right: 80px;
+    margin-left: auto;
+    margin-top: 20px;
+    width: 90%;
+    height: 90vh;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+button{
+    width: 200px;
+    height: 150px;
+    background-color: gray;
+    color: black;
+    font-size: 1.3rem;
+    border-radius: 10px;
+}
+#btnNewGame{
+    margin-top: 2px
+}
