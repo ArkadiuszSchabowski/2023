@@ -3,6 +3,7 @@ class MainWindow {
     this.clocks = document.querySelector("#clocks");
     this.jokes = document.querySelector("#jokes");
     this.projectWindow = document.querySelector("#projectWindow");
+    this.hedgehogGame = document.querySelector("#hedgehogGame");
   }
   MainWindowContent() {
     this.clocks.addEventListener("click", () => this.GetContentClocks());
@@ -14,6 +15,9 @@ class MainWindow {
       this.projectWindow.innerHTML = ''; // Wyczyść zawartość projectWindow
       this.projectWindow.appendChild(newFrame);
     });
+    this.hedgehogGame.addEventListener("click", () =>{
+      window.location.href = "../../B/hedgehog/hedgehog.html";
+    })
   }
 
   async GetContentClocks() {

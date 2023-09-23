@@ -1,16 +1,19 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-body{
+  }
+  
+  body {
     background-color: gray;
-}
-#container{
+  }
+  
+  #container {
     display: grid;
     grid-template-columns: 3fr 1fr;
-}
-#game{
+  }
+  
+  #game {
     background-color: white;
     margin-left: 100px;
     margin-top: 20px;
@@ -18,57 +21,69 @@ body{
     height: 90vh;
     border: 2px solid black;
     border-radius: 10px;
-}
-#labels{
+  }
+  
+  #labels {
     width: 100%;
     display: flex;
     background-color: black;
     color: white;
     font-size: 24px;
     height: 28px;
-}
-#lblScore{
+  }
+  
+  #lblScore {
     margin-left: 5px;
     display: flex;
     width: 25%;
     align-items: center;
-}
-#lblMiss{
+  }
+  
+  #lblMiss {
     display: flex;
     width: 70%;
     align-items: center;
-}
-#apple0, #apple1, #apple2{
+  }
+  
+  #apple0,
+  #apple1,
+  #apple2 {
     position: relative;
     top: 50px;
     width: 70px;
     height: 70px;
-}
-#apple0{
-    margin-left: 150px;
-}
-#apple1, #apple2{
-    margin-left: 100px;
-}
-#hedgehog{
+  }
+  
+  #apple0 {
+    left: 150px;
+  }
+  
+  #apple1 {
+    left: 250px;
+  }
+  
+  #apple2 {
+    left: 350px;
+  }
+  
+  #hedgehog {
     position: relative;
-    width: 150px;
+    width: 100px;
     height: 100px;
     margin-top: 320px;
     margin-left: 270px;
-}
-.hedgehogFlip{
+  }
+  
+  .hedgehogFlip {
     transform: scaleX(-1); /* Obracanie obrazka w poziomie */
-}
-.hedgehogStand{
-    transform: rotate(-90deg);
-}
-.hedgehogJump
-{
+  }
+  
+  .hedgehogJump {
     top: -50px;
-}
-
-#options{
+    transition: top 1000ms;
+  }
+  
+  #options {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,15 +96,18 @@ body{
     height: 90vh;
     border: 2px solid black;
     border-radius: 10px;
-}
-button{
+  }
+  
+  button {
     width: 200px;
     height: 150px;
     background-color: gray;
     color: black;
     font-size: 1.3rem;
     border-radius: 10px;
-}
-#btnNewGame{
-    margin-top: 2px
-}
+  }
+  
+  #btnNewGame {
+    margin-top: 2px;
+  }
+  
