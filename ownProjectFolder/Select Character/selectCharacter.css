@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+    background-color: grey;
+}
+#lblSelect{
+    font-size: 24px;
+    color: white;
+}
+#buttonDiv{
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+}
+#btnHedgehog{
+    width: 200px;
+    height: 200px;
+    background-image: url("hedgehogStand.jpg");
+    background-position: cover;
+}
+#btnFox{
+    width: 200px;
+    height: 200px;
+    background-image: url("fox.jpg");
+    background-position: cover;
+}

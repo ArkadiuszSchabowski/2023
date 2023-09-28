@@ -1,0 +1,7 @@
+C:\Users\arkad\Desktop\2023B\SumArrayElements\bin\Debug\SumArrayElements.exe.config
+C:\Users\arkad\Desktop\2023B\SumArrayElements\bin\Debug\SumArrayElements.exe
+C:\Users\arkad\Desktop\2023B\SumArrayElements\bin\Debug\SumArrayElements.pdb
+C:\Users\arkad\Desktop\2023B\SumArrayElements\obj\Debug\SumArrayElements.csproj.AssemblyReference.cache
+C:\Users\arkad\Desktop\2023B\SumArrayElements\obj\Debug\SumArrayElements.csproj.CoreCompileInputs.cache
+C:\Users\arkad\Desktop\2023B\SumArrayElements\obj\Debug\SumArrayElements.exe
+C:\Users\arkad\Desktop\2023B\SumArrayElements\obj\Debug\SumArrayElements.pdb

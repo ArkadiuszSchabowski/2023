@@ -1,0 +1,7 @@
+C:\Users\arkad\Desktop\2023B\Polonez\bin\Debug\Polonez.exe.config
+C:\Users\arkad\Desktop\2023B\Polonez\bin\Debug\Polonez.exe
+C:\Users\arkad\Desktop\2023B\Polonez\bin\Debug\Polonez.pdb
+C:\Users\arkad\Desktop\2023B\Polonez\obj\Debug\Polonez.csproj.AssemblyReference.cache
+C:\Users\arkad\Desktop\2023B\Polonez\obj\Debug\Polonez.csproj.CoreCompileInputs.cache
+C:\Users\arkad\Desktop\2023B\Polonez\obj\Debug\Polonez.exe
+C:\Users\arkad\Desktop\2023B\Polonez\obj\Debug\Polonez.pdb

@@ -1,0 +1,7 @@
+C:\Users\arkad\Desktop\2023B\OwnTests\bin\Debug\OwnTests.exe.config
+C:\Users\arkad\Desktop\2023B\OwnTests\bin\Debug\OwnTests.exe
+C:\Users\arkad\Desktop\2023B\OwnTests\bin\Debug\OwnTests.pdb
+C:\Users\arkad\Desktop\2023B\OwnTests\obj\Debug\OwnTests.csproj.AssemblyReference.cache
+C:\Users\arkad\Desktop\2023B\OwnTests\obj\Debug\OwnTests.csproj.CoreCompileInputs.cache
+C:\Users\arkad\Desktop\2023B\OwnTests\obj\Debug\OwnTests.exe
+C:\Users\arkad\Desktop\2023B\OwnTests\obj\Debug\OwnTests.pdb

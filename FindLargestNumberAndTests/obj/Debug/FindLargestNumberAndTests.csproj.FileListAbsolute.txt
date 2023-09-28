@@ -1,0 +1,7 @@
+C:\Users\arkad\Desktop\2023B\FindLargestNumberAndTests\bin\Debug\FindLargestNumberAndTests.exe.config
+C:\Users\arkad\Desktop\2023B\FindLargestNumberAndTests\bin\Debug\FindLargestNumberAndTests.exe
+C:\Users\arkad\Desktop\2023B\FindLargestNumberAndTests\bin\Debug\FindLargestNumberAndTests.pdb
+C:\Users\arkad\Desktop\2023B\FindLargestNumberAndTests\obj\Debug\FindLargestNumberAndTests.csproj.AssemblyReference.cache
+C:\Users\arkad\Desktop\2023B\FindLargestNumberAndTests\obj\Debug\FindLargestNumberAndTests.csproj.CoreCompileInputs.cache
+C:\Users\arkad\Desktop\2023B\FindLargestNumberAndTests\obj\Debug\FindLargestNumberAndTests.exe
+C:\Users\arkad\Desktop\2023B\FindLargestNumberAndTests\obj\Debug\FindLargestNumberAndTests.pdb

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindLargestNumberAndTests", "FindLargestNumberAndTests.csproj", "{4E255326-EE1C-4165-801F-63787663383B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program.UnitTests", "..\Program.UnitTests\Program.UnitTests.csproj", "{201CE8DC-6ED1-4692-A7D9-AB8A8EC2592F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E255326-EE1C-4165-801F-63787663383B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E255326-EE1C-4165-801F-63787663383B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E255326-EE1C-4165-801F-63787663383B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E255326-EE1C-4165-801F-63787663383B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{201CE8DC-6ED1-4692-A7D9-AB8A8EC2592F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{201CE8DC-6ED1-4692-A7D9-AB8A8EC2592F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{201CE8DC-6ED1-4692-A7D9-AB8A8EC2592F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{201CE8DC-6ED1-4692-A7D9-AB8A8EC2592F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54328776-C29C-4B00-AB4E-7EFBC08A1785}
+	EndGlobalSection
+EndGlobal

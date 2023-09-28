@@ -1,0 +1,7 @@
+C:\Users\arkad\Desktop\2023B\ChallengeTestsChatGPT\bin\Debug\ChallengeTestsChatGPT.exe.config
+C:\Users\arkad\Desktop\2023B\ChallengeTestsChatGPT\bin\Debug\ChallengeTestsChatGPT.exe
+C:\Users\arkad\Desktop\2023B\ChallengeTestsChatGPT\bin\Debug\ChallengeTestsChatGPT.pdb
+C:\Users\arkad\Desktop\2023B\ChallengeTestsChatGPT\obj\Debug\ChallengeTestsChatGPT.csproj.AssemblyReference.cache
+C:\Users\arkad\Desktop\2023B\ChallengeTestsChatGPT\obj\Debug\ChallengeTestsChatGPT.csproj.CoreCompileInputs.cache
+C:\Users\arkad\Desktop\2023B\ChallengeTestsChatGPT\obj\Debug\ChallengeTestsChatGPT.exe
+C:\Users\arkad\Desktop\2023B\ChallengeTestsChatGPT\obj\Debug\ChallengeTestsChatGPT.pdb

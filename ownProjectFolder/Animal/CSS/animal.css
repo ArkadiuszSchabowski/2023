@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100%;
+  background-color: gray;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  width: 100vw;
+  height: 100%;
+}
+
+#game {
+  position: relative;
+  background-color: white;
+  margin-left: 10%;
+  margin-top: 2%;
+  width: 80%;
+  height: 90%;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+#labels {
+  width: 100%;
+  display: flex;
+  background-color: black;
+  color: white;
+  font-size: 1.4rem;
+  height: 5%;
+}
+
+#lblScore {
+  margin-left: 1%;
+  display: flex;
+  width: 40%;
+  align-items: center;
+}
+
+#lblMiss {
+  display: flex;
+  width: 60%;
+  align-items: center;
+}
+#apple0,
+#apple1,
+#apple2 {
+  position: relative;
+  top: 0vh;
+  width: 8%;
+  height: 8%;
+}
+
+#apple0 {
+  position: relative;
+  left: 20%;
+}
+
+#apple1 {
+  left: 35%;
+}
+
+#apple2 {
+  left: 50%;
+}
+
+#animal {
+  position: absolute;
+  width: 15%;
+  height: 15%;
+  left: 40%;
+  bottom: 10%;
+}
+
+.animalFlip {
+  transform: scaleX(-1); /* Obracanie obrazka w poziomie */
+}
+
+.animalJump {
+  top: 55%;
+  transition: top 1000ms;
+}
+
+#options {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  margin-top: 5%;
+  width: 90%;
+  height: 90%;
+  border: 2px solid black;
+  border-radius: 10px;
+  min-height: 90%;
+  max-height: 90vh; /* Ograniczenie do 90% wysokości okna przeglądarki */
+}
+
+#btnNewGame, #btnInstructions, #btnScores, #btnExit{
+  width: 80%;
+  height: 150px;
+  background-color: gray;
+  color: black;
+  font-size: 1.3rem;
+  border-radius: 10px;
+}
+

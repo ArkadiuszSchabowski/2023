@@ -1,0 +1,7 @@
+C:\Users\arkad\Desktop\2023B\ChessTowersSPOJ\bin\Debug\ChessTowersSPOJ.exe.config
+C:\Users\arkad\Desktop\2023B\ChessTowersSPOJ\bin\Debug\ChessTowersSPOJ.exe
+C:\Users\arkad\Desktop\2023B\ChessTowersSPOJ\bin\Debug\ChessTowersSPOJ.pdb
+C:\Users\arkad\Desktop\2023B\ChessTowersSPOJ\obj\Debug\ChessTowersSPOJ.csproj.AssemblyReference.cache
+C:\Users\arkad\Desktop\2023B\ChessTowersSPOJ\obj\Debug\ChessTowersSPOJ.csproj.CoreCompileInputs.cache
+C:\Users\arkad\Desktop\2023B\ChessTowersSPOJ\obj\Debug\ChessTowersSPOJ.exe
+C:\Users\arkad\Desktop\2023B\ChessTowersSPOJ\obj\Debug\ChessTowersSPOJ.pdb
