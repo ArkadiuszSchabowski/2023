@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>My Controller</title>
+</head>
+<body>
+    <h1>Dane z kontrolera:</h1>
+    <ul id="numbers-list"></ul>
+
+    <script>
+        async function fetchAndDisplayData() {
+            try {
+                const response = await fetch('/Index');
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                const data = await response.json();
+
+                const numbersList = document.getElementById('numbers-list');
+                data.forEach(number => {
+                    const listItem = document.createElement('li');
+                    listItem.textContent = number;
+                    numbersList.appendChild(listItem);
+                });
+            } catch (error) {
+                console.error('Błąd:', error);
+            }
+        }
+
+        fetchAndDisplayData();
+    </script>
+</body>
+</html>

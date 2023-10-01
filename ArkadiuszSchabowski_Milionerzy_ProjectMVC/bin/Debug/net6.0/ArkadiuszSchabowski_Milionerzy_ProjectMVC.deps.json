@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ArkadiuszSchabowski_Milionerzy_ProjectMVC/1.0.0": {
+        "runtime": {
+          "ArkadiuszSchabowski_Milionerzy_ProjectMVC.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ArkadiuszSchabowski_Milionerzy_ProjectMVC/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

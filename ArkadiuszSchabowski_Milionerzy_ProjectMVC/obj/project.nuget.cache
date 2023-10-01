@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "kE/NO/ergJMqm8pB+LbPCIuyZV5q1EWi3RloWK6g4LahFn9RmmsTaINaNxs39legMNgd31hw+xba9hqzEz4b0A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\arkad\\Desktop\\2023B\\ArkadiuszSchabowski_Milionerzy_ProjectMVC\\ArkadiuszSchabowski_Milionerzy_ProjectMVC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\arkad\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

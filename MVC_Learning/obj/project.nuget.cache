@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "0CLFdbbNGBVersFUQBtVggy2b1m7CzbSxrz/5SEKtv0tAOfFIEXuC3JT2S1aokpj7tztoF5fs5UYDv46pZIyNw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\arkad\\Desktop\\2023B\\MVC_Learning\\MVC_Learning.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\arkad\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

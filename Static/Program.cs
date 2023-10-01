@@ -1,32 +1,52 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Static
+class Program
 {
-    internal class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
+        int cases = int.Parse(Console.ReadLine());
+
+        for (int i = 0; i < cases; i++)
         {
-            Test test = new Test(5);
-            Console.WriteLine(test.myReadOnly); //Wartosc readonly mozemy zmienic w konstruktorze nawet gdy wczesniej jest przypisana - 2 roznica
-            Console.WriteLine(Test.myConst);
-            Console.ReadKey();
+            string input = Console.ReadLine();
+            string output = DecryptExpression(input);
+            Console.WriteLine(output);
         }
     }
-    public class Test
+
+    static string DecryptExpression(string input)
     {
-        public const int myConst = 2;
-        public readonly int myReadOnly;
+        int openBrackets = 0;
+        int closeBrackets = 0;
+        string output = "";
 
-        public Test(int myReadOnly)
-
+        foreach (char c in input)
         {
-            //myConst nie widac, poniewaz odwolujemy sie do niej z poziomu klasy a nie obiektu
-            this.myReadOnly = myReadOnly;
+            if (c == '|')
+            {
+                if (openBrackets == closeBrackets)
+                {
+                    output += "(";
+                    openBrackets++;
+                }
+                else
+                {
+                    output += ")";
+                    closeBrackets++;
+                }
+            }
+            else
+            {
+                output += c;
+            }
         }
+
+        while (openBrackets > closeBrackets)
+        {
+            output += ")";
+            closeBrackets++;
+        }
+
+        return output;
     }
 }

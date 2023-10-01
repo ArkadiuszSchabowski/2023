@@ -1,0 +1,7 @@
+C:\Users\arkad\Desktop\2023B\ReadOnlyVSConst\bin\Debug\ReadOnlyVSConst.exe.config
+C:\Users\arkad\Desktop\2023B\ReadOnlyVSConst\bin\Debug\ReadOnlyVSConst.exe
+C:\Users\arkad\Desktop\2023B\ReadOnlyVSConst\bin\Debug\ReadOnlyVSConst.pdb
+C:\Users\arkad\Desktop\2023B\ReadOnlyVSConst\obj\Debug\ReadOnlyVSConst.csproj.AssemblyReference.cache
+C:\Users\arkad\Desktop\2023B\ReadOnlyVSConst\obj\Debug\ReadOnlyVSConst.csproj.CoreCompileInputs.cache
+C:\Users\arkad\Desktop\2023B\ReadOnlyVSConst\obj\Debug\ReadOnlyVSConst.exe
+C:\Users\arkad\Desktop\2023B\ReadOnlyVSConst\obj\Debug\ReadOnlyVSConst.pdb

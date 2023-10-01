@@ -1,0 +1,7 @@
+C:\Users\arkad\Desktop\2023B\TryParse\bin\Debug\TryParse.exe.config
+C:\Users\arkad\Desktop\2023B\TryParse\bin\Debug\TryParse.exe
+C:\Users\arkad\Desktop\2023B\TryParse\bin\Debug\TryParse.pdb
+C:\Users\arkad\Desktop\2023B\TryParse\obj\Debug\TryParse.csproj.AssemblyReference.cache
+C:\Users\arkad\Desktop\2023B\TryParse\obj\Debug\TryParse.csproj.CoreCompileInputs.cache
+C:\Users\arkad\Desktop\2023B\TryParse\obj\Debug\TryParse.exe
+C:\Users\arkad\Desktop\2023B\TryParse\obj\Debug\TryParse.pdb

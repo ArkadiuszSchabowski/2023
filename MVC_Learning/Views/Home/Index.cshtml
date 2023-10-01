@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Deserializacja JSON w JavaScript</title>
+</head>
+<body>
+    <script>
+        // Funkcja do pobierania pliku JSON
+        async function fetchJson(url) {
+            try {
+                const response = await fetch(url);
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                const data = await response.json();
+                return data;
+            } catch (error) {
+                console.error('Wystąpił błąd:', error);
+                return null;
+            }
+        }
+
+        // Pobierz plik JSON i zdeserializuj go
+        (async function () {
+            const data = await fetchJson('myObject.json');
+            if (data) {
+                // Otrzymany obiekt JSON
+                console.log(data);
+
+                // Teraz możesz korzystać z danych w JavaScript
+                console.log('Name: ' + data.Name);
+                console.log('Age: ' + data.Age);
+            }
+        })();
+    </script>
+</body>
+</html>

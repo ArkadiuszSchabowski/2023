@@ -14,6 +14,7 @@ class Joke {
     let path = "https://api.chucknorris.io/jokes/random";
     let response = await fetch(path);
     let data = await response.json();
+    console.log(data);
     this.DisplayNewJoke(data.value);
 
   }

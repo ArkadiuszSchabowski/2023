@@ -1,0 +1,7 @@
+C:\Users\arkad\Desktop\2023B\RefandOut\bin\Debug\RefandOut.exe.config
+C:\Users\arkad\Desktop\2023B\RefandOut\bin\Debug\RefandOut.exe
+C:\Users\arkad\Desktop\2023B\RefandOut\bin\Debug\RefandOut.pdb
+C:\Users\arkad\Desktop\2023B\RefandOut\obj\Debug\RefandOut.csproj.AssemblyReference.cache
+C:\Users\arkad\Desktop\2023B\RefandOut\obj\Debug\RefandOut.csproj.CoreCompileInputs.cache
+C:\Users\arkad\Desktop\2023B\RefandOut\obj\Debug\RefandOut.exe
+C:\Users\arkad\Desktop\2023B\RefandOut\obj\Debug\RefandOut.pdb
