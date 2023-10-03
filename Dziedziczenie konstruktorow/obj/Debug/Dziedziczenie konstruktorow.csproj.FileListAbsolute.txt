@@ -1,0 +1,7 @@
+C:\Users\arkad\Desktop\2023B\Dziedziczenie konstruktorow\bin\Debug\Dziedziczenie konstruktorow.exe.config
+C:\Users\arkad\Desktop\2023B\Dziedziczenie konstruktorow\bin\Debug\Dziedziczenie konstruktorow.exe
+C:\Users\arkad\Desktop\2023B\Dziedziczenie konstruktorow\bin\Debug\Dziedziczenie konstruktorow.pdb
+C:\Users\arkad\Desktop\2023B\Dziedziczenie konstruktorow\obj\Debug\Dziedziczenie konstruktorow.csproj.AssemblyReference.cache
+C:\Users\arkad\Desktop\2023B\Dziedziczenie konstruktorow\obj\Debug\Dziedziczenie konstruktorow.csproj.CoreCompileInputs.cache
+C:\Users\arkad\Desktop\2023B\Dziedziczenie konstruktorow\obj\Debug\Dziedziczenie konstruktorow.exe
+C:\Users\arkad\Desktop\2023B\Dziedziczenie konstruktorow\obj\Debug\Dziedziczenie konstruktorow.pdb

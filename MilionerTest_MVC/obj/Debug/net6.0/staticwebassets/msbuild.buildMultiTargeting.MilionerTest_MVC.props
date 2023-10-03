@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MilionerTest_MVC.props" />
+</Project>
