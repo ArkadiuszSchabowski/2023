@@ -4,12 +4,65 @@ let randomNumber;
 
 function Init() {
     GetContent();
+    CreateTableInsidePrizeTable();
+}
+
+function CreateTableInsidePrizeTable(){
+    let prizeTable = document.getElementById("prizeTable");
+    for (let i = 10; i >= 1; i--) {
+        let table = document.createElement("div");
+        table.classList.add("blueVioletRow");
+
+        switch (i) {
+            case 10:
+                table.innerText = 1000000;
+                table.id = "RowQuestion10";
+                break;
+            case 9:
+                table.innerText = 100000;
+                table.id = "RowQuestion9";
+                break;
+            case 8:
+                table.innerText = 50000;
+                table.id = "RowQuestion8";
+                break;
+            case 7:
+                table.innerText = 25000;
+                table.id = "RowQuestion7";
+                break;
+            case 6:
+                table.innerText = 10000;
+                table.id = "RowQuestion6";
+                break;
+            case 5:
+                table.innerText = 5000;
+                table.id = "RowQuestion5";
+                break;
+            case 4:
+                table.innerText = 2000;
+                table.id = "RowQuestion4";
+                break;
+            case 3:
+                table.innerText = 1000;
+                table.id = "RowQuestion3";
+                break;
+            case 2:
+                table.innerText = 700;
+                table.id = "RowQuestion2";
+                break;
+            case 1:
+                table.innerText = 400;
+                table.id = "RowQuestion1";
+                break;
+        }
+
+        prizeTable.appendChild(table);
+    }
 }
 
 async function GetContent() {
     let response = await fetch("/FirstQuestions/GetQuestions");
     data = await response.json();
-    console.log(data);
     SetQuestionOnArrays(data);
 }
 
@@ -29,9 +82,42 @@ function SetQuestionOnArrays(data) {
     if (balance == 500) {
         SetThirdQuestion(advancedQuestions);
     }
+    if (balance == 1000) {
+        SetFourthQuestion(hardQuestions);
+    }
+    if (balance == 2000) {
+        SetFifthQuestion(expertQuestions);
+    }
 }
 function SetThirdQuestion() {
     console.log("Congrats" + balance)
+}
+
+
+function SetFirstQuestion(easyQuestions) {
+    
+    
+    let questionWindow = document.querySelector("#questionWindow");
+    let btnA = document.querySelector("#btnA");
+    let btnB = document.querySelector("#btnB");
+    let btnC = document.querySelector("#btnC");
+    let btnD = document.querySelector("#btnD");
+
+    randomNumber = RandomNumber()
+
+    questionWindow.innerHTML = easyQuestions[randomNumber].question;
+    btnA.innerHTML = easyQuestions[randomNumber].answers[0];
+    btnB.innerHTML = easyQuestions[randomNumber].answers[1];
+    btnC.innerHTML = easyQuestions[randomNumber].answers[2];
+    btnD.innerHTML = easyQuestions[randomNumber].answers[3];
+    
+    btnA.addEventListener("click", EndGame())
+    btnB.addEventListener("click", () => {
+        balance += 200;
+        SetQuestionOnArrays(data);
+    })
+    btnC.addEventListener("click", EndGame())
+    btnD.addEventListener("click", EndGame());
 }
 
 function SetSecondQuestion(mediumQuestions) {
@@ -52,38 +138,6 @@ function SetSecondQuestion(mediumQuestions) {
     })
     btnB.addEventListener("click", () => {
         EndGame();
-    })
-    btnC.addEventListener("click", () => {
-        EndGame();
-    })
-    btnD.addEventListener("click", () => {
-        EndGame();
-    })
-}
-
-function SetFirstQuestion(easyQuestions) {
-
-
-    let questionWindow = document.querySelector("#questionWindow");
-    let btnA = document.querySelector("#btnA");
-    let btnB = document.querySelector("#btnB");
-    let btnC = document.querySelector("#btnC");
-    let btnD = document.querySelector("#btnD");
-
-    randomNumber = RandomNumber()
-
-    questionWindow.innerHTML = easyQuestions[randomNumber].question;
-    btnA.innerHTML = easyQuestions[randomNumber].answers[0];
-    btnB.innerHTML = easyQuestions[randomNumber].answers[1];
-    btnC.innerHTML = easyQuestions[randomNumber].answers[2];
-    btnD.innerHTML = easyQuestions[randomNumber].answers[3];
-
-    btnA.addEventListener("click", () => {
-        EndGame();
-    })
-    btnB.addEventListener("click", () => {
-        balance += 200;
-        SetQuestionOnArrays(data);
     })
     btnC.addEventListener("click", () => {
         EndGame();
