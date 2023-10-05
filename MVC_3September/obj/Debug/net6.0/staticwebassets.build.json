@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FyKB7GPCRP+HOjlhQ4WeTNkWEKFx+UbtuSF/fCk8EtY=",
+  "Hash": "lC2/5MYwuks/16f2uS27wV2hVcH0lE8ToQGXDftpZv4=",
   "Source": "MVC_3September",
   "BasePath": "_content/MVC_3September",
   "Mode": "Default",
@@ -51,6 +51,40 @@
       "OriginalItemSpec": "C:\\Users\\arkad\\Desktop\\2023B\\MVC_3September\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MVC_3September.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\arkad\\Desktop\\2023B\\MVC_3September\\wwwroot\\css\\lifelines.css",
+      "SourceId": "MVC_3September",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\arkad\\Desktop\\2023B\\MVC_3September\\wwwroot\\",
+      "BasePath": "_content/MVC_3September",
+      "RelativePath": "css/lifelines.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\lifelines.css"
+    },
+    {
+      "Identity": "C:\\Users\\arkad\\Desktop\\2023B\\MVC_3September\\wwwroot\\css\\prizeTable.css",
+      "SourceId": "MVC_3September",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\arkad\\Desktop\\2023B\\MVC_3September\\wwwroot\\",
+      "BasePath": "_content/MVC_3September",
+      "RelativePath": "css/prizeTable.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\prizeTable.css"
+    },
+    {
       "Identity": "C:\\Users\\arkad\\Desktop\\2023B\\MVC_3September\\wwwroot\\css\\site.css",
       "SourceId": "MVC_3September",
       "SourceType": "Discovered",
@@ -85,12 +119,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\arkad\\Desktop\\2023B\\MVC_3September\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\arkad\\Desktop\\2023B\\MVC_3September\\wwwroot\\js\\game.js",
       "SourceId": "MVC_3September",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\arkad\\Desktop\\2023B\\MVC_3September\\wwwroot\\",
       "BasePath": "_content/MVC_3September",
-      "RelativePath": "js/site.js",
+      "RelativePath": "js/game.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -99,7 +133,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\site.js"
+      "OriginalItemSpec": "wwwroot\\js\\game.js"
+    },
+    {
+      "Identity": "C:\\Users\\arkad\\Desktop\\2023B\\MVC_3September\\wwwroot\\js\\lifelines.js",
+      "SourceId": "MVC_3September",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\arkad\\Desktop\\2023B\\MVC_3September\\wwwroot\\",
+      "BasePath": "_content/MVC_3September",
+      "RelativePath": "js/lifelines.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\lifelines.js"
     },
     {
       "Identity": "C:\\Users\\arkad\\Desktop\\2023B\\MVC_3September\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",

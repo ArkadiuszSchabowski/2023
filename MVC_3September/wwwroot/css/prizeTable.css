@@ -1,0 +1,40 @@
+﻿#prizeTable {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 90%;
+    height: 70%;
+    border-radius: 20px;
+}
+#table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blueVioletRow {
+    margin-left: 5%;
+    display: flex;
+    width: 90%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: white;
+    background-color: blueviolet;
+    border-bottom: 2px solid black;
+}
+
+.blueVioletLastRow {
+    margin-left: 5%;
+    display: flex;
+    width: 90%;
+    height: 10%;
+    justify-content: center;
+    font-size: 1rem;
+    color: white;
+    background-color: blueviolet;
+}

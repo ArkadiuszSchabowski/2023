@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\MVC_3September.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\arkad\\Desktop\\2023B\\MVC_3September\\wwwroot\\css\\lifelines.css",
+      "PackagePath": "staticwebassets\\css\\lifelines.css"
+    },
+    {
+      "Id": "C:\\Users\\arkad\\Desktop\\2023B\\MVC_3September\\wwwroot\\css\\prizeTable.css",
+      "PackagePath": "staticwebassets\\css\\prizeTable.css"
+    },
+    {
       "Id": "C:\\Users\\arkad\\Desktop\\2023B\\MVC_3September\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -13,8 +21,12 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\arkad\\Desktop\\2023B\\MVC_3September\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
+      "Id": "C:\\Users\\arkad\\Desktop\\2023B\\MVC_3September\\wwwroot\\js\\game.js",
+      "PackagePath": "staticwebassets\\js\\game.js"
+    },
+    {
+      "Id": "C:\\Users\\arkad\\Desktop\\2023B\\MVC_3September\\wwwroot\\js\\lifelines.js",
+      "PackagePath": "staticwebassets\\js\\lifelines.js"
     },
     {
       "Id": "C:\\Users\\arkad\\Desktop\\2023B\\MVC_3September\\wwwroot\\lib\\bootstrap\\LICENSE",

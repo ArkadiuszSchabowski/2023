@@ -28,3 +28,4 @@ C:\Users\arkad\Desktop\2023B\ArkadiuszSchabowski_Milionerzy_ProjectMVC\obj\Debug
 C:\Users\arkad\Desktop\2023B\ArkadiuszSchabowski_Milionerzy_ProjectMVC\obj\Debug\net6.0\ArkadiuszSchabowski_Milionerzy_ProjectMVC.pdb
 C:\Users\arkad\Desktop\2023B\ArkadiuszSchabowski_Milionerzy_ProjectMVC\obj\Debug\net6.0\ArkadiuszSchabowski_Milionerzy_ProjectMVC.genruntimeconfig.cache
 C:\Users\arkad\Desktop\2023B\ArkadiuszSchabowski_Milionerzy_ProjectMVC\obj\Debug\net6.0\ref\ArkadiuszSchabowski_Milionerzy_ProjectMVC.dll
+C:\Users\arkad\Desktop\2023B\ArkadiuszSchabowski_Milionerzy_ProjectMVC\obj\Debug\net6.0\ArkadiuszSchabowski_Milionerzy_ProjectMVC.csproj.AssemblyReference.cache
