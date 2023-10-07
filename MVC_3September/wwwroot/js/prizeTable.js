@@ -1,11 +1,13 @@
+﻿
+let prizeTableDiv = document.getElementById("prizeTable");
+
 class PrizeTable {
     constructor() {
-        this.prizeTable = document.getElementById("prizeTable");
         this.CreateTableInsidePrizeTable();
     }
 
     CreateTableInsidePrizeTable = () => {
-        for (let i = 10; i >= 1; i--) {
+        for (let i = 10; i > 0; i--) {
             let table = document.createElement("div");
             table.classList.add("blueVioletRow");
 
@@ -52,8 +54,9 @@ class PrizeTable {
                     table.style.borderBottom = "none";
                     break;
             }
-            this.prizeTable.appendChild(table);
+            prizeTableDiv.appendChild(table);
         }
     }
 }
+
 let prizeTable = new PrizeTable();

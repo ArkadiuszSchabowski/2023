@@ -64,11 +64,8 @@ class Game {
         this.btnC.removeEventListener("click", this.myListener);
         this.btnD.removeEventListener("click", this.EndGame);
     }
-    SetRandomNumber() {
-        return Math.round(Math.random() * 3);
-    }
 
-    constructor() {
+    constructor(prizeTableDiv) {
         this.balance = 0;
         this.questionNumber = 1;
         this.data;
@@ -84,6 +81,7 @@ class Game {
         this.hardQuestions = [];
         this.expertQuestions = [];
         this.myListener = () => this.SetQuestionOnArrays(this.data);
+        this.prizeTable = prizeTableDiv;
 
         this.Init();
     }
@@ -93,18 +91,25 @@ class Game {
     }
 
     GetContent = async () => {
-        let response = await fetch("/FirstQuestions/GetQuestions");
-        this.data = await response.json();
-        this.SetQuestionOnArrays(this.data);
-        console.log(this.data);
+        try {
+            let response = await fetch("/FirstQuestions/GetQuestions");
+            this.data = await response.json();
+            this.SetQuestionOnArrays(this.data);
+        } catch (error) {
+            console.error("Wystąpił błąd podczas pobierania danych:", error);
+
+            this.questionWindow.innerHTML = "Wystąpił błąd podczas pobierania danych. Sprawdź połączenie z internetem lub spróbuj ponownie później.";
+        }
     }
 
+
     SetQuestionOnArrays = (data) => {
-        this.easyQuestions = [data[0], data[1], data[2]];
-        this.mediumQuestions = [data[3], data[4], data[5]];
-        this.advancedQuestions = [data[6], data[7], data[8]];
-        this.hardQuestions = [data[9], data[10], data[11]];
-        this.expertQuestions = [data[12], data[13], data[14]];
+
+        this.easyQuestions = [this.data[0], this.data[1], this.data[2]];
+        this.mediumQuestions = [this.data[3], this.data[4], this.data[5]];
+        this.advancedQuestions = [this.data[6], this.data[7], this.data[8]];
+        this.hardQuestions = [this.data[9], this.data[10], this.data[11]];
+        this.expertQuestions = [this.data[12], this.data[13], this.data[14]];
 
         switch (this.questionNumber) {
             case 1:
@@ -113,22 +118,29 @@ class Game {
                 break;
             case 2:
                 this.SetSecondQuestion(this.mediumQuestions);
+                this.prizeTable.childNodes[9].style.backgroundColor = "green";
+
                 this.questionNumber++;
                 break;
             case 3:
                 this.SetThirdQuestion(this.advancedQuestions);
                 this.questionNumber++;
+                this.prizeTable.childNodes[8].style.backgroundColor = "green";
                 break;
             case 4:
                 this.SetFourthQuestion(this.hardQuestions);
                 this.questionNumber++;
+                this.prizeTable.childNodes[7].style.backgroundColor = "green";
                 break;
             case 5:
                 this.SetFifthQuestion(this.expertQuestions);
+                this.prizeTable.childNodes[6].style.backgroundColor = "green";
                 this.questionNumber++;
                 break;
             case 6:
                 this.AllCorrectAnswers();
+                this.prizeTable.childNodes[5].style.backgroundColor = "green";
+                break;
         }
     }
     SetQuestionContent(lvlQuestions) {
@@ -141,6 +153,7 @@ class Game {
     }
 
     SetFirstQuestion = (lvlQuestions) => {
+
 
         this.randomNumber = this.SetRandomNumber();
 
@@ -202,18 +215,33 @@ class Game {
         this.questionWindow.innerHTML = `
         Odpowiedziales poprawnie na wszystkie pytania!
         Twoj wynik to ${this.balance} zl!`;
+
+        this.SetDefaultTextForButtons();
     }
 
     EndGame = () => {
+        this.btnA.removeEventListener("click", this.myListener);
+        this.btnB.removeEventListener("click", this.myListener);
+        this.btnC.removeEventListener("click", this.myListener);
+        this.btnD.removeEventListener("click", this.myListener);
+
         this.questionWindow.innerHTML = `
-        Dziekujemy za gre!
-        Twoj wynik to ${this.balance} zl!`;
+    Dziekujemy za gre!
+    Twoj wynik to ${this.balance} zl!`;
+
+        this.SetDefaultTextForButtons();
     }
 
-    RandomNumber = () => {
-        return Math.round(Math.random() * 3);
-    }
 
+    SetRandomNumber = () => {
+        return Math.floor(Math.random() * 3);
+    }
+    SetDefaultTextForButtons() {
+        this.btnA.innerHTML = "A";
+        this.btnB.innerHTML = "B";
+        this.btnC.innerHTML = "C";
+        this.btnD.innerHTML = "D";
+    }
 }
 
-const game = new Game();
+const game = new Game(prizeTableDiv);
