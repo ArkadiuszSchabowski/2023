@@ -24,7 +24,7 @@ namespace MVC_3September.Controllers
         static string[] question5Answers = new string[4] { "A.Boolean", "B.Lista", "C.Tablica", "D.Kolejka" };
 
         static string question6 = "2. Metoda, która służy do usuwania pustych znaków na początku i końcu tekstu to?";
-        static string[] question6Answers = new string[4] { "A.Replace", "B.Reverse", "C.Concat", "D.Trim" };
+        static string[] question6Answers = new string[4] { "A.Trim", "B.Reverse", "C.Concat", "D.Replace" };
 
         static string question7 = "3. Jakie jest domyślne zachowanie modyfikatora dostępu w C# dla elementów klasy?";
         static string[] question7Answers = new string[4] { "A.Internal", "B.Protected", "C.Public", "D.Private" };
@@ -36,22 +36,23 @@ namespace MVC_3September.Controllers
         static string[] question9Answers = new string[4] { "A.Public", "B.Private", "C.Protected", "D.Internal" };
 
         static string question10 = "4. Co to jest delegat w C#?";
-        static string[] question10Answers = new string[4] { "A.Typ reprezentujący wyjątek.", "B.Typ reprezentujący listę elementów.", "C.Typ reprezentujący wskaźnik do metody.", "D.Typ reprezentujący klasę abstrakcyjną." };
+        static string[] question10Answers = new string[4] { "A.Typ reprezentujący wskaznik do metody.", "B.Typ reprezentujący listę elementów.", "C.Typ reprezentujący wyjatek.", "D.Typ reprezentujący klasę abstrakcyjną." };
 
         static string question11 = "4. Jakie jest zastosowanie kolekcji `HashSet` w języku C#?";
-        static string[] question11Answers = new string[4] { "", "", "", "" };
+        static string[] question11Answers = new string[4] { "A. Przechowywanie unikalnych elementów.", "B. Implementacja stosu danych.", "C. Przechowywanie elementów w kolejności wstawiania.", "D. Przechowywanie elementów w porządku alfabetycznym." };
 
-        static string question12 = "4. Jaka jest różnica między metodą `FirstOrDefault` a `First` w LINQ w C#?";
-        static string[] question12Answers = new string[4] { "", "", "", "" };
+        static string question12 = "5. W języku C#, co oznacza termin 'boxing'?";
+        static string[] question12Answers = new string[4] { "A. Proces konwertowania typu wartościowego na typ referencyjny.", "B.Tworzenie kopii obiektu.", "C. Kompilator C#.", "D. Optymalizacja kodu." };
 
-        static string question13 = "5. Co to jest LINQ w C#?";
-        static string[] question13Answers = new string[4] { "A.List", "B.Dictionary", "C.Queue", "D.Stack" };
 
-        static string question14 = "5. Jakie są zalety i wady języka C# w porównaniu do języka C++?";
-        static string[] question14Answers = new string[4] { "", "", "", "" };
+        static string question13 = "5. Który z poniższych operatorów w C# służy do tworzenia nowych obiektów?";
+        static string[] question13Answers = new string[4] {"A. +", "B. -" , "C. new", "D. /"};
 
-        static string question15 = "5. Kiedy należy używać `using` w C# i jakie jest jego zastosowanie?";
-        static string[] question15Answers = new string[4] { "A.Queue", "B.Stack", "C.Stack", "D.Tree" };
+        static string question14 = "5. Co oznacza słowo kluczowe 'base' w języku C#?";
+        static string[] question14Answers = new string[4] {"A. Wywołanie metody bazowej w klasie pochodnej.", "B. Deklarację nowej klasy bazowej.", "C. Tworzenie nowej instancji obiektu.", "D. Przekazanie wartości do konstruktora."};
+        static string question15 = "5. Jaki jest wynik działania operatora 'is' w C#?";
+        static string[] question15Answers = new string[4] {"A. Porównuje dwie liczby całkowite.", "B. Wywołuje wyjątek w przypadku błędu.", "C. Sprawdza, czy obiekt jest instancją określonej klasy lub interfejsu.", "D. Oznacza przypisanie do zmiennej." };
+
 
         private readonly List<FirstQuestions> _questions = new List<FirstQuestions>
         {
