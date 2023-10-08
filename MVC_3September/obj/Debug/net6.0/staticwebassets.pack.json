@@ -29,6 +29,10 @@
       "PackagePath": "staticwebassets\\js\\lifelines.js"
     },
     {
+      "Id": "C:\\Users\\arkad\\Desktop\\2023B\\MVC_3September\\wwwroot\\js\\randomNumberGenerator.js",
+      "PackagePath": "staticwebassets\\js\\randomNumberGenerator.js"
+    },
+    {
       "Id": "C:\\Users\\arkad\\Desktop\\2023B\\MVC_3September\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },

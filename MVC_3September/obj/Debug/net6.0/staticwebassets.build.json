@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lC2/5MYwuks/16f2uS27wV2hVcH0lE8ToQGXDftpZv4=",
+  "Hash": "G2tLa7uxzF3TFfkIwy91YTdgseLfN6jzOJIbpemUk1c=",
   "Source": "MVC_3September",
   "BasePath": "_content/MVC_3September",
   "Mode": "Default",
@@ -151,6 +151,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\lifelines.js"
+    },
+    {
+      "Identity": "C:\\Users\\arkad\\Desktop\\2023B\\MVC_3September\\wwwroot\\js\\randomNumberGenerator.js",
+      "SourceId": "MVC_3September",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\arkad\\Desktop\\2023B\\MVC_3September\\wwwroot\\",
+      "BasePath": "_content/MVC_3September",
+      "RelativePath": "js/randomNumberGenerator.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\randomNumberGenerator.js"
     },
     {
       "Identity": "C:\\Users\\arkad\\Desktop\\2023B\\MVC_3September\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",

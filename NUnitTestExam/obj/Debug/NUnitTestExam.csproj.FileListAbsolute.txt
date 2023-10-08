@@ -1,0 +1,7 @@
+C:\Users\arkad\Desktop\2023B\NUnitTestExam\bin\Debug\NUnitTestExam.exe.config
+C:\Users\arkad\Desktop\2023B\NUnitTestExam\bin\Debug\NUnitTestExam.exe
+C:\Users\arkad\Desktop\2023B\NUnitTestExam\bin\Debug\NUnitTestExam.pdb
+C:\Users\arkad\Desktop\2023B\NUnitTestExam\obj\Debug\NUnitTestExam.csproj.AssemblyReference.cache
+C:\Users\arkad\Desktop\2023B\NUnitTestExam\obj\Debug\NUnitTestExam.csproj.CoreCompileInputs.cache
+C:\Users\arkad\Desktop\2023B\NUnitTestExam\obj\Debug\NUnitTestExam.exe
+C:\Users\arkad\Desktop\2023B\NUnitTestExam\obj\Debug\NUnitTestExam.pdb
