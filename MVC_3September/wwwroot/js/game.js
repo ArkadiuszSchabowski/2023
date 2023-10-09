@@ -12,7 +12,6 @@ class Game {
         this.btnC = document.querySelector("#btnC");
         this.btnD = document.querySelector("#btnD");
 
-
         this.myListener = () => this.SetQuestionOnArrays(this.data);
         this.prizeTable = prizeTableDiv;
         this.lifelines;
@@ -24,6 +23,22 @@ class Game {
 
         this.Init();
     }
+    Init = () => {
+        this.GetContent();
+    }
+
+    GetContent = async () => {
+        try {
+            let response = await fetch("/Questions/GetQuestions");
+            this.data = await response.json();
+            this.SetQuestionOnArrays(this.data);
+            console.log(this.data);
+        } catch (error) {
+            console.error("Wystąpił błąd podczas pobierania danych:", error);
+
+            this.questionWindow.innerHTML = "Wystąpił błąd podczas pobierania danych.";
+        }
+    }
     AddLifelines() {
         this.Audience();
         this.FiftyFifty()
@@ -33,8 +48,8 @@ class Game {
         btnAudience.addEventListener("click", () => {
             if (this.audience) {
                 let result = lifelines.AudienceHelp();
-                btnAudience.style.backgroundColor = "red";
                 console.log(result);
+                btnAudience.style.backgroundColor = "red";
                 this.audience = false;
             }
             else {
@@ -55,6 +70,7 @@ class Game {
 
         this.randomNumber = randomNumberGenerator.SetRandomNumber();
         console.log(this.randomNumber);
+        console.log(this.questionNumber);
 
         this.SetQuestionContent(lvlQuestions);
 
@@ -68,9 +84,13 @@ class Game {
 
         this.randomNumber = randomNumberGenerator.SetRandomNumber();
 
+        console.log(this.randomNumber);
+        console.log(this.questionNumber);
+
         this.SetQuestionContent(lvlQuestions);
 
         this.SetSecondQuestionListeners();
+
     }
 
     SetThirdQuestion = (lvlQuestions) => {
@@ -79,6 +99,9 @@ class Game {
         this.RemoveSecondQuestionListeners();
 
         this.randomNumber = randomNumberGenerator.SetRandomNumber();
+
+        console.log(this.randomNumber);
+        console.log(this.questionNumber);
 
         this.SetQuestionContent(lvlQuestions);
 
@@ -90,6 +113,9 @@ class Game {
         this.RemoveThirdQuestionListeners();
 
         this.randomNumber = randomNumberGenerator.SetRandomNumber();
+
+        console.log(this.randomNumber);
+        console.log(this.questionNumber);
 
         this.SetQuestionContent(lvlQuestions);
 
@@ -173,22 +199,6 @@ class Game {
         Twoj wynik to ${this.balance} zl!`;
 
         this.SetDefaultTextForButtons();
-    }
-
-    Init = () => {
-        this.GetContent();
-    }
-
-    GetContent = async () => {
-        try {
-            let response = await fetch("/FirstQuestions/GetQuestions");
-            this.data = await response.json();
-            this.SetQuestionOnArrays(this.data);
-        } catch (error) {
-            console.error("Wystąpił błąd podczas pobierania danych:", error);
-
-            this.questionWindow.innerHTML = "Wystąpił błąd podczas pobierania danych.";
-        }
     }
 
 
