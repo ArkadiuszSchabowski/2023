@@ -6,7 +6,7 @@
     {
         public class QuestionsData
         {
-            private List<Questions> _questions = new List<Questions> {};
+            private List<Questions> _questions = new List<Questions> ();
 
             public QuestionsData()
             {
