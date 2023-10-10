@@ -7,6 +7,8 @@ class Buttons {
         this.btnAudience = document.querySelector("#btnAudience");
         this.btnPhone = document.querySelector("#btnPhone");
         this.btnFiftyFifty = document.querySelector("#btnFiftyFifty");
+        this.btnHelper = document.querySelector("#btnHelper");
+        this.btnResign = document.querySelector("#btnResign");
     }
     SetButtonsAsVisible() {
         this.btnA.style.visibility = "visible";
@@ -19,6 +21,16 @@ class Buttons {
         this.btnB.innerHTML = "B";
         this.btnC.innerHTML = "C";
         this.btnD.innerHTML = "D";
+    }
+    LockButtons() {
+        this.btnA.disabled = true;
+        this.btnB.disabled = true;
+        this.btnC.disabled = true;
+        this.btnD.disabled = true;
+        this.btnAudience.disabled = true;
+        this.btnPhone.disabled = true;
+        this.btnFiftyFifty.disabled = true;
+        this.btnResign.disabled = true;
     }
 };
 let buttons = new Buttons();

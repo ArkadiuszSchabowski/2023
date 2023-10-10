@@ -74,7 +74,7 @@ body {
     border-radius: 10px;
 }
 
-#btnA, #btnC, #btnHelp {
+#btnA, #btnC, #btnResign {
     margin-top: 1%;
     margin-left: 2%;
     width: 95%;
@@ -83,7 +83,7 @@ body {
     color: white;
 }
 
-#btnB, #btnD, #btnResign {
+#btnB, #btnD, #btnHelper {
     margin-top: 1%;
     width: 95%;
     height: 40px;

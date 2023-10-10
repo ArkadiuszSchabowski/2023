@@ -14,6 +14,8 @@ class Game {
         this.btnB = buttons.btnB;
         this.btnC = buttons.btnC;
         this.btnD = buttons.btnD;
+        this.btnResign = buttons.btnResign;
+        this.btnHelper = buttons.btnHelper;
 
         this.questionNumber = 1;
         this.data;
@@ -26,6 +28,7 @@ class Game {
     }
 
     Init = () => {
+        this.btnHelper.style.visibility = "hidden";
         this.GetContent();
     }
 
@@ -116,6 +119,7 @@ class Game {
                 console.log(this.balance)
                 this.SetQuestionContent(questionData);
                 this.SetFirstQuestionListeners();
+                this.SetTheResignListener();
                 break;
             case 2:
                 this.RemoveFirstQuestionListeners();
@@ -184,26 +188,27 @@ class Game {
     }
     AllCorrectAnswers() {
 
-        this.RemoveTenthQuestionListeners();
+        buttons.LockButtons();
+        buttons.SetDefaultTextForButtons();
 
         this.balance = balance.SetCurrentBalance(1000000);
         console.log(this.balance)
 
         this.questionWindow.innerHTML = ` Odpowiedziales poprawnie na wszystkie pytania! Wygrywasz ${this.balance} zl!!!`;
 
-        buttons.SetDefaultTextForButtons();
     }
 
     EndGameWhenAnswerIsIncorrect = () => {
 
-        this.questionNumber;
-        this.RemoveAllListenersWhenGameEnded();
+        buttons.LockButtons();
+        buttons.SetDefaultTextForButtons();
 
         switch (this.questionNumber) {
             case 3:
                 this.balance = balance.SetStartBalance();
                 this.prizeTable.childNodes[9].style.backgroundColor = "blueviolet";
                 break;
+                //case 4 - pierwszy prog gwarantowany
             case 5:
             case 6:
                 this.balance = balance.SetBalanceToFirstCheckpoint();
@@ -211,6 +216,7 @@ class Game {
                     this.prizeTable.childNodes[i].style.backgroundColor = "blueviolet";
                 }
                 break;
+                //case 7 - drugi prog gwarantowany
             case 8:
             case 9:
             case 10:
@@ -223,12 +229,7 @@ class Game {
         }
 
         this.questionWindow.innerHTML = `Dziekujemy za gre! Twoj wynik to ${this.balance} zl!`;
-        buttons.SetDefaultTextForButtons();
 
-
-        this.questionWindow.innerHTML = `Dziekujemy za gre! Twoj wynik to ${this.balance} zl!`;
-
-        buttons.SetDefaultTextForButtons();
     }
 
     SetQuestionContent(questionData) {
@@ -242,6 +243,21 @@ class Game {
         this.btnD.innerHTML = questionData[this.randomNumber].answers[3];
 
         this.questionNumber++;
+    }
+    SetTheResignListener() {
+        this.btnResign.addEventListener("click", () => {
+            if ((this.balance !== 0) && (this.balance !== 2000) && (this.balance !== 40000)) {
+                this.questionWindow.innerHTML = `To dobra decyzja, zeby sie wycofac. Gratulacje wygrywasz ${this.balance}!!!`;
+            }
+            else if (this.balance === 0) {
+                this.questionWindow.innerHTML = 'Jeszcze nie zaczelismy gry, a juz sie wycofales. Mimo wszystko dziekuje za udzial w grze!';
+            }
+            else if ((this.balance === 2000) || (this.balance === 40000)){
+                this.questionWindow.innerHTML = `Zrezygnowales na progu gwarantowanym. Wygrywasz ${this.balance}`;
+            }
+            buttons.SetDefaultTextForButtons();
+            buttons.LockButtons();
+        })
     }
 
     TheCorrectAnswerIsA() {
@@ -291,12 +307,6 @@ class Game {
         this.btnA.removeEventListener("click", this.EndGameWhenAnswerIsIncorrect);
         this.btnB.removeEventListener("click", this.EndGameWhenAnswerIsIncorrect);
         this.btnC.removeEventListener("click", this.EndGameWhenAnswerIsIncorrect);
-        this.btnD.removeEventListener("click", this.myListener);
-    }
-    RemoveAllListenersWhenGameEnded() {
-        this.btnA.removeEventListener("click", this.myListener);
-        this.btnB.removeEventListener("click", this.myListener);
-        this.btnC.removeEventListener("click", this.myListener);
         this.btnD.removeEventListener("click", this.myListener);
     }
 
