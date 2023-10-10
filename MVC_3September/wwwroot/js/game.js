@@ -1,20 +1,24 @@
 ﻿
 class Game {
 
-    constructor(prizeTableDiv, randomNumberGenerator, balance, lifelines) {
-        this.balance;
+    constructor(prizeTableDiv, randomNumber, balance, lifelines, questionWindow, buttons) {
+
+        this.prizeTable = prizeTableDiv;
+        this.randomNumber;
+        this.lifelines;
+        this.questionWindow = questionWindow.mainWindow;
+        this.buttons;
+        this.balance = 0;
+
+        this.btnA = buttons.btnA;
+        this.btnB = buttons.btnB;
+        this.btnC = buttons.btnC;
+        this.btnD = buttons.btnD;
+
         this.questionNumber = 1;
         this.data;
-        this.randomNumber;
-        this.questionWindow = document.querySelector("#questionWindow");
-        this.btnA = document.querySelector("#btnA");
-        this.btnB = document.querySelector("#btnB");
-        this.btnC = document.querySelector("#btnC");
-        this.btnD = document.querySelector("#btnD");
 
         this.myListener = () => this.SetQuestionOnArrays(this.data);
-        this.prizeTable = prizeTableDiv;
-        this.lifelines;
 
         lifelines.AddLifelines();
 
@@ -30,15 +34,12 @@ class Game {
             let response = await fetch("/Questions/GetQuestions");
             this.data = await response.json();
             this.SetQuestionOnArrays(this.data);
-            console.log(this.data);
         } catch (error) {
-            console.error("Wystąpił błąd podczas pobierania danych:", error);
-
-            this.questionWindow.innerHTML = "Wystąpił błąd podczas pobierania danych.";
+            this.questionWindow = questionWindow.FetchError();
         }
     }
     SetQuestionOnArrays = (data) => {
-
+        console.log(data);
         this.questions1 = [this.data[0], this.data[1]];
         this.questions2 = [this.data[2], this.data[3]];
         this.questions3 = [this.data[4], this.data[5]];
@@ -101,8 +102,8 @@ class Game {
                 break;
 
             case 11:
-                this.AllCorrectAnswers();
                 this.prizeTable.childNodes[0].style.backgroundColor = "green";
+                this.AllCorrectAnswers();
                 break;
         }
     }
@@ -111,60 +112,71 @@ class Game {
 
         switch (this.questionNumber) {
             case 1:
+                this.balance = balance.SetStartBalance();
+                console.log(this.balance)
                 this.SetQuestionContent(questionData);
                 this.SetFirstQuestionListeners();
                 break;
             case 2:
                 this.RemoveFirstQuestionListeners();
                 this.balance = balance.SetCurrentBalance(500);
+                console.log(this.balance)
                 this.SetQuestionContent(questionData);
                 this.SetSecondQuestionListeners();
                 break;
             case 3:
                 this.RemoveSecondQuestionListeners();
-                this.balance = balance.SetCurrentBalance(500);
+                this.balance = balance.SetCurrentBalance(2000);
+                console.log(this.balance)
                 this.SetQuestionContent(questionData);
                 this.SetThirdQuestionListeners();
                 break;
             case 4:
                 this.RemoveThirdQuestionListeners();
-                this.balance = balance.SetCurrentBalance(500);
+                this.balance = balance.SetCurrentBalance(5000);
+                console.log(this.balance)
                 this.SetQuestionContent(questionData);
                 this.SetFourthQuestionListeners();
                 break;
             case 5:
                 this.RemoveFourthQuestionListeners();
-                this.balance = balance.SetCurrentBalance(500);
+                this.balance = balance.SetCurrentBalance(10000);
+                console.log(this.balance)
                 this.SetQuestionContent(questionData);
                 this.SetFifthQuestionListeners();
                 break;
             case 6:
                 this.RemoveFifthQuestionListeners();
-                this.balance = balance.SetCurrentBalance(500);
+                this.balance = balance.SetCurrentBalance(40000);
+                console.log(this.balance)
                 this.SetQuestionContent(questionData);
                 this.SetSixthQuestionListeners();
                 break;
             case 7:
                 this.RemoveSixthQuestionListeners();
-                this.balance = balance.SetCurrentBalance(500);
+                this.balance = balance.SetCurrentBalance(75000);
+                console.log(this.balance)
                 this.SetQuestionContent(questionData);
                 this.SetSeventhQuestionListeners();
                 break;
             case 8:
                 this.RemoveSeventhQuestionListeners();
-                this.balance = balance.SetCurrentBalance(500);
+                this.balance = balance.SetCurrentBalance(150000);
+                console.log(this.balance)
                 this.SetQuestionContent(questionData);
                 this.SetEighthQuestionListeners();
                 break;
             case 9:
                 this.RemoveEighthQuestionListeners();
-                this.balance = balance.SetCurrentBalance(500);
+                this.balance = balance.SetCurrentBalance(250000);
+                console.log(this.balance)
                 this.SetQuestionContent(questionData);
                 this.SetNinethQuestionListeners();
                 break;
             case 10:
                 this.RemoveNinethQuestionListeners();
-                this.balance = balance.SetCurrentBalance(500);
+                this.balance = balance.SetCurrentBalance(500000);
+                console.log(this.balance)
                 this.SetQuestionContent(questionData);
                 this.SetTenthQuestionListeners();
                 break;
@@ -175,14 +187,16 @@ class Game {
         this.RemoveTenthQuestionListeners();
 
         this.balance = balance.SetCurrentBalance(1000000);
+        console.log(this.balance)
 
-        this.questionWindow.innerHTML = ` Odpowiedziales poprawnie na wszystkie pytania!Twoj wynik to ${this.balance} zl!`;
+        this.questionWindow.innerHTML = ` Odpowiedziales poprawnie na wszystkie pytania! Wygrywasz ${this.balance} zl!!!`;
 
-        this.SetDefaultTextForButtons();
+        buttons.SetDefaultTextForButtons();
     }
 
     EndGameWhenAnswerIsIncorrect = () => {
 
+        this.questionNumber;
         this.RemoveAllListenersWhenGameEnded();
 
         switch (this.questionNumber) {
@@ -190,11 +204,11 @@ class Game {
                 this.balance = balance.SetStartBalance();
                 this.prizeTable.childNodes[9].style.backgroundColor = "blueviolet";
                 break;
-            case 4:
             case 5:
+            case 6:
                 this.balance = balance.SetBalanceToFirstCheckpoint();
                 for (let i = 6; i < 8; i++) {
-                this.prizeTable.childNodes[i].style.backgroundColor = "blueviolet";
+                    this.prizeTable.childNodes[i].style.backgroundColor = "blueviolet";
                 }
                 break;
             case 8:
@@ -209,12 +223,17 @@ class Game {
         }
 
         this.questionWindow.innerHTML = `Dziekujemy za gre! Twoj wynik to ${this.balance} zl!`;
+        buttons.SetDefaultTextForButtons();
 
-        this.SetDefaultTextForButtons();
+
+        this.questionWindow.innerHTML = `Dziekujemy za gre! Twoj wynik to ${this.balance} zl!`;
+
+        buttons.SetDefaultTextForButtons();
     }
+
     SetQuestionContent(questionData) {
 
-        this.randomNumber = randomNumberGenerator.SetRandomNumber();
+        this.randomNumber = randomNumberGenerator.SetRandomNumberForQuestion();
 
         this.questionWindow.innerHTML = questionData[this.randomNumber].question;
         this.btnA.innerHTML = questionData[this.randomNumber].answers[0];
@@ -225,12 +244,6 @@ class Game {
         this.questionNumber++;
     }
 
-    SetDefaultTextForButtons() {
-        this.btnA.innerHTML = "A";
-        this.btnB.innerHTML = "B";
-        this.btnC.innerHTML = "C";
-        this.btnD.innerHTML = "D";
-    }
     TheCorrectAnswerIsA() {
         this.btnA.addEventListener("click", this.myListener);
         this.btnB.addEventListener("click", this.EndGameWhenAnswerIsIncorrect);
@@ -351,4 +364,4 @@ class Game {
     }
 }
 
-const game = new Game(prizeTableDiv, randomNumberGenerator, balance, lifelines);
+const game = new Game(prizeTableDiv, randomNumberGenerator, balance, lifelines, questionWindow, buttons);
