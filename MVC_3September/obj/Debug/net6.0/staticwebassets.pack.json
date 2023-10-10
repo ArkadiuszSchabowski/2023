@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\arkad\\Desktop\\2023B\\MVC_3September\\wwwroot\\js\\balance.js",
+      "PackagePath": "staticwebassets\\js\\balance.js"
+    },
+    {
       "Id": "C:\\Users\\arkad\\Desktop\\2023B\\MVC_3September\\wwwroot\\js\\game.js",
       "PackagePath": "staticwebassets\\js\\game.js"
     },

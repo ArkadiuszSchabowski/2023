@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "G2tLa7uxzF3TFfkIwy91YTdgseLfN6jzOJIbpemUk1c=",
+  "Hash": "O1JOls0h5m4bkQTnvg3dN6p9uNUiZt/oTbgiY3sr8Bk=",
   "Source": "MVC_3September",
   "BasePath": "_content/MVC_3September",
   "Mode": "Default",
@@ -117,6 +117,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\arkad\\Desktop\\2023B\\MVC_3September\\wwwroot\\js\\balance.js",
+      "SourceId": "MVC_3September",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\arkad\\Desktop\\2023B\\MVC_3September\\wwwroot\\",
+      "BasePath": "_content/MVC_3September",
+      "RelativePath": "js/balance.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\balance.js"
     },
     {
       "Identity": "C:\\Users\\arkad\\Desktop\\2023B\\MVC_3September\\wwwroot\\js\\game.js",

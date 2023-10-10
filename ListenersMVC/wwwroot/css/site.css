@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#btn1, #btn2{
+    width: 150px;
+    height: 100px;
+    background-color: orangered;
+    font-size: 18px;
+    color: white;
+}
