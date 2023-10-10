@@ -256,22 +256,27 @@ class Game {
     EndGameWhenAnswerIsIncorrect = () => {
 
         this.RemoveAllListenersWhenGameEnded();
-
-        if (this.questionNumber == 3) {
-            this.balance = balance.SetStartBalance();
-            this.prizeTable.childNodes[9].style.backgroundColor = "blueviolet";
-        }
-        else if ((this.questionNumber == 5) || (this.questionNumber == 6)) {
-            this.balance = balance.SetBalanceToFirstCheckpoint();
-            this.prizeTable.childNodes[7].style.backgroundColor = "blueviolet";
-            this.prizeTable.childNodes[6].style.backgroundColor = "blueviolet";
-        }
-        else if ((this.questionNumber == 8) || (this.questionNumber == 9) || (this.questionNumber == 10) || (this.questionNumber == 11)) {
-            this.balance = balance.SetBalanceToSecondCheckpoint();
-            this.prizeTable.childNodes[4].style.backgroundColor = "blueviolet";
-            this.prizeTable.childNodes[3].style.backgroundColor = "blueviolet";
-            this.prizeTable.childNodes[2].style.backgroundColor = "blueviolet";
-            this.prizeTable.childNodes[1].style.backgroundColor = "blueviolet";
+        switch (this.questionNumber) {
+            case 3:
+                this.balance = balance.SetStartBalance();
+                this.prizeTable.childNodes[9].style.backgroundColor = "blueviolet";
+                break;
+            case 4:
+            case 5:
+                this.balance = balance.SetBalanceToFirstCheckpoint();
+                for (let i = 6; i < 8; i++) {
+                this.prizeTable.childNodes[i].style.backgroundColor = "blueviolet";
+                }
+                break;
+            case 8:
+            case 9:
+            case 10:
+            case 11:
+                this.balance = balance.SetBalanceToSecondCheckpoint();
+                for (let i = 1; i < 5; i++) {
+                    this.prizeTable.childNodes[i].style.backgroundColor = "blueviolet";
+                }
+                break;
         }
 
         this.questionWindow.innerHTML = `Dziekujemy za gre! Twoj wynik to ${this.balance} zl!`;
@@ -411,6 +416,6 @@ class Game {
     RemoveTenthQuestionListeners() {
         this.RemoveListenersWhenTheCorrectAnswerWasC();
     }
-
 }
+
 const game = new Game(prizeTableDiv, randomNumberGenerator, balance, lifelines);
