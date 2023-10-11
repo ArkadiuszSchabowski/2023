@@ -15,6 +15,7 @@ class PrizeTable {
                 case 10:
                     table.innerText = 1000000;
                     table.id = "RowQuestion10";
+                    table.style.borderTop = "2px solid black";
                     break;
                 case 9:
                     table.innerText = 500000;

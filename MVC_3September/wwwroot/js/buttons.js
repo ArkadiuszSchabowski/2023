@@ -7,7 +7,6 @@ class Buttons {
         this.btnAudience = document.querySelector("#btnAudience");
         this.btnPhone = document.querySelector("#btnPhone");
         this.btnFiftyFifty = document.querySelector("#btnFiftyFifty");
-        this.btnHelper = document.querySelector("#btnHelper");
         this.btnResign = document.querySelector("#btnResign");
     }
     SetButtonsAsVisible() {

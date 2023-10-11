@@ -15,7 +15,6 @@ class Game {
         this.btnC = buttons.btnC;
         this.btnD = buttons.btnD;
         this.btnResign = buttons.btnResign;
-        this.btnHelper = buttons.btnHelper;
         this.correctedIndex;
 
         this.questionNumber = 1;
@@ -31,7 +30,6 @@ class Game {
     Init = () => {
         document.addEventListener("DOMContentLoaded", () => {
 
-        this.btnHelper.style.visibility = "hidden";
         this.GetContent();
         })
     }
