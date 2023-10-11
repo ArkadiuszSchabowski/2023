@@ -34,9 +34,6 @@ class Lifelines {
                 buttons.btnFiftyFifty.style.backgroundColor = "red";
                 this.fiftyFifty = false;
             }
-            else {
-                this.questionWindow.innerHTML = ("Nie masz juz kola 50/50");
-            }
         }
         )
     };
@@ -53,22 +50,22 @@ class Lifelines {
                 buttons.btnAudience.style.backgroundColor = "red";
                 this.audience = false;
             }
-            else {
-                this.questionWindow.innerHTML = ("Skorzystales juz z pomocy publicznosci");
-            }
         }
         )
     };
     PhoneFriend() {
         buttons.btnPhone.addEventListener("click", () => {
             if (this.phone) {
-                this.result = randomNumberGenerator.SetRandomNumberForFriend();
-                this.questionWindow.innerHTML = this.result;
-                buttons.btnPhone.style.backgroundColor = "red";
+                if (this.fiftyFifty == true) {
+                    this.result = randomNumberGenerator.SetRandomMessageForFriend();
+                    console.log(this.result);
+                    this.questionWindow.innerHTML = this.result;
+                }
+                if (this.fiftyFifty == false) {
+                    this.questionWindow.innerHTML = "Zostaly dwie odpowiedzi, ale niestety Ci nie pomoge. Moze sproboj zaryzkowac."
+                }
                 this.phone = false;
-            }
-            else {
-                this.questionWindow.innerHTML = ("Juz dzwoniles do przyjaciela");
+                buttons.btnPhone.style.backgroundColor = "red";
             }
         }
         )

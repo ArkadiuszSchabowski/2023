@@ -14,7 +14,7 @@ class RandomNumberGenerator {
         let audience = [numberA, numberB, numberC, numberD]
         return audience;
     }
-    SetRandomNumberForFriend() {
+    SetRandomMessageForFriend() {
         this.randomNumber = Math.floor(Math.random() * 5);
         switch (this.randomNumber) {
             case 0:
