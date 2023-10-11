@@ -34,11 +34,11 @@ class RandomNumberGenerator {
                 break;
         }
     }
-    SetRandomNumberForFiftyFifty() {
+    SetRandomNumberForFiftyFifty(correctedIndex) {
         while (this.arrayRandomNumbers.length < 2) {
 
             this.randomNumber = Math.floor(Math.random() * 4);
-            if (!this.arrayRandomNumbers.includes(this.randomNumber)) {
+            if (!this.arrayRandomNumbers.includes(this.randomNumber) && this.randomNumber !== correctedIndex) {
                 this.arrayRandomNumbers.push(this.randomNumber);
             }
         }

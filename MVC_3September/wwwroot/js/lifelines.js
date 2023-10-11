@@ -1,7 +1,8 @@
 
 
 class Lifelines {
-    constructor(randomNumberGenerator, buttons) {
+    constructor(randomNumberGenerator, buttons, game) {
+        this.game = game;
         this.randomNumber = randomNumberGenerator;
         this.result;
 
@@ -14,7 +15,8 @@ class Lifelines {
     FiftyFifty() {
         buttons.btnFiftyFifty.addEventListener("click", () => {
             if (this.fiftyFifty) {
-                this.result = randomNumberGenerator.SetRandomNumberForFiftyFifty();
+                console.log(game.correctedIndex);
+                this.result = randomNumberGenerator.SetRandomNumberForFiftyFifty(game.correctedIndex);
                 if (this.result.includes(0)) {
                     buttons.btnA.style.visibility = "hidden";
                 }

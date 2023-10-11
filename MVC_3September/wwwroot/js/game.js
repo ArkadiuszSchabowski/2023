@@ -117,6 +117,8 @@ class Game {
 
     SetQuestion = (questionData) => {
 
+        buttons.SetButtonsAsVisible();
+
         switch (this.questionNumber) {
             case 1:
                 this.balance = balance.SetStartBalance();
