@@ -1,11 +1,11 @@
 ﻿
 class Game {
 
-    constructor(prizeTableDiv, randomNumber, balance, lifelines, questionWindow, buttons) {
+    constructor(prizeTableDiv, randomNumber, balance, questionWindow, buttons) {
 
         this.prizeTable = prizeTableDiv;
         this.randomNumber;
-        this.lifelines;
+        this.lifelines = new Lifelines(this);
         this.questionWindow = questionWindow.mainWindow;
         this.buttons;
         this.balance = 0;
@@ -16,6 +16,7 @@ class Game {
         this.btnD = buttons.btnD;
         this.btnResign = buttons.btnResign;
         this.btnHelper = buttons.btnHelper;
+        this.correctedIndex;
 
         this.questionNumber = 1;
         this.data;
@@ -28,8 +29,11 @@ class Game {
     }
 
     Init = () => {
+        document.addEventListener("DOMContentLoaded", () => {
+
         this.btnHelper.style.visibility = "hidden";
         this.GetContent();
+        })
     }
 
     GetContent = async () => {
@@ -242,6 +246,9 @@ class Game {
         this.btnC.innerHTML = questionData[this.randomNumber].answers[2];
         this.btnD.innerHTML = questionData[this.randomNumber].answers[3];
 
+        this.correctedIndex = questionData[this.randomNumber].correctAnswerIndex;
+        console.log(this.correctedIndex);
+
         this.questionNumber++;
     }
     SetTheResignListener() {
@@ -374,4 +381,4 @@ class Game {
     }
 }
 
-const game = new Game(prizeTableDiv, randomNumberGenerator, balance, lifelines, questionWindow, buttons);
+const game = new Game(prizeTableDiv, randomNumberGenerator, balance, questionWindow, buttons);
