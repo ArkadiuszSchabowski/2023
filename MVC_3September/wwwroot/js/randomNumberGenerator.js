@@ -18,19 +18,19 @@ class RandomNumberGenerator {
         this.randomNumber = Math.floor(Math.random() * 5);
         switch (this.randomNumber) {
             case 0:
-                return "Wydaje mi sie, ze poprawna odpowiedzia moze byc A lub C";
+                return "Przyjaciel: Wydaje mi sie, ze poprawna odpowiedzia moze byc A lub C";
                 break;
             case 1:
-                return "Stawialbym na B, ale nie jestem pewny";
+                return "Przyjaciel: Stawialbym na B, ale nie jestem pewny";
                 break;
             case 2:
-                return "Zrezygnowalbym na tym etapie, ale jesli mialbyc grac zaznaczylbym D";
+                return "Przyjaciel: Zrezygnowalbym na tym etapie, ale jesli mialbyc grac zaznaczylbym D";
                 break;
             case 3:
-                return "Obstawialbym C lub D";
+                return "Przyjaciel: Obstawialbym C lub D";
                 break;
             case 4:
-                return "Odrzucilbym B. Jednak moze to czas, by sie wycofac?";
+                return "Przyjaciel: Odrzucilbym B. Jednak moze to czas, by sie wycofac?";
                 break;
         }
     }

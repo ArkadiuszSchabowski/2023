@@ -45,8 +45,14 @@ class Lifelines {
     Audience() {
         buttons.btnAudience.addEventListener("click", () => {
             if (this.audience) {
-                this.result = randomNumberGenerator.SetRandomNumberForAudience();
-                this.questionWindow.innerHTML = `A: ${this.result[0]}%, B: ${this.result[1]}%, C: ${this.result[2]}%, D: ${this.result[3]}%.`;
+                if (this.fiftyFifty) {
+
+                    this.result = randomNumberGenerator.SetRandomNumberForAudience();
+                    this.questionWindow.innerHTML = `A: ${this.result[0]}%, B: ${this.result[1]}%, C: ${this.result[2]}%, D: ${this.result[3]}%.`;
+                }
+                else {
+                    this.questionWindow.innerHTML = "Tym razem glosy publicznosci dla kazdego przypadku wynosza dokladnie tyle samo %. Przed Toba ciezka decyzja."
+                }
                 buttons.btnAudience.style.backgroundColor = "red";
                 this.audience = false;
             }
@@ -56,13 +62,13 @@ class Lifelines {
     PhoneFriend() {
         buttons.btnPhone.addEventListener("click", () => {
             if (this.phone) {
-                if (this.fiftyFifty == true) {
+                if (this.fiftyFifty) {
                     this.result = randomNumberGenerator.SetRandomMessageForFriend();
                     console.log(this.result);
                     this.questionWindow.innerHTML = this.result;
                 }
-                if (this.fiftyFifty == false) {
-                    this.questionWindow.innerHTML = "Zostaly dwie odpowiedzi, ale niestety Ci nie pomoge. Moze sproboj zaryzkowac."
+                if (!this.fiftyFifty) {
+                    this.questionWindow.innerHTML = "Przyjaciel: Niestety niew wiem, nie pomoge. Moze sproboj zaryzkowac."
                 }
                 this.phone = false;
                 buttons.btnPhone.style.backgroundColor = "red";
