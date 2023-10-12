@@ -68,7 +68,7 @@ class Lifelines {
                     this.questionWindow.innerHTML = this.result;
                 }
                 if (!this.fiftyFifty) {
-                    this.questionWindow.innerHTML = "Przyjaciel: Niestety niew wiem, nie pomoge. Moze sproboj zaryzkowac."
+                    this.questionWindow.innerHTML = "Przyjaciel: Niestety nie wiem, nie pomoge. Moze sproboj zaryzkowac."
                 }
                 this.phone = false;
                 buttons.btnPhone.style.backgroundColor = "red";

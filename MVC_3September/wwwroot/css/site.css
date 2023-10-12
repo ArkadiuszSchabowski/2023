@@ -26,25 +26,28 @@ body {
     width: 100%;
     height: 100%;
 }
-#mainWindow{
+
+#mainWindow {
     display: flex;
     flex-direction: column;
     width: 60%;
     height: 100%;
 }
-#informationWindow{
-        display: flex;
-        width: 100%;
-        height: 35%;
-        background-color: blueviolet;
-        border: 20px solid rgb(73, 5, 118);
-        border-radius: 50px;
-        margin-bottom: 2%;
-        padding-top: 2%;
-        padding-left: 2%;
-        color: white;
-        font-size: 1.5rem;
+
+#informationWindow {
+    display: flex;
+    width: 100%;
+    height: 35%;
+    background-color: blueviolet;
+    border: 20px solid rgb(73, 5, 118);
+    border-radius: 50px;
+    margin-bottom: 2%;
+    padding-top: 2%;
+    padding-left: 2%;
+    color: white;
+    font-size: 1.5rem;
 }
+
 #mobileDiv {
     display: flex;
     height: 20%;
@@ -53,7 +56,6 @@ body {
     align-items: center;
     background-color: blueviolet;
     color: white;
-    border-left: 2px solid black;
     border-bottom: 2px solid black;
 }
 
@@ -63,13 +65,13 @@ body {
     align-items: center;
     text-align: center;
     width: 100%;
-    height: 40%;
+    height: 50%;
     background-color: blueviolet;
     border-bottom: 2px solid black;
     border-radius: 1px;
     padding-left: 2%;
     color: white;
-    font-size: 1rem;
+    font-size: 14px;
 }
 
 #buttons {
@@ -77,7 +79,7 @@ body {
     grid-template-columns: 1fr;
     background-color: blueviolet;
     width: 100%;
-    height: 40%;
+    height: 30%;
     justify-content: center;
     align-items: center;
 }
@@ -85,7 +87,7 @@ body {
 #btnA, #btnB, #btnC, #btnD, #btnResign {
     margin-left: 2%;
     width: 96%;
-    height: 40px;
+    height: 30px;
     background-color: rgb(73, 5, 118);
     color: white;
 }
@@ -99,8 +101,78 @@ body {
     border-left: 2px solid black;
 }
 
-@media screen and (min-width: 768px){
-    #container{
-    grid-template-columns: 2fr 1fr;
+#tabletDiv {
+    display: none;
+}
+
+#desktopDiv {
+    display: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    #container {
+        grid-template-columns: 2fr 1fr;
+    }
+
+    #mobileDiv {
+        display: none;
+    }
+
+    #tabletDiv {
+        display: flex;
+        height: 20%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        background-color: blueviolet;
+        color: white;
+        border-bottom: 2px solid black;
+    }
+
+    #questionWindow {
+        font-size: 18px;
+    }
+
+    #buttons {
+        display: flex;
+    }
+    #btnA, #btnB, #btnC, #btnD, #btnResign{
+        height: 85px;
+        width: 85px;
+        margin: 2px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #container {
+        grid-template-columns: 3fr 1fr;
+    }
+
+    #mobileDiv, tabletDiv {
+        display: none;
+    }
+
+    #questionWindow {
+        font-size: 24px;
+    }
+
+    #desktopDiv {
+        display: flex;
+        height: 20%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        background-color: blueviolet;
+        color: white;
+        border-bottom: 2px solid black;
+    }
+    #buttons {
+        display: flex;
+    }
+
+    #btnA, #btnB, #btnC, #btnD, #btnResign {
+        height: 100px;
+        width: 125px;
+        margin: 5px;
     }
 }
