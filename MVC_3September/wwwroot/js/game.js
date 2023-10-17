@@ -44,7 +44,6 @@ class Game {
         }
     }
     SetQuestionOnArrays = (data) => {
-        console.log(data);
         this.questions1 = [this.data[0], this.data[1]];
         this.questions2 = [this.data[2], this.data[3]];
         this.questions3 = [this.data[4], this.data[5]];
@@ -120,7 +119,6 @@ class Game {
         switch (this.questionNumber) {
             case 1:
                 this.balance = balance.SetStartBalance();
-                console.log(this.balance)
                 this.SetQuestionContent(questionData);
                 this.SetFirstQuestionListeners();
                 this.SetTheResignListener();
@@ -128,63 +126,54 @@ class Game {
             case 2:
                 this.RemoveFirstQuestionListeners();
                 this.balance = balance.SetCurrentBalance(500);
-                console.log(this.balance)
                 this.SetQuestionContent(questionData);
                 this.SetSecondQuestionListeners();
                 break;
             case 3:
                 this.RemoveSecondQuestionListeners();
                 this.balance = balance.SetCurrentBalance(2000);
-                console.log(this.balance)
                 this.SetQuestionContent(questionData);
                 this.SetThirdQuestionListeners();
                 break;
             case 4:
                 this.RemoveThirdQuestionListeners();
                 this.balance = balance.SetCurrentBalance(5000);
-                console.log(this.balance)
                 this.SetQuestionContent(questionData);
                 this.SetFourthQuestionListeners();
                 break;
             case 5:
                 this.RemoveFourthQuestionListeners();
                 this.balance = balance.SetCurrentBalance(10000);
-                console.log(this.balance)
                 this.SetQuestionContent(questionData);
                 this.SetFifthQuestionListeners();
                 break;
             case 6:
                 this.RemoveFifthQuestionListeners();
                 this.balance = balance.SetCurrentBalance(40000);
-                console.log(this.balance)
                 this.SetQuestionContent(questionData);
                 this.SetSixthQuestionListeners();
                 break;
             case 7:
                 this.RemoveSixthQuestionListeners();
                 this.balance = balance.SetCurrentBalance(75000);
-                console.log(this.balance)
                 this.SetQuestionContent(questionData);
                 this.SetSeventhQuestionListeners();
                 break;
             case 8:
                 this.RemoveSeventhQuestionListeners();
                 this.balance = balance.SetCurrentBalance(150000);
-                console.log(this.balance)
                 this.SetQuestionContent(questionData);
                 this.SetEighthQuestionListeners();
                 break;
             case 9:
                 this.RemoveEighthQuestionListeners();
                 this.balance = balance.SetCurrentBalance(250000);
-                console.log(this.balance)
                 this.SetQuestionContent(questionData);
                 this.SetNinethQuestionListeners();
                 break;
             case 10:
                 this.RemoveNinethQuestionListeners();
                 this.balance = balance.SetCurrentBalance(500000);
-                console.log(this.balance)
                 this.SetQuestionContent(questionData);
                 this.SetTenthQuestionListeners();
                 break;
@@ -196,9 +185,8 @@ class Game {
         buttons.SetDefaultTextForButtons();
 
         this.balance = balance.SetCurrentBalance(1000000);
-        console.log(this.balance)
 
-        this.questionWindow.innerHTML = ` Odpowiedziales poprawnie na wszystkie pytania! Wygrywasz ${this.balance} zl!!!`;
+        this.questionWindow.innerHTML = `Odpowiedziales poprawnie na wszystkie pytania! Wygrywasz ${this.balance} zl!!!`;
 
     }
 
@@ -247,7 +235,6 @@ class Game {
         this.btnD.innerHTML = questionData[this.randomNumber].answers[3];
 
         this.correctedIndex = questionData[this.randomNumber].correctAnswerIndex;
-        console.log(this.correctedIndex);
 
         this.questionNumber++;
     }

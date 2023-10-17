@@ -1,0 +1,7 @@
+C:\Users\arkad\Desktop\2023B\Delegaty\bin\Debug\Delegaty.exe.config
+C:\Users\arkad\Desktop\2023B\Delegaty\bin\Debug\Delegaty.exe
+C:\Users\arkad\Desktop\2023B\Delegaty\bin\Debug\Delegaty.pdb
+C:\Users\arkad\Desktop\2023B\Delegaty\obj\Debug\Delegaty.csproj.AssemblyReference.cache
+C:\Users\arkad\Desktop\2023B\Delegaty\obj\Debug\Delegaty.csproj.CoreCompileInputs.cache
+C:\Users\arkad\Desktop\2023B\Delegaty\obj\Debug\Delegaty.exe
+C:\Users\arkad\Desktop\2023B\Delegaty\obj\Debug\Delegaty.pdb

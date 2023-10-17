@@ -1,0 +1,7 @@
+C:\Users\arkad\Desktop\2023B\AccessModifiers\bin\Debug\AccessModifiers.exe.config
+C:\Users\arkad\Desktop\2023B\AccessModifiers\bin\Debug\AccessModifiers.exe
+C:\Users\arkad\Desktop\2023B\AccessModifiers\bin\Debug\AccessModifiers.pdb
+C:\Users\arkad\Desktop\2023B\AccessModifiers\obj\Debug\AccessModifiers.csproj.AssemblyReference.cache
+C:\Users\arkad\Desktop\2023B\AccessModifiers\obj\Debug\AccessModifiers.csproj.CoreCompileInputs.cache
+C:\Users\arkad\Desktop\2023B\AccessModifiers\obj\Debug\AccessModifiers.exe
+C:\Users\arkad\Desktop\2023B\AccessModifiers\obj\Debug\AccessModifiers.pdb

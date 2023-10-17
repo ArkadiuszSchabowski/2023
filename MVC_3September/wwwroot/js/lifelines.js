@@ -64,7 +64,6 @@ class Lifelines {
             if (this.phone) {
                 if (this.fiftyFifty) {
                     this.result = randomNumberGenerator.SetRandomMessageForFriend();
-                    console.log(this.result);
                     this.questionWindow.innerHTML = this.result;
                 }
                 if (!this.fiftyFifty) {
