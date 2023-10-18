@@ -1,0 +1,7 @@
+C:\Users\arkad\Desktop\2023B\PolimorfizmX\bin\Debug\PolimorfizmX.exe.config
+C:\Users\arkad\Desktop\2023B\PolimorfizmX\bin\Debug\PolimorfizmX.exe
+C:\Users\arkad\Desktop\2023B\PolimorfizmX\bin\Debug\PolimorfizmX.pdb
+C:\Users\arkad\Desktop\2023B\PolimorfizmX\obj\Debug\PolimorfizmX.csproj.AssemblyReference.cache
+C:\Users\arkad\Desktop\2023B\PolimorfizmX\obj\Debug\PolimorfizmX.csproj.CoreCompileInputs.cache
+C:\Users\arkad\Desktop\2023B\PolimorfizmX\obj\Debug\PolimorfizmX.exe
+C:\Users\arkad\Desktop\2023B\PolimorfizmX\obj\Debug\PolimorfizmX.pdb
