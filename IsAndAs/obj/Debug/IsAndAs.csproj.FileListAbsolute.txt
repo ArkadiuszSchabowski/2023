@@ -1,0 +1,7 @@
+C:\Users\arkad\Desktop\2023B\IsAndAs\bin\Debug\IsAndAs.exe.config
+C:\Users\arkad\Desktop\2023B\IsAndAs\bin\Debug\IsAndAs.exe
+C:\Users\arkad\Desktop\2023B\IsAndAs\bin\Debug\IsAndAs.pdb
+C:\Users\arkad\Desktop\2023B\IsAndAs\obj\Debug\IsAndAs.csproj.AssemblyReference.cache
+C:\Users\arkad\Desktop\2023B\IsAndAs\obj\Debug\IsAndAs.csproj.CoreCompileInputs.cache
+C:\Users\arkad\Desktop\2023B\IsAndAs\obj\Debug\IsAndAs.exe
+C:\Users\arkad\Desktop\2023B\IsAndAs\obj\Debug\IsAndAs.pdb
