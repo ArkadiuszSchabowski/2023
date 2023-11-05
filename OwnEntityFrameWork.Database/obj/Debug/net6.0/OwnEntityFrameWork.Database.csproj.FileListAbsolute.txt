@@ -1,0 +1,5 @@
+C:\Users\arkad\Desktop\2023B\OwnEntityFrameWork.Database\obj\Debug\net6.0\OwnEntityFrameWork.Database.csproj.AssemblyReference.cache
+C:\Users\arkad\Desktop\2023B\OwnEntityFrameWork.Database\obj\Debug\net6.0\OwnEntityFrameWork.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arkad\Desktop\2023B\OwnEntityFrameWork.Database\obj\Debug\net6.0\OwnEntityFrameWork.Database.AssemblyInfoInputs.cache
+C:\Users\arkad\Desktop\2023B\OwnEntityFrameWork.Database\obj\Debug\net6.0\OwnEntityFrameWork.Database.AssemblyInfo.cs
+C:\Users\arkad\Desktop\2023B\OwnEntityFrameWork.Database\obj\Debug\net6.0\OwnEntityFrameWork.Database.csproj.CoreCompileInputs.cache

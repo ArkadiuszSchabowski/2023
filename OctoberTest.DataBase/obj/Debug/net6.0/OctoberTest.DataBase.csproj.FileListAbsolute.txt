@@ -1,0 +1,12 @@
+C:\Users\arkad\Desktop\2023B\OctoberTest.DataBase\bin\Debug\net6.0\OctoberTest.DataBase.deps.json
+C:\Users\arkad\Desktop\2023B\OctoberTest.DataBase\bin\Debug\net6.0\OctoberTest.DataBase.dll
+C:\Users\arkad\Desktop\2023B\OctoberTest.DataBase\bin\Debug\net6.0\OctoberTest.DataBase.pdb
+C:\Users\arkad\Desktop\2023B\OctoberTest.DataBase\obj\Debug\net6.0\OctoberTest.DataBase.csproj.AssemblyReference.cache
+C:\Users\arkad\Desktop\2023B\OctoberTest.DataBase\obj\Debug\net6.0\OctoberTest.DataBase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arkad\Desktop\2023B\OctoberTest.DataBase\obj\Debug\net6.0\OctoberTest.DataBase.AssemblyInfoInputs.cache
+C:\Users\arkad\Desktop\2023B\OctoberTest.DataBase\obj\Debug\net6.0\OctoberTest.DataBase.AssemblyInfo.cs
+C:\Users\arkad\Desktop\2023B\OctoberTest.DataBase\obj\Debug\net6.0\OctoberTest.DataBase.csproj.CoreCompileInputs.cache
+C:\Users\arkad\Desktop\2023B\OctoberTest.DataBase\obj\Debug\net6.0\OctoberTest.DataBase.dll
+C:\Users\arkad\Desktop\2023B\OctoberTest.DataBase\obj\Debug\net6.0\refint\OctoberTest.DataBase.dll
+C:\Users\arkad\Desktop\2023B\OctoberTest.DataBase\obj\Debug\net6.0\OctoberTest.DataBase.pdb
+C:\Users\arkad\Desktop\2023B\OctoberTest.DataBase\obj\Debug\net6.0\ref\OctoberTest.DataBase.dll

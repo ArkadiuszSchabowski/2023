@@ -1,0 +1,1 @@
+﻿let databaseDiv = document.getElementById("databaseDiv");

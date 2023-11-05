@@ -1,0 +1,34 @@
+﻿@model List<OctoberTest.DataBase.Animal>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tytuł Strony</title>
+</head>
+<body>
+    <div id="databaseDiv">
+            <div id="nameDiv">Name
+                <div id="nameRecord">
+            @foreach (var animal in Model)
+            {
+                <div>@animal.Name</div>
+            }
+            </div>
+            </div>
+            <div id="predatorDiv">Predator
+                <div id="predatorRecord">
+                @foreach (var animal in Model)
+                {
+                    <div>@animal.Predator</div>
+                }
+                </div>
+            </div>
+    </div>
+</body>
+</html>

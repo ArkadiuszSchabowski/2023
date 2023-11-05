@@ -1,0 +1,11 @@
+C:\Users\arkad\Desktop\2023B\ConsoleApp_Common\bin\Debug\net6.0\ConsoleApp2_Common.deps.json
+C:\Users\arkad\Desktop\2023B\ConsoleApp_Common\bin\Debug\net6.0\ConsoleApp2_Common.dll
+C:\Users\arkad\Desktop\2023B\ConsoleApp_Common\bin\Debug\net6.0\ConsoleApp2_Common.pdb
+C:\Users\arkad\Desktop\2023B\ConsoleApp_Common\obj\Debug\net6.0\ConsoleApp2_Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arkad\Desktop\2023B\ConsoleApp_Common\obj\Debug\net6.0\ConsoleApp2_Common.AssemblyInfoInputs.cache
+C:\Users\arkad\Desktop\2023B\ConsoleApp_Common\obj\Debug\net6.0\ConsoleApp2_Common.AssemblyInfo.cs
+C:\Users\arkad\Desktop\2023B\ConsoleApp_Common\obj\Debug\net6.0\ConsoleApp2_Common.csproj.CoreCompileInputs.cache
+C:\Users\arkad\Desktop\2023B\ConsoleApp_Common\obj\Debug\net6.0\ConsoleApp2_Common.dll
+C:\Users\arkad\Desktop\2023B\ConsoleApp_Common\obj\Debug\net6.0\refint\ConsoleApp2_Common.dll
+C:\Users\arkad\Desktop\2023B\ConsoleApp_Common\obj\Debug\net6.0\ConsoleApp2_Common.pdb
+C:\Users\arkad\Desktop\2023B\ConsoleApp_Common\obj\Debug\net6.0\ref\ConsoleApp2_Common.dll

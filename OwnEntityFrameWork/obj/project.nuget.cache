@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "aCfo2scoXk2NMkmonRW0DIShle1iTkHhnmKkd2e8Q0ygpc4hS4AsmewZyGiPH10kxuKo9rTXE6k5kSovUGOVLQ==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\arkad\\Desktop\\2023B\\OwnEntityFrameWork\\OwnEntityFrameWork.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\arkad\\Desktop\\2023B\\OwnEntityFrameWork.Database\\OwnEntityFrameWork.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\arkad\\Desktop\\2023B\\OwnEntityFrameWork.Database\\OwnEntityFrameWork.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

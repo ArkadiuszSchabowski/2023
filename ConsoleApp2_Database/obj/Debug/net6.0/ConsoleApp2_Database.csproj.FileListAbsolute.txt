@@ -1,0 +1,15 @@
+C:\Users\arkad\Desktop\2023B\ConsoleApp2_Database\bin\Debug\net6.0\ConsoleApp2_Database.deps.json
+C:\Users\arkad\Desktop\2023B\ConsoleApp2_Database\bin\Debug\net6.0\ConsoleApp2_Database.dll
+C:\Users\arkad\Desktop\2023B\ConsoleApp2_Database\bin\Debug\net6.0\ConsoleApp2_Database.pdb
+C:\Users\arkad\Desktop\2023B\ConsoleApp2_Database\bin\Debug\net6.0\ConsoleApp2_Common.dll
+C:\Users\arkad\Desktop\2023B\ConsoleApp2_Database\bin\Debug\net6.0\ConsoleApp2_Common.pdb
+C:\Users\arkad\Desktop\2023B\ConsoleApp2_Database\obj\Debug\net6.0\ConsoleApp2_Database.csproj.AssemblyReference.cache
+C:\Users\arkad\Desktop\2023B\ConsoleApp2_Database\obj\Debug\net6.0\ConsoleApp2_Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arkad\Desktop\2023B\ConsoleApp2_Database\obj\Debug\net6.0\ConsoleApp2_Database.AssemblyInfoInputs.cache
+C:\Users\arkad\Desktop\2023B\ConsoleApp2_Database\obj\Debug\net6.0\ConsoleApp2_Database.AssemblyInfo.cs
+C:\Users\arkad\Desktop\2023B\ConsoleApp2_Database\obj\Debug\net6.0\ConsoleApp2_Database.csproj.CoreCompileInputs.cache
+C:\Users\arkad\Desktop\2023B\ConsoleApp2_Database\obj\Debug\net6.0\ConsoleApp2_Database.csproj.CopyComplete
+C:\Users\arkad\Desktop\2023B\ConsoleApp2_Database\obj\Debug\net6.0\ConsoleApp2_Database.dll
+C:\Users\arkad\Desktop\2023B\ConsoleApp2_Database\obj\Debug\net6.0\refint\ConsoleApp2_Database.dll
+C:\Users\arkad\Desktop\2023B\ConsoleApp2_Database\obj\Debug\net6.0\ConsoleApp2_Database.pdb
+C:\Users\arkad\Desktop\2023B\ConsoleApp2_Database\obj\Debug\net6.0\ref\ConsoleApp2_Database.dll

@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="databaseDiv">
+        @foreach (var item in Model)
+        {
+            <p>@item.ID</p>
+            <p>@item.Name</p>
+            <p>@item.Predator</p>
+            <!-- Inne informacje z bazy danych -->
+        }
+    </div>
+</body>
+</html>
+

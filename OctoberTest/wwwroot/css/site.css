@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+#databaseDiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#nameDiv {
+    background-color: orangered;
+    font-size: 20px;
+    font-weight: bold;
+}
+#nameRecord{
+    font-size: 14px;
+}
+#predatorDiv {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+#predatorRecord {
+    font-size: 14px;
+}

@@ -1,0 +1,17 @@
+C:\Users\arkad\Desktop\2023B\ExamMVCDatabase.Database\bin\Debug\net6.0\ExamMVCDatabase.Database.deps.json
+C:\Users\arkad\Desktop\2023B\ExamMVCDatabase.Database\bin\Debug\net6.0\ExamMVCDatabase.Database.runtimeconfig.json
+C:\Users\arkad\Desktop\2023B\ExamMVCDatabase.Database\bin\Debug\net6.0\ExamMVCDatabase.Database.dll
+C:\Users\arkad\Desktop\2023B\ExamMVCDatabase.Database\bin\Debug\net6.0\ExamMVCDatabase.Database.pdb
+C:\Users\arkad\Desktop\2023B\ExamMVCDatabase.Database\bin\Debug\net6.0\ExamMVCDatabase.TestModel.dll
+C:\Users\arkad\Desktop\2023B\ExamMVCDatabase.Database\bin\Debug\net6.0\ExamMVCDatabase.TestModel.pdb
+C:\Users\arkad\Desktop\2023B\ExamMVCDatabase.Database\obj\Debug\net6.0\ExamMVCDatabase.Database.csproj.AssemblyReference.cache
+C:\Users\arkad\Desktop\2023B\ExamMVCDatabase.Database\obj\Debug\net6.0\ExamMVCDatabase.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arkad\Desktop\2023B\ExamMVCDatabase.Database\obj\Debug\net6.0\ExamMVCDatabase.Database.AssemblyInfoInputs.cache
+C:\Users\arkad\Desktop\2023B\ExamMVCDatabase.Database\obj\Debug\net6.0\ExamMVCDatabase.Database.AssemblyInfo.cs
+C:\Users\arkad\Desktop\2023B\ExamMVCDatabase.Database\obj\Debug\net6.0\ExamMVCDatabase.Database.csproj.CoreCompileInputs.cache
+C:\Users\arkad\Desktop\2023B\ExamMVCDatabase.Database\obj\Debug\net6.0\ExamMVCDatabase.Database.csproj.CopyComplete
+C:\Users\arkad\Desktop\2023B\ExamMVCDatabase.Database\obj\Debug\net6.0\ExamMVCDatabase.Database.dll
+C:\Users\arkad\Desktop\2023B\ExamMVCDatabase.Database\obj\Debug\net6.0\refint\ExamMVCDatabase.Database.dll
+C:\Users\arkad\Desktop\2023B\ExamMVCDatabase.Database\obj\Debug\net6.0\ExamMVCDatabase.Database.pdb
+C:\Users\arkad\Desktop\2023B\ExamMVCDatabase.Database\obj\Debug\net6.0\ExamMVCDatabase.Database.genruntimeconfig.cache
+C:\Users\arkad\Desktop\2023B\ExamMVCDatabase.Database\obj\Debug\net6.0\ref\ExamMVCDatabase.Database.dll

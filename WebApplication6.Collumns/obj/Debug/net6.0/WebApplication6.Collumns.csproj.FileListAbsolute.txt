@@ -1,0 +1,11 @@
+C:\Users\arkad\Desktop\2023B\WebApplication6.Collumns\bin\Debug\net6.0\WebApplication6.Collumns.deps.json
+C:\Users\arkad\Desktop\2023B\WebApplication6.Collumns\bin\Debug\net6.0\WebApplication6.Collumns.dll
+C:\Users\arkad\Desktop\2023B\WebApplication6.Collumns\bin\Debug\net6.0\WebApplication6.Collumns.pdb
+C:\Users\arkad\Desktop\2023B\WebApplication6.Collumns\obj\Debug\net6.0\WebApplication6.Collumns.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arkad\Desktop\2023B\WebApplication6.Collumns\obj\Debug\net6.0\WebApplication6.Collumns.AssemblyInfoInputs.cache
+C:\Users\arkad\Desktop\2023B\WebApplication6.Collumns\obj\Debug\net6.0\WebApplication6.Collumns.AssemblyInfo.cs
+C:\Users\arkad\Desktop\2023B\WebApplication6.Collumns\obj\Debug\net6.0\WebApplication6.Collumns.csproj.CoreCompileInputs.cache
+C:\Users\arkad\Desktop\2023B\WebApplication6.Collumns\obj\Debug\net6.0\WebApplication6.Collumns.dll
+C:\Users\arkad\Desktop\2023B\WebApplication6.Collumns\obj\Debug\net6.0\refint\WebApplication6.Collumns.dll
+C:\Users\arkad\Desktop\2023B\WebApplication6.Collumns\obj\Debug\net6.0\WebApplication6.Collumns.pdb
+C:\Users\arkad\Desktop\2023B\WebApplication6.Collumns\obj\Debug\net6.0\ref\WebApplication6.Collumns.dll

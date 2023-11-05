@@ -1,0 +1,14 @@
+C:\Users\arkad\Desktop\2023B\Connect.Database\bin\Debug\net6.0\Connect.Database.deps.json
+C:\Users\arkad\Desktop\2023B\Connect.Database\bin\Debug\net6.0\Connect.Database.runtimeconfig.json
+C:\Users\arkad\Desktop\2023B\Connect.Database\bin\Debug\net6.0\Connect.Database.dll
+C:\Users\arkad\Desktop\2023B\Connect.Database\bin\Debug\net6.0\Connect.Database.pdb
+C:\Users\arkad\Desktop\2023B\Connect.Database\obj\Debug\net6.0\Connect.Database.csproj.AssemblyReference.cache
+C:\Users\arkad\Desktop\2023B\Connect.Database\obj\Debug\net6.0\Connect.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arkad\Desktop\2023B\Connect.Database\obj\Debug\net6.0\Connect.Database.AssemblyInfoInputs.cache
+C:\Users\arkad\Desktop\2023B\Connect.Database\obj\Debug\net6.0\Connect.Database.AssemblyInfo.cs
+C:\Users\arkad\Desktop\2023B\Connect.Database\obj\Debug\net6.0\Connect.Database.csproj.CoreCompileInputs.cache
+C:\Users\arkad\Desktop\2023B\Connect.Database\obj\Debug\net6.0\Connect.Database.dll
+C:\Users\arkad\Desktop\2023B\Connect.Database\obj\Debug\net6.0\refint\Connect.Database.dll
+C:\Users\arkad\Desktop\2023B\Connect.Database\obj\Debug\net6.0\Connect.Database.pdb
+C:\Users\arkad\Desktop\2023B\Connect.Database\obj\Debug\net6.0\Connect.Database.genruntimeconfig.cache
+C:\Users\arkad\Desktop\2023B\Connect.Database\obj\Debug\net6.0\ref\Connect.Database.dll

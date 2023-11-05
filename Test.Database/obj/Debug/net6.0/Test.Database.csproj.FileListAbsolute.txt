@@ -1,0 +1,14 @@
+C:\Users\arkad\Desktop\2023B\Test.Database\bin\Debug\net6.0\Test.Database.deps.json
+C:\Users\arkad\Desktop\2023B\Test.Database\bin\Debug\net6.0\Test.Database.runtimeconfig.json
+C:\Users\arkad\Desktop\2023B\Test.Database\bin\Debug\net6.0\Test.Database.dll
+C:\Users\arkad\Desktop\2023B\Test.Database\bin\Debug\net6.0\Test.Database.pdb
+C:\Users\arkad\Desktop\2023B\Test.Database\obj\Debug\net6.0\Test.Database.csproj.AssemblyReference.cache
+C:\Users\arkad\Desktop\2023B\Test.Database\obj\Debug\net6.0\Test.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arkad\Desktop\2023B\Test.Database\obj\Debug\net6.0\Test.Database.AssemblyInfoInputs.cache
+C:\Users\arkad\Desktop\2023B\Test.Database\obj\Debug\net6.0\Test.Database.AssemblyInfo.cs
+C:\Users\arkad\Desktop\2023B\Test.Database\obj\Debug\net6.0\Test.Database.csproj.CoreCompileInputs.cache
+C:\Users\arkad\Desktop\2023B\Test.Database\obj\Debug\net6.0\Test.Database.dll
+C:\Users\arkad\Desktop\2023B\Test.Database\obj\Debug\net6.0\refint\Test.Database.dll
+C:\Users\arkad\Desktop\2023B\Test.Database\obj\Debug\net6.0\Test.Database.pdb
+C:\Users\arkad\Desktop\2023B\Test.Database\obj\Debug\net6.0\Test.Database.genruntimeconfig.cache
+C:\Users\arkad\Desktop\2023B\Test.Database\obj\Debug\net6.0\ref\Test.Database.dll

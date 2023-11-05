@@ -1,0 +1,14 @@
+C:\Users\arkad\Desktop\2023B\ExamMVCDatabase.TestModel\bin\Debug\net6.0\ExamMVCDatabase.TestModel.deps.json
+C:\Users\arkad\Desktop\2023B\ExamMVCDatabase.TestModel\bin\Debug\net6.0\ExamMVCDatabase.TestModel.runtimeconfig.json
+C:\Users\arkad\Desktop\2023B\ExamMVCDatabase.TestModel\bin\Debug\net6.0\ExamMVCDatabase.TestModel.dll
+C:\Users\arkad\Desktop\2023B\ExamMVCDatabase.TestModel\bin\Debug\net6.0\ExamMVCDatabase.TestModel.pdb
+C:\Users\arkad\Desktop\2023B\ExamMVCDatabase.TestModel\obj\Debug\net6.0\ExamMVCDatabase.TestModel.csproj.AssemblyReference.cache
+C:\Users\arkad\Desktop\2023B\ExamMVCDatabase.TestModel\obj\Debug\net6.0\ExamMVCDatabase.TestModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arkad\Desktop\2023B\ExamMVCDatabase.TestModel\obj\Debug\net6.0\ExamMVCDatabase.TestModel.AssemblyInfoInputs.cache
+C:\Users\arkad\Desktop\2023B\ExamMVCDatabase.TestModel\obj\Debug\net6.0\ExamMVCDatabase.TestModel.AssemblyInfo.cs
+C:\Users\arkad\Desktop\2023B\ExamMVCDatabase.TestModel\obj\Debug\net6.0\ExamMVCDatabase.TestModel.csproj.CoreCompileInputs.cache
+C:\Users\arkad\Desktop\2023B\ExamMVCDatabase.TestModel\obj\Debug\net6.0\ExamMVCDatabase.TestModel.dll
+C:\Users\arkad\Desktop\2023B\ExamMVCDatabase.TestModel\obj\Debug\net6.0\refint\ExamMVCDatabase.TestModel.dll
+C:\Users\arkad\Desktop\2023B\ExamMVCDatabase.TestModel\obj\Debug\net6.0\ExamMVCDatabase.TestModel.pdb
+C:\Users\arkad\Desktop\2023B\ExamMVCDatabase.TestModel\obj\Debug\net6.0\ExamMVCDatabase.TestModel.genruntimeconfig.cache
+C:\Users\arkad\Desktop\2023B\ExamMVCDatabase.TestModel\obj\Debug\net6.0\ref\ExamMVCDatabase.TestModel.dll
