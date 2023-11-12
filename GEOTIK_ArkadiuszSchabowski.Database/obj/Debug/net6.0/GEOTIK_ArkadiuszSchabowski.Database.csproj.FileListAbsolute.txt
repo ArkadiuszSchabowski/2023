@@ -1,0 +1,12 @@
+C:\Users\arkad\Desktop\2023B\GEOTIK_ArkadiuszSchabowski.Database\bin\Debug\net6.0\GEOTIK_ArkadiuszSchabowski.Database.deps.json
+C:\Users\arkad\Desktop\2023B\GEOTIK_ArkadiuszSchabowski.Database\bin\Debug\net6.0\GEOTIK_ArkadiuszSchabowski.Database.dll
+C:\Users\arkad\Desktop\2023B\GEOTIK_ArkadiuszSchabowski.Database\bin\Debug\net6.0\GEOTIK_ArkadiuszSchabowski.Database.pdb
+C:\Users\arkad\Desktop\2023B\GEOTIK_ArkadiuszSchabowski.Database\obj\Debug\net6.0\GEOTIK_ArkadiuszSchabowski.Database.csproj.AssemblyReference.cache
+C:\Users\arkad\Desktop\2023B\GEOTIK_ArkadiuszSchabowski.Database\obj\Debug\net6.0\GEOTIK_ArkadiuszSchabowski.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arkad\Desktop\2023B\GEOTIK_ArkadiuszSchabowski.Database\obj\Debug\net6.0\GEOTIK_ArkadiuszSchabowski.Database.AssemblyInfoInputs.cache
+C:\Users\arkad\Desktop\2023B\GEOTIK_ArkadiuszSchabowski.Database\obj\Debug\net6.0\GEOTIK_ArkadiuszSchabowski.Database.AssemblyInfo.cs
+C:\Users\arkad\Desktop\2023B\GEOTIK_ArkadiuszSchabowski.Database\obj\Debug\net6.0\GEOTIK_ArkadiuszSchabowski.Database.csproj.CoreCompileInputs.cache
+C:\Users\arkad\Desktop\2023B\GEOTIK_ArkadiuszSchabowski.Database\obj\Debug\net6.0\GEOTIK_ArkadiuszSchabowski.Database.dll
+C:\Users\arkad\Desktop\2023B\GEOTIK_ArkadiuszSchabowski.Database\obj\Debug\net6.0\refint\GEOTIK_ArkadiuszSchabowski.Database.dll
+C:\Users\arkad\Desktop\2023B\GEOTIK_ArkadiuszSchabowski.Database\obj\Debug\net6.0\GEOTIK_ArkadiuszSchabowski.Database.pdb
+C:\Users\arkad\Desktop\2023B\GEOTIK_ArkadiuszSchabowski.Database\obj\Debug\net6.0\ref\GEOTIK_ArkadiuszSchabowski.Database.dll

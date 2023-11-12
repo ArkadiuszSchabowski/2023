@@ -1,0 +1,14 @@
+C:\Users\arkad\Desktop\2023B\DEPENDENCY.Database\bin\Debug\net6.0\DEPENDENCY.Database.deps.json
+C:\Users\arkad\Desktop\2023B\DEPENDENCY.Database\bin\Debug\net6.0\DEPENDENCY.Database.dll
+C:\Users\arkad\Desktop\2023B\DEPENDENCY.Database\bin\Debug\net6.0\DEPENDENCY.Database.pdb
+C:\Users\arkad\Desktop\2023B\DEPENDENCY.Database\obj\Debug\net6.0\DEPENDENCY.Database.csproj.AssemblyReference.cache
+C:\Users\arkad\Desktop\2023B\DEPENDENCY.Database\obj\Debug\net6.0\DEPENDENCY.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arkad\Desktop\2023B\DEPENDENCY.Database\obj\Debug\net6.0\DEPENDENCY.Database.AssemblyInfoInputs.cache
+C:\Users\arkad\Desktop\2023B\DEPENDENCY.Database\obj\Debug\net6.0\DEPENDENCY.Database.AssemblyInfo.cs
+C:\Users\arkad\Desktop\2023B\DEPENDENCY.Database\obj\Debug\net6.0\DEPENDENCY.Database.csproj.CoreCompileInputs.cache
+C:\Users\arkad\Desktop\2023B\DEPENDENCY.Database\obj\Debug\net6.0\DEPENDENCY.Database.dll
+C:\Users\arkad\Desktop\2023B\DEPENDENCY.Database\obj\Debug\net6.0\refint\DEPENDENCY.Database.dll
+C:\Users\arkad\Desktop\2023B\DEPENDENCY.Database\obj\Debug\net6.0\DEPENDENCY.Database.pdb
+C:\Users\arkad\Desktop\2023B\DEPENDENCY.Database\obj\Debug\net6.0\ref\DEPENDENCY.Database.dll
+C:\Users\arkad\Desktop\2023B\DEPENDENCY.Database\bin\Debug\net6.0\DEPENDENCY.Database.runtimeconfig.json
+C:\Users\arkad\Desktop\2023B\DEPENDENCY.Database\obj\Debug\net6.0\DEPENDENCY.Database.genruntimeconfig.cache

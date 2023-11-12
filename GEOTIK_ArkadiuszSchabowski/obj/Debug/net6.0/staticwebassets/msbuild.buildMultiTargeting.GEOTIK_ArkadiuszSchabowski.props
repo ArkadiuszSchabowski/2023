@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\GEOTIK_ArkadiuszSchabowski.props" />
+</Project>

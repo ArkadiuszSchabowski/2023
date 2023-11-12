@@ -1,0 +1,14 @@
+C:\Users\arkad\Desktop\2023B\WithoutDI.Database\bin\Debug\net6.0\WithoutDI.Database.deps.json
+C:\Users\arkad\Desktop\2023B\WithoutDI.Database\bin\Debug\net6.0\WithoutDI.Database.runtimeconfig.json
+C:\Users\arkad\Desktop\2023B\WithoutDI.Database\bin\Debug\net6.0\WithoutDI.Database.dll
+C:\Users\arkad\Desktop\2023B\WithoutDI.Database\bin\Debug\net6.0\WithoutDI.Database.pdb
+C:\Users\arkad\Desktop\2023B\WithoutDI.Database\obj\Debug\net6.0\WithoutDI.Database.csproj.AssemblyReference.cache
+C:\Users\arkad\Desktop\2023B\WithoutDI.Database\obj\Debug\net6.0\WithoutDI.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arkad\Desktop\2023B\WithoutDI.Database\obj\Debug\net6.0\WithoutDI.Database.AssemblyInfoInputs.cache
+C:\Users\arkad\Desktop\2023B\WithoutDI.Database\obj\Debug\net6.0\WithoutDI.Database.AssemblyInfo.cs
+C:\Users\arkad\Desktop\2023B\WithoutDI.Database\obj\Debug\net6.0\WithoutDI.Database.csproj.CoreCompileInputs.cache
+C:\Users\arkad\Desktop\2023B\WithoutDI.Database\obj\Debug\net6.0\WithoutDI.Database.dll
+C:\Users\arkad\Desktop\2023B\WithoutDI.Database\obj\Debug\net6.0\refint\WithoutDI.Database.dll
+C:\Users\arkad\Desktop\2023B\WithoutDI.Database\obj\Debug\net6.0\WithoutDI.Database.pdb
+C:\Users\arkad\Desktop\2023B\WithoutDI.Database\obj\Debug\net6.0\WithoutDI.Database.genruntimeconfig.cache
+C:\Users\arkad\Desktop\2023B\WithoutDI.Database\obj\Debug\net6.0\ref\WithoutDI.Database.dll

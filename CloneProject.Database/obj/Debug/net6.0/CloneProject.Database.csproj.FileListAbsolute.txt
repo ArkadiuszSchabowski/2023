@@ -1,0 +1,12 @@
+C:\Users\arkad\Desktop\2023B\CloneProject.Database\bin\Debug\net6.0\CloneProject.Database.deps.json
+C:\Users\arkad\Desktop\2023B\CloneProject.Database\bin\Debug\net6.0\CloneProject.Database.dll
+C:\Users\arkad\Desktop\2023B\CloneProject.Database\bin\Debug\net6.0\CloneProject.Database.pdb
+C:\Users\arkad\Desktop\2023B\CloneProject.Database\obj\Debug\net6.0\CloneProject.Database.csproj.AssemblyReference.cache
+C:\Users\arkad\Desktop\2023B\CloneProject.Database\obj\Debug\net6.0\CloneProject.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arkad\Desktop\2023B\CloneProject.Database\obj\Debug\net6.0\CloneProject.Database.AssemblyInfoInputs.cache
+C:\Users\arkad\Desktop\2023B\CloneProject.Database\obj\Debug\net6.0\CloneProject.Database.AssemblyInfo.cs
+C:\Users\arkad\Desktop\2023B\CloneProject.Database\obj\Debug\net6.0\CloneProject.Database.csproj.CoreCompileInputs.cache
+C:\Users\arkad\Desktop\2023B\CloneProject.Database\obj\Debug\net6.0\CloneProject.Database.dll
+C:\Users\arkad\Desktop\2023B\CloneProject.Database\obj\Debug\net6.0\refint\CloneProject.Database.dll
+C:\Users\arkad\Desktop\2023B\CloneProject.Database\obj\Debug\net6.0\CloneProject.Database.pdb
+C:\Users\arkad\Desktop\2023B\CloneProject.Database\obj\Debug\net6.0\ref\CloneProject.Database.dll

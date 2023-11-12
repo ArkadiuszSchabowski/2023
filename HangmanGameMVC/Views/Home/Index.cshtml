@@ -2,6 +2,8 @@
     ViewData["Title"] = "Home Page";
 }
 
+@model List<HangmanGameMVC.Database.HangmanDatabase>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,9 +16,13 @@
         <div id="scoreDiv">
             <label id="score"></label>
             <label id="hint">Wskazówka</label>
-            </div>
+        </div>
         <div id="keyboardDiv"></div>
         <div id="userInputDiv"><input type="text" id="userInput"></div>
     </div>
+    <script>
+        var jsonData = @(Json.Serialize(Model));
+        console.log(jsonData);
+    </script>
 </body>
 </html>

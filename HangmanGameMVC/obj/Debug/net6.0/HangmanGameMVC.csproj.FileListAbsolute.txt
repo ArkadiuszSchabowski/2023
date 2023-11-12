@@ -87,3 +87,4 @@ C:\Users\arkad\Desktop\2023B\HangmanGameMVC\bin\Debug\net6.0\System.CodeDom.dll
 C:\Users\arkad\Desktop\2023B\HangmanGameMVC\bin\Debug\net6.0\System.Text.Encodings.Web.dll
 C:\Users\arkad\Desktop\2023B\HangmanGameMVC\bin\Debug\net6.0\System.Text.Json.dll
 C:\Users\arkad\Desktop\2023B\HangmanGameMVC\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\arkad\Desktop\2023B\HangmanGameMVC\bin\Debug\net6.0\Newtonsoft.Json.dll

@@ -1,0 +1,14 @@
+C:\Users\arkad\Desktop\2023B\DI2.Database\bin\Debug\net6.0\DI2.Database.deps.json
+C:\Users\arkad\Desktop\2023B\DI2.Database\bin\Debug\net6.0\DI2.Database.runtimeconfig.json
+C:\Users\arkad\Desktop\2023B\DI2.Database\bin\Debug\net6.0\DI2.Database.dll
+C:\Users\arkad\Desktop\2023B\DI2.Database\bin\Debug\net6.0\DI2.Database.pdb
+C:\Users\arkad\Desktop\2023B\DI2.Database\obj\Debug\net6.0\DI2.Database.csproj.AssemblyReference.cache
+C:\Users\arkad\Desktop\2023B\DI2.Database\obj\Debug\net6.0\DI2.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arkad\Desktop\2023B\DI2.Database\obj\Debug\net6.0\DI2.Database.AssemblyInfoInputs.cache
+C:\Users\arkad\Desktop\2023B\DI2.Database\obj\Debug\net6.0\DI2.Database.AssemblyInfo.cs
+C:\Users\arkad\Desktop\2023B\DI2.Database\obj\Debug\net6.0\DI2.Database.csproj.CoreCompileInputs.cache
+C:\Users\arkad\Desktop\2023B\DI2.Database\obj\Debug\net6.0\DI2.Database.dll
+C:\Users\arkad\Desktop\2023B\DI2.Database\obj\Debug\net6.0\refint\DI2.Database.dll
+C:\Users\arkad\Desktop\2023B\DI2.Database\obj\Debug\net6.0\DI2.Database.pdb
+C:\Users\arkad\Desktop\2023B\DI2.Database\obj\Debug\net6.0\DI2.Database.genruntimeconfig.cache
+C:\Users\arkad\Desktop\2023B\DI2.Database\obj\Debug\net6.0\ref\DI2.Database.dll

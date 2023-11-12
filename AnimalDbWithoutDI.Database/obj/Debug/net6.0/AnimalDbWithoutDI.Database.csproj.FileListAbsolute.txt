@@ -1,0 +1,14 @@
+C:\Users\arkad\Desktop\2023B\AnimalDbWithoutDI.Database\bin\Debug\net6.0\AnimalDbWithoutDI.Database.deps.json
+C:\Users\arkad\Desktop\2023B\AnimalDbWithoutDI.Database\bin\Debug\net6.0\AnimalDbWithoutDI.Database.runtimeconfig.json
+C:\Users\arkad\Desktop\2023B\AnimalDbWithoutDI.Database\bin\Debug\net6.0\AnimalDbWithoutDI.Database.dll
+C:\Users\arkad\Desktop\2023B\AnimalDbWithoutDI.Database\bin\Debug\net6.0\AnimalDbWithoutDI.Database.pdb
+C:\Users\arkad\Desktop\2023B\AnimalDbWithoutDI.Database\obj\Debug\net6.0\AnimalDbWithoutDI.Database.csproj.AssemblyReference.cache
+C:\Users\arkad\Desktop\2023B\AnimalDbWithoutDI.Database\obj\Debug\net6.0\AnimalDbWithoutDI.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arkad\Desktop\2023B\AnimalDbWithoutDI.Database\obj\Debug\net6.0\AnimalDbWithoutDI.Database.AssemblyInfoInputs.cache
+C:\Users\arkad\Desktop\2023B\AnimalDbWithoutDI.Database\obj\Debug\net6.0\AnimalDbWithoutDI.Database.AssemblyInfo.cs
+C:\Users\arkad\Desktop\2023B\AnimalDbWithoutDI.Database\obj\Debug\net6.0\AnimalDbWithoutDI.Database.csproj.CoreCompileInputs.cache
+C:\Users\arkad\Desktop\2023B\AnimalDbWithoutDI.Database\obj\Debug\net6.0\AnimalDbWithoutDI.Database.dll
+C:\Users\arkad\Desktop\2023B\AnimalDbWithoutDI.Database\obj\Debug\net6.0\refint\AnimalDbWithoutDI.Database.dll
+C:\Users\arkad\Desktop\2023B\AnimalDbWithoutDI.Database\obj\Debug\net6.0\AnimalDbWithoutDI.Database.pdb
+C:\Users\arkad\Desktop\2023B\AnimalDbWithoutDI.Database\obj\Debug\net6.0\AnimalDbWithoutDI.Database.genruntimeconfig.cache
+C:\Users\arkad\Desktop\2023B\AnimalDbWithoutDI.Database\obj\Debug\net6.0\ref\AnimalDbWithoutDI.Database.dll

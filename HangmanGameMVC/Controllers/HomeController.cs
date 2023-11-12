@@ -2,6 +2,7 @@
 using HangmanGameMVC.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using Newtonsoft.Json;
 
 namespace HangmanGameMVC.Controllers
 {
@@ -18,14 +19,24 @@ namespace HangmanGameMVC.Controllers
         {
             using (var context = new MyDbContext())
             {
-                var firstQuestion = new HangmanDatabase()
-                {
-                    Length = 6,
-                    DifficultyLevel = "Łatwy",
-                    Hint = "Długowłosy samiec",
-                    Answer = "Kropka",
+                var answerIsInTheDatabase = context.Databases.FirstOrDefault(x => x.Answer == "Tola");
+                var answerIsInTheDatabase2 = context.Databases.FirstOrDefault(x => x.Answer == "Kropka");
+                var answerIsInTheDatabase3 = context.Databases.FirstOrDefault(x => x.Answer == "Kreska");
 
-                };
+                if (answerIsInTheDatabase == null)
+                {
+                    var firstQuestion = new HangmanDatabase()
+                    {
+                        Length = 6,
+                        DifficultyLevel = "Łatwy",
+                        Hint = "Długowłosy samiec",
+                        Answer = "Kropka",
+
+                    };
+                    context.Databases.Add(firstQuestion);
+                }
+                if(answerIsInTheDatabase2 == null)
+                {
                 var secondQuestion = new HangmanDatabase()
                 {
                     Length = 6,
@@ -33,6 +44,10 @@ namespace HangmanGameMVC.Controllers
                     Hint = "Krótkowłosy samiec",
                     Answer = "Kreska",
                 };
+                    context.Databases.Add(secondQuestion);
+                }
+                if(answerIsInTheDatabase3 == null)
+                {
                 var thirdQuestion = new HangmanDatabase()
                 {
                     Length = 4,
@@ -40,10 +55,9 @@ namespace HangmanGameMVC.Controllers
                     Hint = "Długowłosa samica",
                     Answer = "Tola",
                 };
-
-                context.Databases.Add(firstQuestion);
-                context.Databases.Add(secondQuestion);
                 context.Databases.Add(thirdQuestion);
+                }
+
                 context.SaveChanges();
                 var newListQuestions = context.Databases.ToList();
 

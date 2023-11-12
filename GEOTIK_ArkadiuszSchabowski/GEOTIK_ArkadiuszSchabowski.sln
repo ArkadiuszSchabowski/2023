@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEOTIK_ArkadiuszSchabowski", "GEOTIK_ArkadiuszSchabowski.csproj", "{33BA2E63-6602-43BC-B1A4-DD49BC43F3A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEOTIK_ArkadiuszSchabowski.Database", "..\GEOTIK_ArkadiuszSchabowski.Database\GEOTIK_ArkadiuszSchabowski.Database.csproj", "{F32BAAEB-95DE-4662-A2CE-7A71880B785C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33BA2E63-6602-43BC-B1A4-DD49BC43F3A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33BA2E63-6602-43BC-B1A4-DD49BC43F3A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33BA2E63-6602-43BC-B1A4-DD49BC43F3A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33BA2E63-6602-43BC-B1A4-DD49BC43F3A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F32BAAEB-95DE-4662-A2CE-7A71880B785C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F32BAAEB-95DE-4662-A2CE-7A71880B785C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F32BAAEB-95DE-4662-A2CE-7A71880B785C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F32BAAEB-95DE-4662-A2CE-7A71880B785C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A15BCE8-0F70-414D-8842-DDC3D0BA89E2}
+	EndGlobalSection
+EndGlobal
