@@ -1,81 +1,109 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
-    background-image: url(../IMAGES/Background.jpeg);
-    background-size: cover;
-    color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../../IMAGES/Background.jpeg);
+  background-size: cover;
+  color: grey;
 }
 
 #contentAccessPanelDiv {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
-    width: 50%;
-    height: 50%;
-    border: 2px solid grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 50%;
+  height: 50%;
+  border: 2px solid grey;
 }
-#accessPanelAuthDiv{
-    width: 100%;
-    margin-top: 2%;
-    display: flex;
-    flex-direction: row;
+#accessPanelAuthDiv {
+  width: 100%;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
 }
-#loginDiv{
-    width: 25%;
-    margin-left: 25%;
-    font-size: 20px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid grey;
+#loginDiv {
+  width: 25%;
+  margin-left: 25%;
+  font-size: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid grey;
 }
-#lblLogin{
-    margin-left: 45%;
+#lblLogin {
+  margin-left: 35%;
 }
-
-#registrationDiv{
-    width: 25%;
-    font-size: 20px;
-    padding-bottom: 10px;
-    border-bottom: 2px solid grey;
-}
-#lblRegistration{
-    margin-left: 15%;
+#lblRegistration {
+  margin-left: 25%;
 }
 
-#labelLoginDiv{
-    margin-top: 3%;
-    width: 280px;
+#registrationDiv {
+  width: 25%;
+  font-size: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid grey;
 }
-#labelPasswordDiv{
-    margin-top: 2%;
-    width: 280px;
+
+#labelLoginDiv {
+  margin-top: 3%;
+  width: 280px;
 }
-#btnResetPassword{
-    background-color: white;
-    border: none;
-    color: grey;
-    width: 280px;
-    text-align: right;
+#labelPasswordDiv {
+  margin-top: 2%;
+  width: 280px;
 }
-#btnOk{
-    margin-top: 40%;
-    color: white;
-    background-color: rgb(66, 63, 63);
-    width: 100px;
-    height: 30px;
+#login,
+#password {
+  display: flex;
+  flex-direction: row;
 }
-#inputLogin{
-    width: 280px;
+
+#wrongLoginDiv,
+#wrongPasswordDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: black;
+  height: 25px;
+  border-left: none;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  border-right: 1px solid grey;
 }
-#inputPassword{
-    width: 280px;
+#inputLogin,
+#inputPassword {
+  width: 280px;
+  height: 25px;
+  border-left: 1px solid grey;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  border-right: none;
+}
+#resetPassword {
+  display: flex;
+  margin-left: 28%;
+}
+#btnResetPassword {
+  margin-top: 1%;
+  background-color: white;
+  border: none;
+  color: grey;
+  width: 90px;
+  height: 20px;
+  text-align: right;
+}
+#btnOk {
+  margin-top: 40%;
+  color: white;
+  background-color: rgb(66, 63, 63);
+  width: 100px;
+  height: 30px;
 }
