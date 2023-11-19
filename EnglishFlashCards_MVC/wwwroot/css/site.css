@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#content {
+  height: 100vh;
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#left {
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+}
+#lblWordPl,
+#lblWordEng,
+#lblDictionary,
+#lblSummary {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+#inputPl, #inputEng{
+  width: 400px;
+  height: 40px;
+}
+#buttonsNav, #btnDisplayWords{
+  display: flex;
+  margin-top: 2%;
+}
+button {
+  margin-left: 2%;
+  width: 100px;
+  height: 40px;
+  background-color: grey;
+  color: white;
+  font-size: 1.5rem;
+}
+#right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#AllWordsDiv{
+  width: 300px;
+  height: 60%;
+  background-color: white;
+  border: 2px solid grey;
+}
+#lblSummary{
+  position: absolute;
+  top: 10px;
+  right: 12%;
+}

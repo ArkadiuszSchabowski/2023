@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\EnglishFlashCards_MVC.props" />
+</Project>

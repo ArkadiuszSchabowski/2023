@@ -12,3 +12,4 @@ C:\Users\arkad\Desktop\2023B\UserCommunication.Database\obj\Debug\net6.0\refint\
 C:\Users\arkad\Desktop\2023B\UserCommunication.Database\obj\Debug\net6.0\UserCommunication.Database.pdb
 C:\Users\arkad\Desktop\2023B\UserCommunication.Database\obj\Debug\net6.0\UserCommunication.Database.genruntimeconfig.cache
 C:\Users\arkad\Desktop\2023B\UserCommunication.Database\obj\Debug\net6.0\ref\UserCommunication.Database.dll
+C:\Users\arkad\Desktop\2023B\UserCommunication.Database\obj\Debug\net6.0\UserCommunication.Database.sourcelink.json

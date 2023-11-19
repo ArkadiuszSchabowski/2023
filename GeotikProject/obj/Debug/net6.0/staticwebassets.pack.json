@@ -1,0 +1,101 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\arkad\\Desktop\\2023B\\GeotikProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\GeotikProject.bundle.scp.css",
+      "PackagePath": "staticwebassets\\GeotikProject.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\arkad\\Desktop\\2023B\\GeotikProject\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\arkad\\Desktop\\2023B\\GeotikProject\\wwwroot\\css\\registration.css",
+      "PackagePath": "staticwebassets\\css\\registration.css"
+    },
+    {
+      "Id": "C:\\Users\\arkad\\Desktop\\2023B\\GeotikProject\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\arkad\\Desktop\\2023B\\GeotikProject\\wwwroot\\html\\registration.html",
+      "PackagePath": "staticwebassets\\html\\registration.html"
+    },
+    {
+      "Id": "C:\\Users\\arkad\\Desktop\\2023B\\GeotikProject\\wwwroot\\images\\Background.jpeg",
+      "PackagePath": "staticwebassets\\images\\Background.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\arkad\\Desktop\\2023B\\GeotikProject\\wwwroot\\js\\login.js",
+      "PackagePath": "staticwebassets\\js\\login.js"
+    },
+    {
+      "Id": "C:\\Users\\arkad\\Desktop\\2023B\\GeotikProject\\wwwroot\\js\\registration.js",
+      "PackagePath": "staticwebassets\\js\\registration.js"
+    },
+    {
+      "Id": "C:\\Users\\arkad\\Desktop\\2023B\\GeotikProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\arkad\\Desktop\\2023B\\GeotikProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\arkad\\Desktop\\2023B\\GeotikProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\arkad\\Desktop\\2023B\\GeotikProject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\arkad\\Desktop\\2023B\\GeotikProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\arkad\\Desktop\\2023B\\GeotikProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\arkad\\Desktop\\2023B\\GeotikProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\arkad\\Desktop\\2023B\\GeotikProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\arkad\\Desktop\\2023B\\GeotikProject\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\arkad\\Desktop\\2023B\\GeotikProject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\arkad\\Desktop\\2023B\\GeotikProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\arkad\\Desktop\\2023B\\GeotikProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.GeotikProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.GeotikProject.props",
+      "PackagePath": "build\\GeotikProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.GeotikProject.props",
+      "PackagePath": "buildMultiTargeting\\GeotikProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.GeotikProject.props",
+      "PackagePath": "buildTransitive\\GeotikProject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

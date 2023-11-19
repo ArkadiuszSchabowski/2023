@@ -1,0 +1,15 @@
+C:\Users\arkad\Desktop\2023B\EnglishFlashCards_MVC.Database\bin\Debug\net8.0\EnglishFlashCards_MVC.Database.deps.json
+C:\Users\arkad\Desktop\2023B\EnglishFlashCards_MVC.Database\bin\Debug\net8.0\EnglishFlashCards_MVC.Database.runtimeconfig.json
+C:\Users\arkad\Desktop\2023B\EnglishFlashCards_MVC.Database\bin\Debug\net8.0\EnglishFlashCards_MVC.Database.dll
+C:\Users\arkad\Desktop\2023B\EnglishFlashCards_MVC.Database\bin\Debug\net8.0\EnglishFlashCards_MVC.Database.pdb
+C:\Users\arkad\Desktop\2023B\EnglishFlashCards_MVC.Database\obj\Debug\net8.0\EnglishFlashCards_MVC.Database.csproj.AssemblyReference.cache
+C:\Users\arkad\Desktop\2023B\EnglishFlashCards_MVC.Database\obj\Debug\net8.0\EnglishFlashCards_MVC.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arkad\Desktop\2023B\EnglishFlashCards_MVC.Database\obj\Debug\net8.0\EnglishFlashCards_MVC.Database.AssemblyInfoInputs.cache
+C:\Users\arkad\Desktop\2023B\EnglishFlashCards_MVC.Database\obj\Debug\net8.0\EnglishFlashCards_MVC.Database.AssemblyInfo.cs
+C:\Users\arkad\Desktop\2023B\EnglishFlashCards_MVC.Database\obj\Debug\net8.0\EnglishFlashCards_MVC.Database.csproj.CoreCompileInputs.cache
+C:\Users\arkad\Desktop\2023B\EnglishFlashCards_MVC.Database\obj\Debug\net8.0\EnglishFlashCards_MVC.Database.sourcelink.json
+C:\Users\arkad\Desktop\2023B\EnglishFlashCards_MVC.Database\obj\Debug\net8.0\EnglishFlashCards_MVC.Database.dll
+C:\Users\arkad\Desktop\2023B\EnglishFlashCards_MVC.Database\obj\Debug\net8.0\refint\EnglishFlashCards_MVC.Database.dll
+C:\Users\arkad\Desktop\2023B\EnglishFlashCards_MVC.Database\obj\Debug\net8.0\EnglishFlashCards_MVC.Database.pdb
+C:\Users\arkad\Desktop\2023B\EnglishFlashCards_MVC.Database\obj\Debug\net8.0\EnglishFlashCards_MVC.Database.genruntimeconfig.cache
+C:\Users\arkad\Desktop\2023B\EnglishFlashCards_MVC.Database\obj\Debug\net8.0\ref\EnglishFlashCards_MVC.Database.dll

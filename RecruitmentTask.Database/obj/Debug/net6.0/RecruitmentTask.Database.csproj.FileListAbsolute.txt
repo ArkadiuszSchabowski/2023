@@ -1,0 +1,11 @@
+C:\Users\arkad\Desktop\2023B\RecruitmentTask.Database\bin\Debug\net6.0\RecruitmentTask.Database.deps.json
+C:\Users\arkad\Desktop\2023B\RecruitmentTask.Database\bin\Debug\net6.0\RecruitmentTask.Database.dll
+C:\Users\arkad\Desktop\2023B\RecruitmentTask.Database\bin\Debug\net6.0\RecruitmentTask.Database.pdb
+C:\Users\arkad\Desktop\2023B\RecruitmentTask.Database\obj\Debug\net6.0\RecruitmentTask.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arkad\Desktop\2023B\RecruitmentTask.Database\obj\Debug\net6.0\RecruitmentTask.Database.AssemblyInfoInputs.cache
+C:\Users\arkad\Desktop\2023B\RecruitmentTask.Database\obj\Debug\net6.0\RecruitmentTask.Database.AssemblyInfo.cs
+C:\Users\arkad\Desktop\2023B\RecruitmentTask.Database\obj\Debug\net6.0\RecruitmentTask.Database.csproj.CoreCompileInputs.cache
+C:\Users\arkad\Desktop\2023B\RecruitmentTask.Database\obj\Debug\net6.0\RecruitmentTask.Database.dll
+C:\Users\arkad\Desktop\2023B\RecruitmentTask.Database\obj\Debug\net6.0\refint\RecruitmentTask.Database.dll
+C:\Users\arkad\Desktop\2023B\RecruitmentTask.Database\obj\Debug\net6.0\RecruitmentTask.Database.pdb
+C:\Users\arkad\Desktop\2023B\RecruitmentTask.Database\obj\Debug\net6.0\ref\RecruitmentTask.Database.dll

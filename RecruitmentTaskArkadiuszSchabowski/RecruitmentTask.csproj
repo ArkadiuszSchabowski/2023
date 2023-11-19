@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\Home\Index.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Home\Index.cshtml" />
+    <None Include="wwwroot\css\login.css" />
+    <None Include="wwwroot\css\registration.css" />
+    <None Include="wwwroot\css\resetPassword.css" />
+    <None Include="wwwroot\js\login.js" />
+    <None Include="wwwroot\js\registration.js" />
+    <None Include="wwwroot\js\resetPassword.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RecruitmentTask.Database\RecruitmentTask.Database.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -87,3 +87,4 @@ C:\Users\arkad\Desktop\2023B\UserCommunication\bin\Debug\net6.0\UserCommunicatio
 C:\Users\arkad\Desktop\2023B\UserCommunication\bin\Debug\net6.0\UserCommunication.Database.pdb
 C:\Users\arkad\Desktop\2023B\UserCommunication\obj\Debug\net6.0\UserCommunication.csproj.AssemblyReference.cache
 C:\Users\arkad\Desktop\2023B\UserCommunication\obj\Debug\net6.0\UserCommunication.csproj.CopyComplete
+C:\Users\arkad\Desktop\2023B\UserCommunication\obj\Debug\net6.0\UserCommunication.sourcelink.json

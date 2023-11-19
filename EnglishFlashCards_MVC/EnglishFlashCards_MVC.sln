@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnglishFlashCards_MVC", "EnglishFlashCards_MVC.csproj", "{72ECC82B-1E2D-4F65-9BC3-82986F416CCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnglishFlashCards_MVC.Database", "..\EnglishFlashCards_MVC.Database\EnglishFlashCards_MVC.Database.csproj", "{928CB780-5517-4057-8A4F-15EF58443F0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72ECC82B-1E2D-4F65-9BC3-82986F416CCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72ECC82B-1E2D-4F65-9BC3-82986F416CCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72ECC82B-1E2D-4F65-9BC3-82986F416CCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72ECC82B-1E2D-4F65-9BC3-82986F416CCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{928CB780-5517-4057-8A4F-15EF58443F0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{928CB780-5517-4057-8A4F-15EF58443F0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{928CB780-5517-4057-8A4F-15EF58443F0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{928CB780-5517-4057-8A4F-15EF58443F0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3CC50AB5-E358-4BBA-B886-3F961C8E0550}
+	EndGlobalSection
+EndGlobal
