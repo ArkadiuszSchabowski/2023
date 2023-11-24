@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "000AngularDatabase", "000AngularDatabase.csproj", "{68978F3F-D5D4-4C10-9DCC-425B8B6B08FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "000AngularDatabase.Database", "..\000AngularDatabase.Database\000AngularDatabase.Database.csproj", "{D33FEB0F-5CB2-4AB9-8958-87C946A80983}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68978F3F-D5D4-4C10-9DCC-425B8B6B08FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68978F3F-D5D4-4C10-9DCC-425B8B6B08FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68978F3F-D5D4-4C10-9DCC-425B8B6B08FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68978F3F-D5D4-4C10-9DCC-425B8B6B08FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D33FEB0F-5CB2-4AB9-8958-87C946A80983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D33FEB0F-5CB2-4AB9-8958-87C946A80983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D33FEB0F-5CB2-4AB9-8958-87C946A80983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D33FEB0F-5CB2-4AB9-8958-87C946A80983}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F3950360-D4D7-469E-B5D1-C5025B0091DA}
+	EndGlobalSection
+EndGlobal

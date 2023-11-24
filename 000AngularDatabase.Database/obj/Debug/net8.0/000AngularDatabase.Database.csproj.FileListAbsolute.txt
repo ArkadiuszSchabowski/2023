@@ -1,0 +1,15 @@
+C:\Users\arkad\Desktop\2023B\000AngularDatabase.Database\bin\Debug\net8.0\000AngularDatabase.Database.deps.json
+C:\Users\arkad\Desktop\2023B\000AngularDatabase.Database\bin\Debug\net8.0\000AngularDatabase.Database.dll
+C:\Users\arkad\Desktop\2023B\000AngularDatabase.Database\bin\Debug\net8.0\000AngularDatabase.Database.pdb
+C:\Users\arkad\Desktop\2023B\000AngularDatabase.Database\obj\Debug\net8.0\000AngularDatabase.Database.csproj.AssemblyReference.cache
+C:\Users\arkad\Desktop\2023B\000AngularDatabase.Database\obj\Debug\net8.0\000AngularDatabase.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arkad\Desktop\2023B\000AngularDatabase.Database\obj\Debug\net8.0\000AngularDatabase.Database.AssemblyInfoInputs.cache
+C:\Users\arkad\Desktop\2023B\000AngularDatabase.Database\obj\Debug\net8.0\000AngularDatabase.Database.AssemblyInfo.cs
+C:\Users\arkad\Desktop\2023B\000AngularDatabase.Database\obj\Debug\net8.0\000AngularDatabase.Database.csproj.CoreCompileInputs.cache
+C:\Users\arkad\Desktop\2023B\000AngularDatabase.Database\obj\Debug\net8.0\000AngularDatabase.Database.sourcelink.json
+C:\Users\arkad\Desktop\2023B\000AngularDatabase.Database\obj\Debug\net8.0\000AngularDatabase.Database.dll
+C:\Users\arkad\Desktop\2023B\000AngularDatabase.Database\obj\Debug\net8.0\refint\000AngularDatabase.Database.dll
+C:\Users\arkad\Desktop\2023B\000AngularDatabase.Database\obj\Debug\net8.0\000AngularDatabase.Database.pdb
+C:\Users\arkad\Desktop\2023B\000AngularDatabase.Database\obj\Debug\net8.0\ref\000AngularDatabase.Database.dll
+C:\Users\arkad\Desktop\2023B\000AngularDatabase.Database\bin\Debug\net8.0\000AngularDatabase.Database.runtimeconfig.json
+C:\Users\arkad\Desktop\2023B\000AngularDatabase.Database\obj\Debug\net8.0\000AngularDatabase.Database.genruntimeconfig.cache

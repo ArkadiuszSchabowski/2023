@@ -32,3 +32,4 @@ C:\Users\arkad\Desktop\2023B\RecruitmentTaskArkadiuszSchabowski\obj\Debug\net6.0
 C:\Users\arkad\Desktop\2023B\RecruitmentTaskArkadiuszSchabowski\obj\Debug\net6.0\RecruitmentTask.pdb
 C:\Users\arkad\Desktop\2023B\RecruitmentTaskArkadiuszSchabowski\obj\Debug\net6.0\RecruitmentTask.genruntimeconfig.cache
 C:\Users\arkad\Desktop\2023B\RecruitmentTaskArkadiuszSchabowski\obj\Debug\net6.0\ref\RecruitmentTask.dll
+C:\Users\arkad\Desktop\2023B\RecruitmentTaskArkadiuszSchabowski\obj\Debug\net6.0\RecruitmentTask.sourcelink.json

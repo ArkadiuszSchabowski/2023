@@ -1,0 +1,1 @@
+﻿INSERT INTO USERS VALUES (1, "Dominika");

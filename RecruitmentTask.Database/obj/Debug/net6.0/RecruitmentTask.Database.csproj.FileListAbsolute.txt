@@ -9,3 +9,4 @@ C:\Users\arkad\Desktop\2023B\RecruitmentTask.Database\obj\Debug\net6.0\Recruitme
 C:\Users\arkad\Desktop\2023B\RecruitmentTask.Database\obj\Debug\net6.0\refint\RecruitmentTask.Database.dll
 C:\Users\arkad\Desktop\2023B\RecruitmentTask.Database\obj\Debug\net6.0\RecruitmentTask.Database.pdb
 C:\Users\arkad\Desktop\2023B\RecruitmentTask.Database\obj\Debug\net6.0\ref\RecruitmentTask.Database.dll
+C:\Users\arkad\Desktop\2023B\RecruitmentTask.Database\obj\Debug\net6.0\RecruitmentTask.Database.sourcelink.json

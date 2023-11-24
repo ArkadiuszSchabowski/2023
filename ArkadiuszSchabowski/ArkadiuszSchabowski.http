@@ -1,0 +1,6 @@
+@ArkadiuszSchabowski_HostAddress = http://localhost:5146
+
+GET {{ArkadiuszSchabowski_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
