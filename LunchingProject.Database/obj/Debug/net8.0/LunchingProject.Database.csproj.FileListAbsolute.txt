@@ -1,0 +1,15 @@
+C:\Users\arkad\Desktop\2023B\LunchingProject.Database\bin\Debug\net8.0\LunchingProject.Database.deps.json
+C:\Users\arkad\Desktop\2023B\LunchingProject.Database\bin\Debug\net8.0\LunchingProject.Database.runtimeconfig.json
+C:\Users\arkad\Desktop\2023B\LunchingProject.Database\bin\Debug\net8.0\LunchingProject.Database.dll
+C:\Users\arkad\Desktop\2023B\LunchingProject.Database\bin\Debug\net8.0\LunchingProject.Database.pdb
+C:\Users\arkad\Desktop\2023B\LunchingProject.Database\obj\Debug\net8.0\LunchingProject.Database.csproj.AssemblyReference.cache
+C:\Users\arkad\Desktop\2023B\LunchingProject.Database\obj\Debug\net8.0\LunchingProject.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arkad\Desktop\2023B\LunchingProject.Database\obj\Debug\net8.0\LunchingProject.Database.AssemblyInfoInputs.cache
+C:\Users\arkad\Desktop\2023B\LunchingProject.Database\obj\Debug\net8.0\LunchingProject.Database.AssemblyInfo.cs
+C:\Users\arkad\Desktop\2023B\LunchingProject.Database\obj\Debug\net8.0\LunchingProject.Database.csproj.CoreCompileInputs.cache
+C:\Users\arkad\Desktop\2023B\LunchingProject.Database\obj\Debug\net8.0\LunchingProject.Database.sourcelink.json
+C:\Users\arkad\Desktop\2023B\LunchingProject.Database\obj\Debug\net8.0\LunchingProject.Database.dll
+C:\Users\arkad\Desktop\2023B\LunchingProject.Database\obj\Debug\net8.0\refint\LunchingProject.Database.dll
+C:\Users\arkad\Desktop\2023B\LunchingProject.Database\obj\Debug\net8.0\LunchingProject.Database.pdb
+C:\Users\arkad\Desktop\2023B\LunchingProject.Database\obj\Debug\net8.0\LunchingProject.Database.genruntimeconfig.cache
+C:\Users\arkad\Desktop\2023B\LunchingProject.Database\obj\Debug\net8.0\ref\LunchingProject.Database.dll

@@ -1,0 +1,15 @@
+C:\Users\arkad\Desktop\2023B\DatabaseRelation.Database\bin\Debug\net8.0\DatabaseRelation.Database.deps.json
+C:\Users\arkad\Desktop\2023B\DatabaseRelation.Database\bin\Debug\net8.0\DatabaseRelation.Database.runtimeconfig.json
+C:\Users\arkad\Desktop\2023B\DatabaseRelation.Database\bin\Debug\net8.0\DatabaseRelation.Database.dll
+C:\Users\arkad\Desktop\2023B\DatabaseRelation.Database\bin\Debug\net8.0\DatabaseRelation.Database.pdb
+C:\Users\arkad\Desktop\2023B\DatabaseRelation.Database\obj\Debug\net8.0\DatabaseRelation.Database.csproj.AssemblyReference.cache
+C:\Users\arkad\Desktop\2023B\DatabaseRelation.Database\obj\Debug\net8.0\DatabaseRelation.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arkad\Desktop\2023B\DatabaseRelation.Database\obj\Debug\net8.0\DatabaseRelation.Database.AssemblyInfoInputs.cache
+C:\Users\arkad\Desktop\2023B\DatabaseRelation.Database\obj\Debug\net8.0\DatabaseRelation.Database.AssemblyInfo.cs
+C:\Users\arkad\Desktop\2023B\DatabaseRelation.Database\obj\Debug\net8.0\DatabaseRelation.Database.csproj.CoreCompileInputs.cache
+C:\Users\arkad\Desktop\2023B\DatabaseRelation.Database\obj\Debug\net8.0\DatabaseRelation.Database.sourcelink.json
+C:\Users\arkad\Desktop\2023B\DatabaseRelation.Database\obj\Debug\net8.0\DatabaseRelation.Database.dll
+C:\Users\arkad\Desktop\2023B\DatabaseRelation.Database\obj\Debug\net8.0\refint\DatabaseRelation.Database.dll
+C:\Users\arkad\Desktop\2023B\DatabaseRelation.Database\obj\Debug\net8.0\DatabaseRelation.Database.pdb
+C:\Users\arkad\Desktop\2023B\DatabaseRelation.Database\obj\Debug\net8.0\DatabaseRelation.Database.genruntimeconfig.cache
+C:\Users\arkad\Desktop\2023B\DatabaseRelation.Database\obj\Debug\net8.0\ref\DatabaseRelation.Database.dll

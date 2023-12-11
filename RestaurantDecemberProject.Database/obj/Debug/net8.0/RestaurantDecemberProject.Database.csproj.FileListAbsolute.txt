@@ -1,0 +1,15 @@
+C:\Users\arkad\Desktop\2023B\RestaurantDecemberProject.Database\bin\Debug\net8.0\RestaurantDecemberProject.Database.deps.json
+C:\Users\arkad\Desktop\2023B\RestaurantDecemberProject.Database\bin\Debug\net8.0\RestaurantDecemberProject.Database.runtimeconfig.json
+C:\Users\arkad\Desktop\2023B\RestaurantDecemberProject.Database\bin\Debug\net8.0\RestaurantDecemberProject.Database.dll
+C:\Users\arkad\Desktop\2023B\RestaurantDecemberProject.Database\bin\Debug\net8.0\RestaurantDecemberProject.Database.pdb
+C:\Users\arkad\Desktop\2023B\RestaurantDecemberProject.Database\obj\Debug\net8.0\RestaurantDecemberProject.Database.csproj.AssemblyReference.cache
+C:\Users\arkad\Desktop\2023B\RestaurantDecemberProject.Database\obj\Debug\net8.0\RestaurantDecemberProject.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arkad\Desktop\2023B\RestaurantDecemberProject.Database\obj\Debug\net8.0\RestaurantDecemberProject.Database.AssemblyInfoInputs.cache
+C:\Users\arkad\Desktop\2023B\RestaurantDecemberProject.Database\obj\Debug\net8.0\RestaurantDecemberProject.Database.AssemblyInfo.cs
+C:\Users\arkad\Desktop\2023B\RestaurantDecemberProject.Database\obj\Debug\net8.0\RestaurantDecemberProject.Database.csproj.CoreCompileInputs.cache
+C:\Users\arkad\Desktop\2023B\RestaurantDecemberProject.Database\obj\Debug\net8.0\RestaurantDecemberProject.Database.sourcelink.json
+C:\Users\arkad\Desktop\2023B\RestaurantDecemberProject.Database\obj\Debug\net8.0\RestaurantDecemberProject.Database.dll
+C:\Users\arkad\Desktop\2023B\RestaurantDecemberProject.Database\obj\Debug\net8.0\refint\RestaurantDecemberProject.Database.dll
+C:\Users\arkad\Desktop\2023B\RestaurantDecemberProject.Database\obj\Debug\net8.0\RestaurantDecemberProject.Database.pdb
+C:\Users\arkad\Desktop\2023B\RestaurantDecemberProject.Database\obj\Debug\net8.0\RestaurantDecemberProject.Database.genruntimeconfig.cache
+C:\Users\arkad\Desktop\2023B\RestaurantDecemberProject.Database\obj\Debug\net8.0\ref\RestaurantDecemberProject.Database.dll

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="contentAccessPanelDiv">
+      <div id="accessPanelAuthDiv">
+        <div id="loginDiv">
+          <label id="lblLogin">Zaloguj</label>
+        </div>
+        <div id="registrationDiv">
+          <label id="lblRegistration" (click)="goToRegistrationPage()"
+            >Zarejestruj</label
+          >
+        </div>
+      </div>
+
+      <div id="labelLoginDiv">login/e-mail</div>
+
+      <div id="login">
+        <div id="inputLoginDiv"><input id="inputLogin" /></div>
+        <div id="wrongLoginDiv"></div>
+      </div>
+
+      <div id="labelPasswordDiv">hasło</div>
+
+      <div id="password">
+        <div id="inputPasswordDiv"><input id="inputPassword" /></div>
+        <div id="wrongPasswordDiv"></div>
+      </div>
+
+      <div id="resetPassword">
+        <button id="btnResetPassword" (click)="goToResetPasswordPage()">
+          Zresetuj hasło
+        </button>
+      </div>
+      <div id="responseDiv"></div>
+      <div id="btnDiv"><button id="btnOk">OK</button></div>
+    </div>
+  </body>
+</html>

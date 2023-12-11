@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    /* background: url("./assets/background.jpg"); */
+}
+.appRoot{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.menuRoot{
+    background-color: yellow;
+    width: 100%;
+    height: 100%;
+}
+.contentRoot{
+    background-color: orangered;
+    width: 100%;
+    height: 100%;
+}

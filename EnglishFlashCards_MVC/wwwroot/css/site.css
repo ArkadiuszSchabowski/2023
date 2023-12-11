@@ -50,13 +50,26 @@ button {
   align-items: center;
 }
 #AllWordsDiv{
-  width: 300px;
-  height: 60%;
-  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-weight: bold;
+  width: 400px;
+  height: 90%;
+  max-height: 400px;
   border: 2px solid grey;
 }
+#AllWordsDiv {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    overflow: auto;
+    width: 80%;
+    height: 400px;
+    max-height: 400px;
+}
 #lblSummary{
+  color: black;
   position: absolute;
-  top: 10px;
-  right: 12%;
+  bottom: 10px;
+  left: 10%;
 }

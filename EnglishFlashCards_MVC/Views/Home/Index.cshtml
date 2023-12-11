@@ -1,9 +1,11 @@
-﻿<html lang="en">
+﻿<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
 </head>
 
 <body>
@@ -18,14 +20,34 @@
                 <button id="btnEditWord">Edytuj</button>
                 <button id="btnRemoveWord">Usuń</button>
             </div>
-            <label id="lblSummary">Poznane słowa:</label>
+            <label id="lblSummary"></label>
         </div>
         <div id="right">
             <label id="lblDictionary">Słownik:</label>
-            <div id="AllWordsDiv"></div>
             <button id="btnDisplayWords">Wyświetl</button>
+            <div id="AllWordsDiv">
+                <!-- Tutaj będą dodawane dynamicznie divy z danymi -->
+            </div>
+            <table id="myDataTable" class="display">
+                <thead>
+                    <tr>
+                        <th>Polish Word</th>
+                        <th>English Word</th>
+                        <!-- Dodaj inne kolumny, jeśli są potrzebne -->
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Tutaj będą dodawane dynamicznie wiersze z danymi -->
+                </tbody>
+            </table>
         </div>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.js"></script>
+    <script>
+        // Poniżej umieść swój skrypt JavaScript, np. inicjalizację DataTables
+    </script>
 </body>
 
 </html>

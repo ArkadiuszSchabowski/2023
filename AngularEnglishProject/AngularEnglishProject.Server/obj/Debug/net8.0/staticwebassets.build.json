@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "TUOLgPqSLBaIiegwRAr1D2Bzc9+7c7Cx2/tLNxKzI3o=",
+  "Source": "AngularEnglishProject.Server",
+  "BasePath": "_content/AngularEnglishProject.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\arkad\\Desktop\\2023B\\AngularEnglishProject\\angularenglishproject.client\\angularenglishproject.client.esproj",
+      "Version": 2,
+      "Source": "angularenglishproject.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

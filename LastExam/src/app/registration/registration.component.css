@@ -1,0 +1,93 @@
+#contentAccessPanelDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    border: 2px solid grey;
+  }
+  #accessPanelAuthDiv {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+  }
+  #loginDiv {
+    width: 25%;
+    margin-left: 25%;
+    font-size: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+  }
+  #lblLogin {
+    margin-left: 35%;
+  }
+  #lblRegistration {
+    margin-left: 25%;
+  }
+  
+  #registrationDiv {
+    width: 25%;
+    font-size: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid grey;
+  }
+  
+  #labelLoginDiv,
+  #labelPasswordDiv {
+    margin-top: 2%;
+    width: 280px;
+  }
+  #labelRepeatPasswordDiv {
+    width: 280px;
+  }
+  
+  #login,
+  #password {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #wrongLoginDiv,
+  #wrongPasswordDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    height: 25px;
+    border-left: none;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-right: 1px solid grey;
+  }
+  #inputLogin,
+  #inputPassword {
+    width: 280px;
+    height: 25px;
+    border-left: 1px solid grey;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-right: none;
+  }
+  #inputRepeatPassword {
+    width: 280px;
+    height: 25px;
+    border: 1px solid grey;
+  }
+  #btnOk {
+    margin-top: 20%;
+    color: white;
+    background-color: rgb(66, 63, 63);
+    width: 100px;
+    height: 30px;
+  }
+  #progressBarDiv {
+    margin-top: 1%;
+  }
+  #progressBar {
+    width: 100px;
+    margin-left: -90%;
+  }
+  

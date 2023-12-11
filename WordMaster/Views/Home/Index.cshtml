@@ -1,0 +1,55 @@
+﻿@{
+    ViewData["Title"] = "Word Master";
+}
+
+<div id="loadingOverlay">
+    <div id="loadingMessage">Ładowanie...</div>
+</div>
+
+<div id="messageDiv">
+    <div id="responseActionDiv">Witaj w aplikacji WordMaster!</div>
+</div>
+<div id="topPanel">
+
+    <div id="firstRow" class="row">
+        <div id="firstMobileRow">
+            <label class="word">Polskie słowo:</label><input id="polishWordInput" type="text" class="input">
+        </div>
+        <div id="secondMobileRow">
+            <label class="word">Angielskie słowo:</label><input id="englishWordInput" type="text" class="input">
+        </div>
+    </div>
+    <div id="secondRow" class="row">
+        <button id="btnAdd" class="button">Dodaj</button>
+        <button id="btnUpdate" class="button">Aktualizuj</button>
+        <button id="btnDisplay" class="button">Wyświetl wszystkie</button>
+        <button id="btnClear" class="button">Wyczyść</button>
+    </div>
+</div>
+
+<div id="AllWordsDiv">
+    <div>
+        <div id="PlWordDivTittle">PL</div>
+        <div id="PlWordsDiv"></div>
+    </div>
+    <div>
+        <div id="EngWordDivTittle">ENG</div>
+        <div id="EngWordsDiv"></div>
+    </div>
+</div>
+
+<div id="bottomPanel">
+    <div id="thirdRow" class="row">
+        <div id="thirdMobileRow">
+            <label class="word" id="lblSearch">Szukane słowo (Id):</label>
+            <input id="inputSearch" type="text" class="input">
+        </div>
+        <div id="fourthMobileRow">
+            <button id="btnSearch" class="button">Szukaj</button>
+            <button id="btnDelete" class="button">Usuń</button>
+        </div>
+        <div id="fifthMobileRow">
+            <label id="CountWords"></label>
+        </div>
+    </div>
+</div>

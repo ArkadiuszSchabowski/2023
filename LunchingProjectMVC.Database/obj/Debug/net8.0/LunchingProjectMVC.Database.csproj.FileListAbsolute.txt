@@ -1,0 +1,15 @@
+C:\Users\arkad\Desktop\2023B\LunchingProjectMVC.Database\bin\Debug\net8.0\LunchingProjectMVC.Database.deps.json
+C:\Users\arkad\Desktop\2023B\LunchingProjectMVC.Database\bin\Debug\net8.0\LunchingProjectMVC.Database.runtimeconfig.json
+C:\Users\arkad\Desktop\2023B\LunchingProjectMVC.Database\bin\Debug\net8.0\LunchingProjectMVC.Database.dll
+C:\Users\arkad\Desktop\2023B\LunchingProjectMVC.Database\bin\Debug\net8.0\LunchingProjectMVC.Database.pdb
+C:\Users\arkad\Desktop\2023B\LunchingProjectMVC.Database\obj\Debug\net8.0\LunchingProjectMVC.Database.csproj.AssemblyReference.cache
+C:\Users\arkad\Desktop\2023B\LunchingProjectMVC.Database\obj\Debug\net8.0\LunchingProjectMVC.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arkad\Desktop\2023B\LunchingProjectMVC.Database\obj\Debug\net8.0\LunchingProjectMVC.Database.AssemblyInfoInputs.cache
+C:\Users\arkad\Desktop\2023B\LunchingProjectMVC.Database\obj\Debug\net8.0\LunchingProjectMVC.Database.AssemblyInfo.cs
+C:\Users\arkad\Desktop\2023B\LunchingProjectMVC.Database\obj\Debug\net8.0\LunchingProjectMVC.Database.csproj.CoreCompileInputs.cache
+C:\Users\arkad\Desktop\2023B\LunchingProjectMVC.Database\obj\Debug\net8.0\LunchingProjectMVC.Database.sourcelink.json
+C:\Users\arkad\Desktop\2023B\LunchingProjectMVC.Database\obj\Debug\net8.0\LunchingProjectMVC.Database.dll
+C:\Users\arkad\Desktop\2023B\LunchingProjectMVC.Database\obj\Debug\net8.0\refint\LunchingProjectMVC.Database.dll
+C:\Users\arkad\Desktop\2023B\LunchingProjectMVC.Database\obj\Debug\net8.0\LunchingProjectMVC.Database.pdb
+C:\Users\arkad\Desktop\2023B\LunchingProjectMVC.Database\obj\Debug\net8.0\LunchingProjectMVC.Database.genruntimeconfig.cache
+C:\Users\arkad\Desktop\2023B\LunchingProjectMVC.Database\obj\Debug\net8.0\ref\LunchingProjectMVC.Database.dll

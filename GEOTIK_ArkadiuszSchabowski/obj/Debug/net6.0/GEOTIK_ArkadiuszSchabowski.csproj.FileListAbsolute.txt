@@ -43,3 +43,4 @@ C:\Users\arkad\Desktop\2023B\GEOTIK_ArkadiuszSchabowski\obj\Debug\net6.0\refint\
 C:\Users\arkad\Desktop\2023B\GEOTIK_ArkadiuszSchabowski\obj\Debug\net6.0\GEOTIK_ArkadiuszSchabowski.pdb
 C:\Users\arkad\Desktop\2023B\GEOTIK_ArkadiuszSchabowski\obj\Debug\net6.0\GEOTIK_ArkadiuszSchabowski.genruntimeconfig.cache
 C:\Users\arkad\Desktop\2023B\GEOTIK_ArkadiuszSchabowski\obj\Debug\net6.0\ref\GEOTIK_ArkadiuszSchabowski.dll
+C:\Users\arkad\Desktop\2023B\GEOTIK_ArkadiuszSchabowski\obj\Debug\net6.0\GEOTIK_ArkadiuszSchabowski.sourcelink.json

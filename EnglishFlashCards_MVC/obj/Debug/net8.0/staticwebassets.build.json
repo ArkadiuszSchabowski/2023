@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Qcq8mqZG7pvtp6+XlfFLPn5NFuhJcjuh1+FjphS01Xc=",
+  "Hash": "5n8peAyl+eHdkVu/mPsqja5A5L5cR/maltg9F2vkMPQ=",
   "Source": "EnglishFlashCards_MVC",
   "BasePath": "_content/EnglishFlashCards_MVC",
   "Mode": "Default",
@@ -112,12 +112,12 @@
       "OriginalItemSpec": "wwwroot\\images\\background.jpg"
     },
     {
-      "Identity": "C:\\Users\\arkad\\Desktop\\2023B\\EnglishFlashCards_MVC\\wwwroot\\js\\user.js",
+      "Identity": "C:\\Users\\arkad\\Desktop\\2023B\\EnglishFlashCards_MVC\\wwwroot\\js\\word.js",
       "SourceId": "EnglishFlashCards_MVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\arkad\\Desktop\\2023B\\EnglishFlashCards_MVC\\wwwroot\\",
       "BasePath": "_content/EnglishFlashCards_MVC",
-      "RelativePath": "js/user.js",
+      "RelativePath": "js/word.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -128,7 +128,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\user.js"
+      "OriginalItemSpec": "wwwroot\\js\\word.js"
     },
     {
       "Identity": "C:\\Users\\arkad\\Desktop\\2023B\\EnglishFlashCards_MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",

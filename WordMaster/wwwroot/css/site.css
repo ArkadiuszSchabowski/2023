@@ -1,0 +1,305 @@
+﻿#topPanel {
+    margin-top: 1%;
+    display: flex;
+    background-color: #FFFFFF;
+    flex-direction: column;
+    width: 90vw;
+    height: 30vh;
+    border: 1px solid black;
+}
+
+label {
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+}
+
+.input {
+    background-color: #F5F5F5;
+    width: 55vw;
+    height: 50px;
+    font-size: 24px;
+    padding-left: 1%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#firstRow {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#AllWordsDiv {
+    max-height: 190px;
+    overflow: auto;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    width: 90vw;
+    height: 40vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid black;
+}
+
+#messageDiv {
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    background-color: #FFFFFF;
+    justify-content: center;
+    margin-top: 10px;
+    width: 90vw;
+    height: 10vh;
+    border: 1px solid black;
+}
+
+.word {
+    color: #404040;
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#firstMobileRow, #secondMobileRow {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#secondRow {
+    margin-top: 1%;
+}
+
+#PlWordsDiv, #EngWordsDiv {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #404040;
+    border-right: 2px solid #404040;
+}
+
+#PlWordsDiv {
+    border-right: 1px solid #404040;
+    width: 100%;
+}
+
+#EngWordsDiv {
+    width: 99.9%;
+}
+
+.plClass, .engClass {
+    width: 90%;
+    margin-left: 5%;
+    height: 20px;
+    background: #FFFFFF;
+    margin-top: 1%;
+    color: #404040;
+    font-weight: bold;
+}
+
+#PlWordDivTittle, #EngWordDivTittle {
+    background-color: #F5F5F5;
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    justify-content: center;
+    color: #404040;
+}
+
+#CountWords {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F5F5;
+    height: 50px;
+    width: 55vw;
+    color: #404040;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+#responseActionDiv {
+    font-size: 18px;
+    color: #404040;
+}
+
+#bottomPanel {
+    margin-top: 2%;
+    display: flex;
+    background-color: #FFFFFF;
+    flex-direction: column;
+    width: 90vw;
+    height: 22vh;
+    border: 1px solid black;
+}
+
+#lblSearch {
+    margin-left: 5%;
+    width: 140px;
+}
+
+.button {
+    color: #404040;
+    font-weight: bold;
+    width: 140px;
+    height: 50px;
+    transition: background-color 0.3s ease;
+}
+
+    .button:hover {
+        background-color: #FF2929;
+    }
+
+#thirdMobileRow {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+#fourthMobileRow {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#btnSearch {
+    margin-left: 0%;
+    margin-top: 0%;
+}
+#thirdRow{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+
+    #firstRow {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .word {
+        color: #404040;
+        font-size: 1rem;
+        font-weight: bold;
+        display: flex;
+        margin-top: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #btnAdd {
+        margin-left: 3.5%;
+    }
+
+    .button {
+        margin-left: 2%;
+    }
+
+    #CountWords {
+        margin-left: 20%;
+    }
+
+    label {
+        width: 200px;
+    }
+
+    .input {
+        width: 240px;
+    }
+
+    #responseActionDiv {
+        font-size: 2rem;
+    }
+
+    #bottomPanel {
+        height: 12vh;
+    }
+
+    #thirdRow {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    #btnSearch {
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    #firstRow {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .word {
+        color: #404040;
+        font-size: 1rem;
+        font-weight: bold;
+        display: flex;
+        margin-top: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #btnAdd {
+        margin-left: 3.5%;
+    }
+
+    .button {
+        margin-left: 2%;
+    }
+
+    label {
+        width: 200px;
+    }
+
+    .input {
+        width: 240px;
+    }
+
+    #responseActionDiv {
+        font-size: 2rem;
+    }
+
+    #bottomPanel {
+        height: 12vh;
+    }
+
+    #thirdRow {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+    }
+
+    #btnSearch {
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+
+    #CountWords {
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+    #fifthMobileRow{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "L1x00khaAgseoqD9sF4sA5KGOwj2+K/gx4wA9oViA5mQXEvHlkeTEYYsDYRImF5YA05wP4Sf3LaovpY9EyiUHw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\arkad\\Desktop\\2023B\\AngularEnglishProject\\AngularEnglishProject.Server\\AngularEnglishProject.Server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\arkad\\.nuget\\packages\\microsoft.aspnetcore.spaproxy\\8.0.0\\microsoft.aspnetcore.spaproxy.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

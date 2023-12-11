@@ -1,0 +1,6 @@
+@EnglishFlashCardsAngular.Server_HostAddress = http://localhost:5227
+
+GET {{EnglishFlashCardsAngular.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
