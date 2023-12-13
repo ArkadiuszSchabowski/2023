@@ -31,9 +31,9 @@ namespace WordMaster.Database.Migrations
                 columns: new[] { "Id", "EnglishWord", "PolishWord" },
                 values: new object[,]
                 {
-                    { 1, "Dog", "Pies" },
-                    { 2, "Cat", "Kot" },
-                    { 3, "Car", "Samochód" }
+                    { 1, "BOOK", "KSIĄŻKA" },
+                    { 2, "GUINEA PIG", "ŚWINKA MORSKA" },
+                    { 3, "DEVELOPER", "PROGRAMISTA" }
                 });
         }
 

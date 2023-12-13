@@ -45,20 +45,20 @@ namespace WordMaster.Database.Migrations
                         new
                         {
                             Id = 1,
-                            EnglishWord = "Dog",
-                            PolishWord = "Pies"
+                            EnglishWord = "BOOK",
+                            PolishWord = "KSIĄŻKA"
                         },
                         new
                         {
                             Id = 2,
-                            EnglishWord = "Cat",
-                            PolishWord = "Kot"
+                            EnglishWord = "GUINEA PIG",
+                            PolishWord = "ŚWINKA MORSKA"
                         },
                         new
                         {
                             Id = 3,
-                            EnglishWord = "Car",
-                            PolishWord = "Samochód"
+                            EnglishWord = "DEVELOPER",
+                            PolishWord = "PROGRAMISTA"
                         });
                 });
 #pragma warning restore 612, 618

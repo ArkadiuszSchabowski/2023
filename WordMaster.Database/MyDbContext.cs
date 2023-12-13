@@ -15,22 +15,21 @@ namespace WordMaster.Database
             modelBuilder.Entity<Word>().HasData(new Word
             {
                 Id = 1,
-                PolishWord = "Pies",
-                EnglishWord = "Dog"
+                PolishWord = "KSIĄŻKA",
+                EnglishWord = "BOOK"
             },
             new Word
             {
                 Id=2,
-                PolishWord = "Kot",
-                EnglishWord ="Cat"
+                PolishWord = "ŚWINKA MORSKA",
+                EnglishWord = "GUINEA PIG"
             },
             new Word
             {
                 Id=3,
-                PolishWord = "Samochód",
-                EnglishWord = "Car"
-            }
-            );
+                PolishWord = "PROGRAMISTA",
+                EnglishWord = "DEVELOPER"
+            });
         }
     }
 }

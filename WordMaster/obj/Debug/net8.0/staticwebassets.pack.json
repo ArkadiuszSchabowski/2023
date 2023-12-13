@@ -21,8 +21,16 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\arkad\\Desktop\\2023B\\WordMaster\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
+      "Id": "C:\\Users\\arkad\\Desktop\\2023B\\WordMaster\\wwwroot\\js\\buttons.js",
+      "PackagePath": "staticwebassets\\js\\buttons.js"
+    },
+    {
+      "Id": "C:\\Users\\arkad\\Desktop\\2023B\\WordMaster\\wwwroot\\js\\timer.js",
+      "PackagePath": "staticwebassets\\js\\timer.js"
+    },
+    {
+      "Id": "C:\\Users\\arkad\\Desktop\\2023B\\WordMaster\\wwwroot\\js\\word.js",
+      "PackagePath": "staticwebassets\\js\\word.js"
     },
     {
       "Id": "C:\\Users\\arkad\\Desktop\\2023B\\WordMaster\\wwwroot\\lib\\bootstrap\\LICENSE",

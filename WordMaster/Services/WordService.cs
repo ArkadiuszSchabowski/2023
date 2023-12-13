@@ -5,11 +5,11 @@ namespace WordMaster.Services
 {
     public interface IWordService
     {
-        bool Create(Word word);
-        Word GetWord(int id);
+        int Create(Word word);
+        Word? GetWord(int id);
         IEnumerable<Word> GetAllWords();
         bool Delete(int id);
-        bool Update(int id, Word word);
+        int Update(int id, Word word);
     }
 
     public class WordService : IWordService
@@ -23,7 +23,7 @@ namespace WordMaster.Services
         {
             return _context.Words.ToList();
         }
-        public Word GetWord(int id)
+        public Word? GetWord(int id)
         {
             var word = _context.Words.FirstOrDefault(x => x.Id == id);
 
@@ -31,25 +31,7 @@ namespace WordMaster.Services
 
             return word;
         }
-        public bool Create(Word word)
-        {
-            var newWord = new Word()
-            {
-                PolishWord = word.PolishWord,
-                EnglishWord = word.EnglishWord
-            };
 
-            var polishWord = _context.Words.FirstOrDefault(x => x.PolishWord == word.PolishWord);
-            var englishWord = _context.Words.FirstOrDefault(x => x.EnglishWord == word.EnglishWord);
-
-            if (polishWord != null || englishWord != null)
-            {
-                return true;
-            }
-            _context.Words.Add(newWord);
-            _context.SaveChanges();
-            return false;
-        }
         public bool Delete(int id)
         {
             var currentWord = _context.Words.FirstOrDefault(x => x.Id == id);
@@ -62,22 +44,54 @@ namespace WordMaster.Services
             _context.SaveChanges();
             return true;
         }
-        public bool Update(int id, Word word)
+        public int Create(Word word)
+        {
+            var newWord = new Word()
+            {
+                PolishWord = word.PolishWord.ToUpper(),
+                EnglishWord = word.EnglishWord.ToUpper()
+            };
+
+            var polishWord = _context.Words.FirstOrDefault(x => x.PolishWord == word.PolishWord);
+            var englishWord = _context.Words.FirstOrDefault(x => x.EnglishWord == word.EnglishWord);
+
+            if (polishWord != null)
+            {
+                return 0;
+            }
+            if(englishWord != null)
+            {
+                return 1;
+            }
+
+            _context.Words.Add(newWord);
+            _context.SaveChanges();
+            return 2;
+        }
+        public int Update(int id, Word word)
         {
             var currentWord = _context.Words.FirstOrDefault(x => x.Id == id);
 
             if (currentWord == null)
             {
-                return false;
+                return 0;
             }
 
-            currentWord.PolishWord = word.PolishWord;
-            currentWord.EnglishWord = word.EnglishWord;
+            currentWord.PolishWord = word.PolishWord.ToUpper();
+            currentWord.EnglishWord = word.EnglishWord.ToUpper();
+
+            var newPolishWord = _context.Words.FirstOrDefault(x => x.PolishWord == currentWord.PolishWord);
+            var newEnglishWord = _context.Words.FirstOrDefault(x => x.EnglishWord == currentWord.EnglishWord);
+
+            if (newPolishWord != null && newEnglishWord != null)
+            {
+                return 1;
+            }
 
             _context.Update(currentWord);
-
             _context.SaveChanges();
-            return true;
+
+            return 2;
         }
     }
 }
