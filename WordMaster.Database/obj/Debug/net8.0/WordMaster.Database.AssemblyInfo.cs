@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WordMaster.Database")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+96f8a719a5b4225fdc33da07ce89c28b1cc70cb0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+85a0ee1ef4175e8f8f4903e97d6d85cf3194eb2c")]
 [assembly: System.Reflection.AssemblyProductAttribute("WordMaster.Database")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WordMaster.Database")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

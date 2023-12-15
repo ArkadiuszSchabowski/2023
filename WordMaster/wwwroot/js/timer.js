@@ -22,7 +22,7 @@
                 button.disabled = false;
                 button.classList.remove("btnBlocked");
             });
-        }, 2000);
+        }, 1000);
     }
 }
 

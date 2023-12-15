@@ -11,7 +11,7 @@ using WordMaster.Database;
 namespace WordMaster.Database.Migrations
 {
     [DbContext(typeof(MyDbContext))]
-    [Migration("20231212153609_DataSeed")]
+    [Migration("20231214165229_DataSeed")]
     partial class DataSeed
     {
         /// <inheritdoc />

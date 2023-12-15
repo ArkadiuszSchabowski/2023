@@ -13,8 +13,8 @@
         this.polishWordInput = document.getElementById("polishWordInput");
         this.englishWordInput = document.getElementById("englishWordInput");
 
-        this.plWordsDiv = document.getElementById("PlWordsDiv");
-        this.engWordsDiv = document.getElementById("EngWordsDiv");
+        this.plWordsDiv = document.getElementById("plWordsDiv");
+        this.engWordsDiv = document.getElementById("engWordsDiv");
 
         this.responseActionDiv = document.getElementById("responseActionDiv");
 
@@ -132,6 +132,7 @@
 
                 if (!validation.ValidationId(id)) {
                     word.Init();
+                    this.ClearFields();
                     return;
                 };
 
@@ -146,6 +147,7 @@
 
                 this.responseActionDiv.innerText = data.message;
                 timer.SetDefaultText();
+                this.ClearFields();
             } catch (error) {
                 console.log(error)
             }
@@ -202,9 +204,11 @@
 
         this.btnSearch.addEventListener("click", () => {
 
-            this.ClearList();
 
             let id = this.idInput.value;
+
+            this.ClearList();
+            this.ClearFields();
 
             if (!validation.ValidationId(id)) {
                 word.Init();

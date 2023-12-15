@@ -3,8 +3,8 @@
 
         this.isFirstRun = true;
 
-        this.plWordsDiv = document.getElementById("PlWordsDiv");
-        this.engWordsDiv = document.getElementById("EngWordsDiv");
+        this.plWordsDiv = document.getElementById("plWordsDiv");
+        this.engWordsDiv = document.getElementById("engWordsDiv");
 
         this.countWordsDiv = document.getElementById("countWords");
         this.counter = 0;
